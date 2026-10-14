@@ -1,0 +1,224 @@
+[
+  {
+    "word": "People",
+    "start": 0.2603,
+    "end": 0.5207,
+    "confidence": 0.9941674172878265
+  },
+  {
+    "word": "ask",
+    "start": 0.6408,
+    "end": 0.761,
+    "confidence": 0.9999300241470337
+  },
+  {
+    "word": "how",
+    "start": 0.8611,
+    "end": 1.0213,
+    "confidence": 0.9999672174453735
+  },
+  {
+    "word": "I",
+    "start": 1.3217,
+    "end": 1.3417,
+    "confidence": 0.9999549388885498
+  },
+  {
+    "word": "feel",
+    "start": 1.4619,
+    "end": 1.6822,
+    "confidence": 0.9710241705179214
+  },
+  {
+    "word": "about",
+    "start": 1.7422,
+    "end": 1.9225,
+    "confidence": 0.9828439950942993
+  },
+  {
+    "word": "leaving.",
+    "start": 2.0026,
+    "end": 2.343,
+    "confidence": 0.9945436034883771
+  },
+  {
+    "word": "And",
+    "start": 2.4031,
+    "end": 2.4632,
+    "confidence": 0.9975359439849854
+  },
+  {
+    "word": "the",
+    "start": 2.5232,
+    "end": 2.5833,
+    "confidence": 0.9995464086532593
+  },
+  {
+    "word": "fact",
+    "start": 2.6434,
+    "end": 2.8837,
+    "confidence": 0.999587744474411
+  },
+  {
+    "word": "is,",
+    "start": 3.0439,
+    "end": 3.124,
+    "confidence": 0.9876409769058228
+  },
+  {
+    "word": "parting",
+    "start": 3.9451,
+    "end": 4.2655,
+    "confidence": 0.9975014414106097
+  },
+  {
+    "word": "is",
+    "start": 4.4257,
+    "end": 4.5058,
+    "confidence": 0.9981147050857544
+  },
+  {
+    "word": "such",
+    "start": 4.686,
+    "end": 4.8662,
+    "confidence": 0.9960680603981018
+  },
+  {
+    "word": "sweet",
+    "start": 4.9263,
+    "end": 5.1466,
+    "confidence": 0.9990416407585144
+  },
+  {
+    "word": "sorrow.",
+    "start": 5.2267,
+    "end": 5.5671,
+    "confidence": 0.9735543032487234
+  },
+  {
+    "word": "The",
+    "start": 6.2881,
+    "end": 6.3682,
+    "confidence": 0.9570554693539938
+  },
+  {
+    "word": "sweet",
+    "start": 6.4082,
+    "end": 6.6285,
+    "confidence": 0.9904491186141968
+  },
+  {
+    "word": "part",
+    "start": 6.7086,
+    "end": 6.9089,
+    "confidence": 0.9994153380393982
+  },
+  {
+    "word": "is",
+    "start": 7.0691,
+    "end": 7.1492,
+    "confidence": 0.9531096518039703
+  },
+  {
+    "word": "California",
+    "start": 7.3695,
+    "end": 7.9903,
+    "confidence": 0.9333249092102051
+  },
+  {
+    "word": "and",
+    "start": 8.5109,
+    "end": 8.591,
+    "confidence": 0.9682538310686747
+  },
+  {
+    "word": "the",
+    "start": 8.6311,
+    "end": 8.6912,
+    "confidence": 0.9787620306015015
+  },
+  {
+    "word": "ranch",
+    "start": 8.7512,
+    "end": 9.0716,
+    "confidence": 0.9659218072891236
+  },
+  {
+    "word": "and",
+    "start": 9.2319,
+    "end": 9.312,
+    "confidence": 0.9991950988769531
+  },
+  {
+    "word": "freedom.",
+    "start": 9.3921,
+    "end": 9.6924,
+    "confidence": 0.9995063287871224
+  },
+  {
+    "word": "The",
+    "start": 10.4935,
+    "end": 10.5736,
+    "confidence": 0.9974189400672913
+  },
+  {
+    "word": "sorrow,",
+    "start": 10.6337,
+    "end": 10.9741,
+    "confidence": 0.9871299465497335
+  },
+  {
+    "word": "the",
+    "start": 11.9353,
+    "end": 11.9954,
+    "confidence": 0.9973015983899435
+  },
+  {
+    "word": "goodbyes,",
+    "start": 12.0555,
+    "end": 12.6362,
+    "confidence": 0.9101958870887756
+  },
+  {
+    "word": "of",
+    "start": 12.7363,
+    "end": 12.7964,
+    "confidence": 0.9832134246826172
+  },
+  {
+    "word": "course,",
+    "start": 12.8565,
+    "end": 13.1369,
+    "confidence": 0.994616279999415
+  },
+  {
+    "word": "and",
+    "start": 13.5374,
+    "end": 13.6375,
+    "confidence": 0.9990155100822449
+  },
+  {
+    "word": "leaving",
+    "start": 13.7376,
+    "end": 14.058,
+    "confidence": 0.9864296742847988
+  },
+  {
+    "word": "this",
+    "start": 14.3384,
+    "end": 14.4986,
+    "confidence": 0.9942435324192047
+  },
+  {
+    "word": "beautiful",
+    "start": 14.799,
+    "end": 15.1995,
+    "confidence": 0.9873452451494005
+  },
+  {
+    "word": "place.",
+    "start": 15.2996,
+    "end": 15.56,
+    "confidence": 0.9949164390563965
+  }
+]

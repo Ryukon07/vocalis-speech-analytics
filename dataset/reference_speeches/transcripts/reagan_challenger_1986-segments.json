@@ -1,0 +1,1937 @@
+[
+  {
+    "text": "Ladies and gentlemen I'd plan to speak to you tonight to report on the state of the",
+    "start": 0.0,
+    "end": 4.44,
+    "words": [
+      {
+        "word": "Ladies",
+        "start": 0.0,
+        "end": 0.5,
+        "probability": 0.7615285515785217
+      },
+      {
+        "word": "and",
+        "start": 0.5,
+        "end": 0.7,
+        "probability": 0.9940578937530518
+      },
+      {
+        "word": "gentlemen",
+        "start": 0.7,
+        "end": 0.96,
+        "probability": 0.8899853229522705
+      },
+      {
+        "word": "I'd",
+        "start": 0.96,
+        "end": 1.78,
+        "probability": 0.4976775199174881
+      },
+      {
+        "word": "plan",
+        "start": 1.78,
+        "end": 1.98,
+        "probability": 0.8999332189559937
+      },
+      {
+        "word": "to",
+        "start": 1.98,
+        "end": 2.2,
+        "probability": 0.9980033040046692
+      },
+      {
+        "word": "speak",
+        "start": 2.2,
+        "end": 2.42,
+        "probability": 0.9970744848251343
+      },
+      {
+        "word": "to",
+        "start": 2.42,
+        "end": 2.66,
+        "probability": 0.9981741905212402
+      },
+      {
+        "word": "you",
+        "start": 2.66,
+        "end": 2.78,
+        "probability": 0.9919100403785706
+      },
+      {
+        "word": "tonight",
+        "start": 2.78,
+        "end": 3.0,
+        "probability": 0.9686930775642395
+      },
+      {
+        "word": "to",
+        "start": 3.0,
+        "end": 3.32,
+        "probability": 0.9707024693489075
+      },
+      {
+        "word": "report",
+        "start": 3.32,
+        "end": 3.74,
+        "probability": 0.9956377148628235
+      },
+      {
+        "word": "on",
+        "start": 3.74,
+        "end": 3.96,
+        "probability": 0.921631395816803
+      },
+      {
+        "word": "the",
+        "start": 3.96,
+        "end": 4.02,
+        "probability": 0.9949485063552856
+      },
+      {
+        "word": "state",
+        "start": 4.02,
+        "end": 4.24,
+        "probability": 0.37294644117355347
+      },
+      {
+        "word": "of",
+        "start": 4.24,
+        "end": 4.38,
+        "probability": 0.9987748265266418
+      },
+      {
+        "word": "the",
+        "start": 4.38,
+        "end": 4.44,
+        "probability": 0.9938088059425354
+      }
+    ]
+  },
+  {
+    "text": "Union but the events of earlier today have led me to change those plans today is a",
+    "start": 4.44,
+    "end": 11.2,
+    "words": [
+      {
+        "word": "Union",
+        "start": 4.44,
+        "end": 4.68,
+        "probability": 0.7248489856719971
+      },
+      {
+        "word": "but",
+        "start": 4.68,
+        "end": 5.88,
+        "probability": 0.2078554332256317
+      },
+      {
+        "word": "the",
+        "start": 5.88,
+        "end": 5.96,
+        "probability": 0.9541992545127869
+      },
+      {
+        "word": "events",
+        "start": 5.96,
+        "end": 6.22,
+        "probability": 0.9751522541046143
+      },
+      {
+        "word": "of",
+        "start": 6.22,
+        "end": 6.42,
+        "probability": 0.9933608770370483
+      },
+      {
+        "word": "earlier",
+        "start": 6.42,
+        "end": 6.56,
+        "probability": 0.9918122291564941
+      },
+      {
+        "word": "today",
+        "start": 6.56,
+        "end": 7.02,
+        "probability": 0.9800590872764587
+      },
+      {
+        "word": "have",
+        "start": 7.02,
+        "end": 7.26,
+        "probability": 0.9543002843856812
+      },
+      {
+        "word": "led",
+        "start": 7.26,
+        "end": 7.96,
+        "probability": 0.7492995262145996
+      },
+      {
+        "word": "me",
+        "start": 7.96,
+        "end": 8.08,
+        "probability": 0.9830150604248047
+      },
+      {
+        "word": "to",
+        "start": 8.08,
+        "end": 8.18,
+        "probability": 0.9969743490219116
+      },
+      {
+        "word": "change",
+        "start": 8.18,
+        "end": 8.38,
+        "probability": 0.9837114214897156
+      },
+      {
+        "word": "those",
+        "start": 8.38,
+        "end": 8.68,
+        "probability": 0.9971502423286438
+      },
+      {
+        "word": "plans",
+        "start": 8.68,
+        "end": 9.04,
+        "probability": 0.9955525994300842
+      },
+      {
+        "word": "today",
+        "start": 9.04,
+        "end": 10.52,
+        "probability": 0.1394270956516266
+      },
+      {
+        "word": "is",
+        "start": 10.52,
+        "end": 11.06,
+        "probability": 0.8890628218650818
+      },
+      {
+        "word": "a",
+        "start": 11.06,
+        "end": 11.2,
+        "probability": 0.9714184403419495
+      }
+    ]
+  },
+  {
+    "text": "day from morning and remembering Nancy and I are paying to the core but the",
+    "start": 11.2,
+    "end": 15.98,
+    "words": [
+      {
+        "word": "day",
+        "start": 11.2,
+        "end": 11.38,
+        "probability": 0.9787186980247498
+      },
+      {
+        "word": "from",
+        "start": 11.38,
+        "end": 11.56,
+        "probability": 0.766838550567627
+      },
+      {
+        "word": "morning",
+        "start": 11.56,
+        "end": 11.9,
+        "probability": 0.9469823241233826
+      },
+      {
+        "word": "and",
+        "start": 11.9,
+        "end": 12.32,
+        "probability": 0.980624258518219
+      },
+      {
+        "word": "remembering",
+        "start": 12.32,
+        "end": 12.76,
+        "probability": 0.9245510697364807
+      },
+      {
+        "word": "Nancy",
+        "start": 12.76,
+        "end": 14.16,
+        "probability": 0.9852288365364075
+      },
+      {
+        "word": "and",
+        "start": 14.16,
+        "end": 14.48,
+        "probability": 0.9767822623252869
+      },
+      {
+        "word": "I",
+        "start": 14.48,
+        "end": 14.68,
+        "probability": 0.9877561330795288
+      },
+      {
+        "word": "are",
+        "start": 14.68,
+        "end": 14.82,
+        "probability": 0.9810590147972107
+      },
+      {
+        "word": "paying",
+        "start": 14.82,
+        "end": 15.14,
+        "probability": 0.7393149733543396
+      },
+      {
+        "word": "to",
+        "start": 15.14,
+        "end": 15.38,
+        "probability": 0.9859427809715271
+      },
+      {
+        "word": "the",
+        "start": 15.38,
+        "end": 15.48,
+        "probability": 0.9993435740470886
+      },
+      {
+        "word": "core",
+        "start": 15.48,
+        "end": 15.7,
+        "probability": 0.5661026239395142
+      },
+      {
+        "word": "but",
+        "start": 15.7,
+        "end": 15.88,
+        "probability": 0.4754904508590698
+      },
+      {
+        "word": "the",
+        "start": 15.88,
+        "end": 15.98,
+        "probability": 0.9973262548446655
+      }
+    ]
+  },
+  {
+    "text": "tragedy of the shuttle Challenger we know we share this pain with all the people of",
+    "start": 15.98,
+    "end": 20.86,
+    "words": [
+      {
+        "word": "tragedy",
+        "start": 15.98,
+        "end": 16.34,
+        "probability": 0.9912176728248596
+      },
+      {
+        "word": "of",
+        "start": 16.34,
+        "end": 16.56,
+        "probability": 0.8387028574943542
+      },
+      {
+        "word": "the",
+        "start": 16.56,
+        "end": 16.64,
+        "probability": 0.9955150485038757
+      },
+      {
+        "word": "shuttle",
+        "start": 16.64,
+        "end": 16.84,
+        "probability": 0.8360614776611328
+      },
+      {
+        "word": "Challenger",
+        "start": 16.84,
+        "end": 17.32,
+        "probability": 0.8212699890136719
+      },
+      {
+        "word": "we",
+        "start": 17.32,
+        "end": 18.34,
+        "probability": 0.2850823998451233
+      },
+      {
+        "word": "know",
+        "start": 18.34,
+        "end": 18.5,
+        "probability": 0.9306833148002625
+      },
+      {
+        "word": "we",
+        "start": 18.5,
+        "end": 18.68,
+        "probability": 0.9897769689559937
+      },
+      {
+        "word": "share",
+        "start": 18.68,
+        "end": 18.9,
+        "probability": 0.9935612678527832
+      },
+      {
+        "word": "this",
+        "start": 18.9,
+        "end": 19.18,
+        "probability": 0.9943859577178955
+      },
+      {
+        "word": "pain",
+        "start": 19.18,
+        "end": 19.5,
+        "probability": 0.9789831638336182
+      },
+      {
+        "word": "with",
+        "start": 19.5,
+        "end": 19.74,
+        "probability": 0.9961479902267456
+      },
+      {
+        "word": "all",
+        "start": 19.74,
+        "end": 20.28,
+        "probability": 0.9935227632522583
+      },
+      {
+        "word": "the",
+        "start": 20.28,
+        "end": 20.42,
+        "probability": 0.6139124035835266
+      },
+      {
+        "word": "people",
+        "start": 20.42,
+        "end": 20.72,
+        "probability": 0.9975882768630981
+      },
+      {
+        "word": "of",
+        "start": 20.72,
+        "end": 20.86,
+        "probability": 0.9927771091461182
+      }
+    ]
+  },
+  {
+    "text": "our country this is truly a national loss 19 years ago almost to the day we",
+    "start": 20.86,
+    "end": 28.34,
+    "words": [
+      {
+        "word": "our",
+        "start": 20.86,
+        "end": 21.0,
+        "probability": 0.9978245496749878
+      },
+      {
+        "word": "country",
+        "start": 21.0,
+        "end": 21.32,
+        "probability": 0.9791262149810791
+      },
+      {
+        "word": "this",
+        "start": 21.32,
+        "end": 22.32,
+        "probability": 0.5328627228736877
+      },
+      {
+        "word": "is",
+        "start": 22.32,
+        "end": 22.52,
+        "probability": 0.9888694286346436
+      },
+      {
+        "word": "truly",
+        "start": 22.52,
+        "end": 22.82,
+        "probability": 0.9879816174507141
+      },
+      {
+        "word": "a",
+        "start": 22.82,
+        "end": 23.28,
+        "probability": 0.9915470480918884
+      },
+      {
+        "word": "national",
+        "start": 23.28,
+        "end": 23.66,
+        "probability": 0.9168108105659485
+      },
+      {
+        "word": "loss",
+        "start": 23.66,
+        "end": 24.34,
+        "probability": 0.9597591757774353
+      },
+      {
+        "word": "19",
+        "start": 24.34,
+        "end": 25.8,
+        "probability": 0.8940378427505493
+      },
+      {
+        "word": "years",
+        "start": 25.8,
+        "end": 26.18,
+        "probability": 0.9688960313796997
+      },
+      {
+        "word": "ago",
+        "start": 26.18,
+        "end": 26.48,
+        "probability": 0.997214138507843
+      },
+      {
+        "word": "almost",
+        "start": 26.48,
+        "end": 27.1,
+        "probability": 0.8990026116371155
+      },
+      {
+        "word": "to",
+        "start": 27.1,
+        "end": 27.42,
+        "probability": 0.8569910526275635
+      },
+      {
+        "word": "the",
+        "start": 27.42,
+        "end": 27.5,
+        "probability": 0.9986804127693176
+      },
+      {
+        "word": "day",
+        "start": 27.5,
+        "end": 27.74,
+        "probability": 0.9974762797355652
+      },
+      {
+        "word": "we",
+        "start": 27.74,
+        "end": 28.34,
+        "probability": 0.9326111674308777
+      }
+    ]
+  },
+  {
+    "text": "We lost three astronauts in a terrible accident on the ground, but we've never lost an astronaut",
+    "start": 28.34,
+    "end": 33.82,
+    "words": [
+      {
+        "word": "We",
+        "start": 28.34,
+        "end": 28.34,
+        "probability": 0.44804295897483826
+      },
+      {
+        "word": "lost",
+        "start": 28.34,
+        "end": 28.64,
+        "probability": 0.7771250009536743
+      },
+      {
+        "word": "three",
+        "start": 28.64,
+        "end": 28.96,
+        "probability": 0.9048157930374146
+      },
+      {
+        "word": "astronauts",
+        "start": 28.96,
+        "end": 29.28,
+        "probability": 0.9927195310592651
+      },
+      {
+        "word": "in",
+        "start": 29.28,
+        "end": 29.7,
+        "probability": 0.766364574432373
+      },
+      {
+        "word": "a",
+        "start": 29.7,
+        "end": 29.76,
+        "probability": 0.9914652705192566
+      },
+      {
+        "word": "terrible",
+        "start": 29.76,
+        "end": 30.02,
+        "probability": 0.9960615038871765
+      },
+      {
+        "word": "accident",
+        "start": 30.02,
+        "end": 30.42,
+        "probability": 0.9972105622291565
+      },
+      {
+        "word": "on",
+        "start": 30.42,
+        "end": 30.72,
+        "probability": 0.9863892197608948
+      },
+      {
+        "word": "the",
+        "start": 30.72,
+        "end": 30.82,
+        "probability": 0.9973505735397339
+      },
+      {
+        "word": "ground,",
+        "start": 30.82,
+        "end": 31.06,
+        "probability": 0.9991989731788635
+      },
+      {
+        "word": "but",
+        "start": 32.16,
+        "end": 32.24,
+        "probability": 0.9838359355926514
+      },
+      {
+        "word": "we've",
+        "start": 32.24,
+        "end": 32.6,
+        "probability": 0.88652503490448
+      },
+      {
+        "word": "never",
+        "start": 32.6,
+        "end": 32.92,
+        "probability": 0.9944872260093689
+      },
+      {
+        "word": "lost",
+        "start": 32.92,
+        "end": 33.18,
+        "probability": 0.9976892471313477
+      },
+      {
+        "word": "an",
+        "start": 33.18,
+        "end": 33.34,
+        "probability": 0.9904704093933105
+      },
+      {
+        "word": "astronaut",
+        "start": 33.34,
+        "end": 33.82,
+        "probability": 0.9981634020805359
+      }
+    ]
+  },
+  {
+    "text": "in flight.",
+    "start": 33.82,
+    "end": 34.18,
+    "words": [
+      {
+        "word": "in",
+        "start": 33.82,
+        "end": 33.98,
+        "probability": 0.9912194609642029
+      },
+      {
+        "word": "flight.",
+        "start": 33.98,
+        "end": 34.18,
+        "probability": 0.9945926070213318
+      }
+    ]
+  },
+  {
+    "text": "We've never had a tragedy like this.",
+    "start": 35.06,
+    "end": 36.98,
+    "words": [
+      {
+        "word": "We've",
+        "start": 35.06,
+        "end": 35.38,
+        "probability": 0.9354462325572968
+      },
+      {
+        "word": "never",
+        "start": 35.38,
+        "end": 35.62,
+        "probability": 0.9972673654556274
+      },
+      {
+        "word": "had",
+        "start": 35.62,
+        "end": 35.96,
+        "probability": 0.9963235855102539
+      },
+      {
+        "word": "a",
+        "start": 35.96,
+        "end": 36.1,
+        "probability": 0.9979450106620789
+      },
+      {
+        "word": "tragedy",
+        "start": 36.1,
+        "end": 36.34,
+        "probability": 0.947694718837738
+      },
+      {
+        "word": "like",
+        "start": 36.34,
+        "end": 36.76,
+        "probability": 0.9975505471229553
+      },
+      {
+        "word": "this.",
+        "start": 36.76,
+        "end": 36.98,
+        "probability": 0.9984500408172607
+      }
+    ]
+  },
+  {
+    "text": "And perhaps we've forgotten the courage it took for the crew of the shuttle.",
+    "start": 37.9,
+    "end": 41.18,
+    "words": [
+      {
+        "word": "And",
+        "start": 37.9,
+        "end": 38.12,
+        "probability": 0.628215491771698
+      },
+      {
+        "word": "perhaps",
+        "start": 38.12,
+        "end": 38.36,
+        "probability": 0.9690669775009155
+      },
+      {
+        "word": "we've",
+        "start": 38.36,
+        "end": 38.72,
+        "probability": 0.9542540311813354
+      },
+      {
+        "word": "forgotten",
+        "start": 38.72,
+        "end": 39.02,
+        "probability": 0.9980760812759399
+      },
+      {
+        "word": "the",
+        "start": 39.02,
+        "end": 39.24,
+        "probability": 0.9980194568634033
+      },
+      {
+        "word": "courage",
+        "start": 39.24,
+        "end": 39.56,
+        "probability": 0.9990973472595215
+      },
+      {
+        "word": "it",
+        "start": 39.56,
+        "end": 39.8,
+        "probability": 0.9958557486534119
+      },
+      {
+        "word": "took",
+        "start": 39.8,
+        "end": 39.98,
+        "probability": 0.9996713399887085
+      },
+      {
+        "word": "for",
+        "start": 39.98,
+        "end": 40.16,
+        "probability": 0.9883710145950317
+      },
+      {
+        "word": "the",
+        "start": 40.16,
+        "end": 40.28,
+        "probability": 0.9939992427825928
+      },
+      {
+        "word": "crew",
+        "start": 40.28,
+        "end": 40.7,
+        "probability": 0.9100103378295898
+      },
+      {
+        "word": "of",
+        "start": 40.7,
+        "end": 40.88,
+        "probability": 0.9942891597747803
+      },
+      {
+        "word": "the",
+        "start": 40.88,
+        "end": 40.98,
+        "probability": 0.9911076426506042
+      },
+      {
+        "word": "shuttle.",
+        "start": 40.98,
+        "end": 41.18,
+        "probability": 0.9105903506278992
+      }
+    ]
+  },
+  {
+    "text": "But they, the Challenger Seven, were aware of the dangers that overcame them and did their",
+    "start": 42.16,
+    "end": 47.42,
+    "words": [
+      {
+        "word": "But",
+        "start": 42.16,
+        "end": 42.4,
+        "probability": 0.9800793528556824
+      },
+      {
+        "word": "they,",
+        "start": 42.4,
+        "end": 42.58,
+        "probability": 0.9187774658203125
+      },
+      {
+        "word": "the",
+        "start": 42.74,
+        "end": 42.92,
+        "probability": 0.9977344274520874
+      },
+      {
+        "word": "Challenger",
+        "start": 42.92,
+        "end": 43.42,
+        "probability": 0.9004380702972412
+      },
+      {
+        "word": "Seven,",
+        "start": 43.42,
+        "end": 43.94,
+        "probability": 0.2718432545661926
+      },
+      {
+        "word": "were",
+        "start": 44.24,
+        "end": 44.36,
+        "probability": 0.9876596331596375
+      },
+      {
+        "word": "aware",
+        "start": 44.36,
+        "end": 44.56,
+        "probability": 0.9992663264274597
+      },
+      {
+        "word": "of",
+        "start": 44.56,
+        "end": 44.78,
+        "probability": 0.9987261891365051
+      },
+      {
+        "word": "the",
+        "start": 44.78,
+        "end": 44.86,
+        "probability": 0.9981295466423035
+      },
+      {
+        "word": "dangers",
+        "start": 44.86,
+        "end": 45.18,
+        "probability": 0.999164342880249
+      },
+      {
+        "word": "that",
+        "start": 45.18,
+        "end": 46.1,
+        "probability": 0.6325061321258545
+      },
+      {
+        "word": "overcame",
+        "start": 46.1,
+        "end": 46.3,
+        "probability": 0.9898284673690796
+      },
+      {
+        "word": "them",
+        "start": 46.3,
+        "end": 46.7,
+        "probability": 0.9955534338951111
+      },
+      {
+        "word": "and",
+        "start": 46.7,
+        "end": 46.92,
+        "probability": 0.9407829642295837
+      },
+      {
+        "word": "did",
+        "start": 46.92,
+        "end": 47.22,
+        "probability": 0.9962210059165955
+      },
+      {
+        "word": "their",
+        "start": 47.22,
+        "end": 47.42,
+        "probability": 0.9990403056144714
+      }
+    ]
+  },
+  {
+    "text": "jobs brilliantly.",
+    "start": 47.42,
+    "end": 48.06,
+    "words": [
+      {
+        "word": "jobs",
+        "start": 47.42,
+        "end": 47.8,
+        "probability": 0.9931091070175171
+      },
+      {
+        "word": "brilliantly.",
+        "start": 47.8,
+        "end": 48.06,
+        "probability": 0.9975662231445312
+      }
+    ]
+  },
+  {
+    "text": "We mourn seven heroes, Michael Smith, Dick Scobie, Judith Resnick, Ronald McNair, Ellison",
+    "start": 49.32,
+    "end": 57.92,
+    "words": [
+      {
+        "word": "We",
+        "start": 49.32,
+        "end": 49.44,
+        "probability": 0.9944451451301575
+      },
+      {
+        "word": "mourn",
+        "start": 49.44,
+        "end": 49.68,
+        "probability": 0.9953566193580627
+      },
+      {
+        "word": "seven",
+        "start": 49.68,
+        "end": 50.38,
+        "probability": 0.8821627497673035
+      },
+      {
+        "word": "heroes,",
+        "start": 50.38,
+        "end": 50.72,
+        "probability": 0.9934630393981934
+      },
+      {
+        "word": "Michael",
+        "start": 51.38,
+        "end": 51.7,
+        "probability": 0.9811201691627502
+      },
+      {
+        "word": "Smith,",
+        "start": 51.7,
+        "end": 51.98,
+        "probability": 0.993766188621521
+      },
+      {
+        "word": "Dick",
+        "start": 52.94,
+        "end": 53.04,
+        "probability": 0.663658082485199
+      },
+      {
+        "word": "Scobie,",
+        "start": 53.04,
+        "end": 53.56,
+        "probability": 0.6026004751523336
+      },
+      {
+        "word": "Judith",
+        "start": 54.3,
+        "end": 54.58,
+        "probability": 0.9802895188331604
+      },
+      {
+        "word": "Resnick,",
+        "start": 54.58,
+        "end": 55.04,
+        "probability": 0.8495295941829681
+      },
+      {
+        "word": "Ronald",
+        "start": 55.82,
+        "end": 55.98,
+        "probability": 0.9904147386550903
+      },
+      {
+        "word": "McNair,",
+        "start": 55.98,
+        "end": 56.58,
+        "probability": 0.9551966786384583
+      },
+      {
+        "word": "Ellison",
+        "start": 57.92,
+        "end": 57.92,
+        "probability": 0.45122143626213074
+      }
+    ]
+  },
+  {
+    "text": "in Onizuka, Gregory Jarvis, and Christmikaloth.",
+    "start": 57.92,
+    "end": 61.82,
+    "words": [
+      {
+        "word": "in",
+        "start": 57.92,
+        "end": 58.02,
+        "probability": 0.029648980125784874
+      },
+      {
+        "word": "Onizuka,",
+        "start": 58.02,
+        "end": 58.62,
+        "probability": 0.6520777940750122
+      },
+      {
+        "word": "Gregory",
+        "start": 59.54,
+        "end": 59.8,
+        "probability": 0.9946280121803284
+      },
+      {
+        "word": "Jarvis,",
+        "start": 59.8,
+        "end": 60.24,
+        "probability": 0.9733167290687561
+      },
+      {
+        "word": "and",
+        "start": 61.0,
+        "end": 61.02,
+        "probability": 0.9918089509010315
+      },
+      {
+        "word": "Christmikaloth.",
+        "start": 61.02,
+        "end": 61.82,
+        "probability": 0.4822840392589569
+      }
+    ]
+  },
+  {
+    "text": "We mourn their loss as a nation together.",
+    "start": 62.82,
+    "end": 65.06,
+    "words": [
+      {
+        "word": "We",
+        "start": 62.82,
+        "end": 63.26,
+        "probability": 0.9835513234138489
+      },
+      {
+        "word": "mourn",
+        "start": 63.26,
+        "end": 63.46,
+        "probability": 0.999235987663269
+      },
+      {
+        "word": "their",
+        "start": 63.46,
+        "end": 63.72,
+        "probability": 0.8985268473625183
+      },
+      {
+        "word": "loss",
+        "start": 63.72,
+        "end": 64.02,
+        "probability": 0.9247512221336365
+      },
+      {
+        "word": "as",
+        "start": 64.02,
+        "end": 64.3,
+        "probability": 0.9924046397209167
+      },
+      {
+        "word": "a",
+        "start": 64.3,
+        "end": 64.4,
+        "probability": 0.9961101412773132
+      },
+      {
+        "word": "nation",
+        "start": 64.4,
+        "end": 64.56,
+        "probability": 0.9928102493286133
+      },
+      {
+        "word": "together.",
+        "start": 64.56,
+        "end": 65.06,
+        "probability": 0.9508624076843262
+      }
+    ]
+  },
+  {
+    "text": "The families of the seven, we cannot bear as you",
+    "start": 66.24,
+    "end": 69.78,
+    "words": [
+      {
+        "word": "The",
+        "start": 66.24,
+        "end": 66.5,
+        "probability": 0.9434163570404053
+      },
+      {
+        "word": "families",
+        "start": 66.5,
+        "end": 66.84,
+        "probability": 0.99089515209198
+      },
+      {
+        "word": "of",
+        "start": 66.84,
+        "end": 67.06,
+        "probability": 0.9877041578292847
+      },
+      {
+        "word": "the",
+        "start": 67.06,
+        "end": 67.16,
+        "probability": 0.9781266450881958
+      },
+      {
+        "word": "seven,",
+        "start": 67.16,
+        "end": 67.44,
+        "probability": 0.7383980751037598
+      },
+      {
+        "word": "we",
+        "start": 67.98,
+        "end": 68.7,
+        "probability": 0.9887702465057373
+      },
+      {
+        "word": "cannot",
+        "start": 68.7,
+        "end": 68.92,
+        "probability": 0.9931710958480835
+      },
+      {
+        "word": "bear",
+        "start": 68.92,
+        "end": 69.3,
+        "probability": 0.9944655299186707
+      },
+      {
+        "word": "as",
+        "start": 69.3,
+        "end": 69.64,
+        "probability": 0.7279701232910156
+      },
+      {
+        "word": "you",
+        "start": 69.64,
+        "end": 69.78,
+        "probability": 0.9957062602043152
+      }
+    ]
+  },
+  {
+    "text": "do the full impact of this tragedy.",
+    "start": 69.78,
+    "end": 71.68,
+    "words": [
+      {
+        "word": "do",
+        "start": 69.78,
+        "end": 69.94,
+        "probability": 0.9907299876213074
+      },
+      {
+        "word": "the",
+        "start": 69.94,
+        "end": 70.14,
+        "probability": 0.9739237427711487
+      },
+      {
+        "word": "full",
+        "start": 70.14,
+        "end": 70.34,
+        "probability": 0.9963966012001038
+      },
+      {
+        "word": "impact",
+        "start": 70.34,
+        "end": 71.06,
+        "probability": 0.997849702835083
+      },
+      {
+        "word": "of",
+        "start": 71.06,
+        "end": 71.28,
+        "probability": 0.9946630001068115
+      },
+      {
+        "word": "this",
+        "start": 71.28,
+        "end": 71.42,
+        "probability": 0.9928344488143921
+      },
+      {
+        "word": "tragedy.",
+        "start": 71.42,
+        "end": 71.68,
+        "probability": 0.9981606602668762
+      }
+    ]
+  },
+  {
+    "text": "But we feel the loss, and we're thinking about you so very much.",
+    "start": 72.64,
+    "end": 76.36,
+    "words": [
+      {
+        "word": "But",
+        "start": 72.64,
+        "end": 73.16,
+        "probability": 0.9882889986038208
+      },
+      {
+        "word": "we",
+        "start": 73.16,
+        "end": 73.3,
+        "probability": 0.9884463548660278
+      },
+      {
+        "word": "feel",
+        "start": 73.3,
+        "end": 73.54,
+        "probability": 0.9904614090919495
+      },
+      {
+        "word": "the",
+        "start": 73.54,
+        "end": 73.74,
+        "probability": 0.9476800560951233
+      },
+      {
+        "word": "loss,",
+        "start": 73.74,
+        "end": 74.0,
+        "probability": 0.982689380645752
+      },
+      {
+        "word": "and",
+        "start": 74.4,
+        "end": 74.5,
+        "probability": 0.9862490296363831
+      },
+      {
+        "word": "we're",
+        "start": 74.5,
+        "end": 74.64,
+        "probability": 0.9701060056686401
+      },
+      {
+        "word": "thinking",
+        "start": 74.64,
+        "end": 74.84,
+        "probability": 0.9984172582626343
+      },
+      {
+        "word": "about",
+        "start": 74.84,
+        "end": 75.18,
+        "probability": 0.9966208934783936
+      },
+      {
+        "word": "you",
+        "start": 75.18,
+        "end": 75.4,
+        "probability": 0.9981334805488586
+      },
+      {
+        "word": "so",
+        "start": 75.4,
+        "end": 75.86,
+        "probability": 0.9576827883720398
+      },
+      {
+        "word": "very",
+        "start": 75.86,
+        "end": 76.08,
+        "probability": 0.9982351064682007
+      },
+      {
+        "word": "much.",
+        "start": 76.08,
+        "end": 76.36,
+        "probability": 0.9997784495353699
+      }
+    ]
+  },
+  {
+    "text": "Your loved ones were daring and brave,",
+    "start": 77.32,
+    "end": 79.32,
+    "words": [
+      {
+        "word": "Your",
+        "start": 77.32,
+        "end": 77.84,
+        "probability": 0.9482781887054443
+      },
+      {
+        "word": "loved",
+        "start": 77.84,
+        "end": 78.0,
+        "probability": 0.9998384714126587
+      },
+      {
+        "word": "ones",
+        "start": 78.0,
+        "end": 78.32,
+        "probability": 0.9992231130599976
+      },
+      {
+        "word": "were",
+        "start": 78.32,
+        "end": 78.46,
+        "probability": 0.9896894693374634
+      },
+      {
+        "word": "daring",
+        "start": 78.46,
+        "end": 78.7,
+        "probability": 0.9879339933395386
+      },
+      {
+        "word": "and",
+        "start": 78.7,
+        "end": 79.06,
+        "probability": 0.9764081835746765
+      },
+      {
+        "word": "brave,",
+        "start": 79.06,
+        "end": 79.32,
+        "probability": 0.9997369647026062
+      }
+    ]
+  },
+  {
+    "text": "and they had that special grace, that special spirit that",
+    "start": 80.26,
+    "end": 83.7,
+    "words": [
+      {
+        "word": "and",
+        "start": 80.26,
+        "end": 80.78,
+        "probability": 0.9951272010803223
+      },
+      {
+        "word": "they",
+        "start": 80.78,
+        "end": 80.9,
+        "probability": 0.9969327449798584
+      },
+      {
+        "word": "had",
+        "start": 80.9,
+        "end": 81.02,
+        "probability": 0.9905890226364136
+      },
+      {
+        "word": "that",
+        "start": 81.02,
+        "end": 81.2,
+        "probability": 0.9956755042076111
+      },
+      {
+        "word": "special",
+        "start": 81.2,
+        "end": 81.62,
+        "probability": 0.998145580291748
+      },
+      {
+        "word": "grace,",
+        "start": 81.62,
+        "end": 82.04,
+        "probability": 0.9989436268806458
+      },
+      {
+        "word": "that",
+        "start": 82.48,
+        "end": 82.68,
+        "probability": 0.9828448295593262
+      },
+      {
+        "word": "special",
+        "start": 82.68,
+        "end": 83.08,
+        "probability": 0.9991689920425415
+      },
+      {
+        "word": "spirit",
+        "start": 83.08,
+        "end": 83.4,
+        "probability": 0.9543334245681763
+      },
+      {
+        "word": "that",
+        "start": 83.4,
+        "end": 83.7,
+        "probability": 0.9823909401893616
+      }
+    ]
+  },
+  {
+    "text": "says, give me a challenge, and I'll meet it with joy.",
+    "start": 83.7,
+    "end": 86.42,
+    "words": [
+      {
+        "word": "says,",
+        "start": 83.7,
+        "end": 83.9,
+        "probability": 0.9018331170082092
+      },
+      {
+        "word": "give",
+        "start": 84.2,
+        "end": 84.2,
+        "probability": 0.3441082537174225
+      },
+      {
+        "word": "me",
+        "start": 84.2,
+        "end": 84.36,
+        "probability": 0.9993346333503723
+      },
+      {
+        "word": "a",
+        "start": 84.36,
+        "end": 84.46,
+        "probability": 0.9975800514221191
+      },
+      {
+        "word": "challenge,",
+        "start": 84.46,
+        "end": 84.78,
+        "probability": 0.9979483485221863
+      },
+      {
+        "word": "and",
+        "start": 85.3,
+        "end": 85.64,
+        "probability": 0.9977983832359314
+      },
+      {
+        "word": "I'll",
+        "start": 85.64,
+        "end": 85.8,
+        "probability": 0.9907317161560059
+      },
+      {
+        "word": "meet",
+        "start": 85.8,
+        "end": 85.94,
+        "probability": 0.9935067892074585
+      },
+      {
+        "word": "it",
+        "start": 85.94,
+        "end": 86.08,
+        "probability": 0.9655194878578186
+      },
+      {
+        "word": "with",
+        "start": 86.08,
+        "end": 86.22,
+        "probability": 0.9985892176628113
+      },
+      {
+        "word": "joy.",
+        "start": 86.22,
+        "end": 86.42,
+        "probability": 0.6879425644874573
+      }
+    ]
+  },
+  {
+    "text": "They had a hunger to explore the universe and discover its truths.",
+    "start": 86.42,
+    "end": 90.44,
+    "words": [
+      {
+        "word": "They",
+        "start": 86.42,
+        "end": 87.14,
+        "probability": 0.6864743232727051
+      },
+      {
+        "word": "had",
+        "start": 87.14,
+        "end": 87.92,
+        "probability": 0.9669445753097534
+      },
+      {
+        "word": "a",
+        "start": 87.92,
+        "end": 88.0,
+        "probability": 0.9859210848808289
+      },
+      {
+        "word": "hunger",
+        "start": 88.0,
+        "end": 88.28,
+        "probability": 0.9979828596115112
+      },
+      {
+        "word": "to",
+        "start": 88.28,
+        "end": 88.46,
+        "probability": 0.9982877373695374
+      },
+      {
+        "word": "explore",
+        "start": 88.46,
+        "end": 88.8,
+        "probability": 0.9963217973709106
+      },
+      {
+        "word": "the",
+        "start": 88.8,
+        "end": 89.02,
+        "probability": 0.9946158528327942
+      },
+      {
+        "word": "universe",
+        "start": 89.02,
+        "end": 89.38,
+        "probability": 0.9064294099807739
+      },
+      {
+        "word": "and",
+        "start": 89.38,
+        "end": 89.62,
+        "probability": 0.9767820239067078
+      },
+      {
+        "word": "discover",
+        "start": 89.62,
+        "end": 89.96,
+        "probability": 0.9926062822341919
+      },
+      {
+        "word": "its",
+        "start": 89.96,
+        "end": 90.2,
+        "probability": 0.9703047871589661
+      },
+      {
+        "word": "truths.",
+        "start": 90.2,
+        "end": 90.44,
+        "probability": 0.9627860188484192
+      }
+    ]
+  },
+  {
+    "text": "They wished to serve, and they did.",
+    "start": 91.6,
+    "end": 93.18,
+    "words": [
+      {
+        "word": "They",
+        "start": 91.6,
+        "end": 91.72,
+        "probability": 0.9904518127441406
+      },
+      {
+        "word": "wished",
+        "start": 91.72,
+        "end": 91.86,
+        "probability": 0.9218270778656006
+      },
+      {
+        "word": "to",
+        "start": 91.86,
+        "end": 92.04,
+        "probability": 0.9959789514541626
+      },
+      {
+        "word": "serve,",
+        "start": 92.04,
+        "end": 92.36,
+        "probability": 0.9962846040725708
+      },
+      {
+        "word": "and",
+        "start": 92.76,
+        "end": 92.8,
+        "probability": 0.9938594698905945
+      },
+      {
+        "word": "they",
+        "start": 92.8,
+        "end": 92.96,
+        "probability": 0.9952483773231506
+      },
+      {
+        "word": "did.",
+        "start": 92.96,
+        "end": 93.18,
+        "probability": 0.9951989054679871
+      }
+    ]
+  },
+  {
+    "text": "They served all of us.",
+    "start": 93.9,
+    "end": 95.08,
+    "words": [
+      {
+        "word": "They",
+        "start": 93.9,
+        "end": 94.16,
+        "probability": 0.9934630393981934
+      },
+      {
+        "word": "served",
+        "start": 94.16,
+        "end": 94.36,
+        "probability": 0.9866665005683899
+      },
+      {
+        "word": "all",
+        "start": 94.36,
+        "end": 94.7,
+        "probability": 0.9810654520988464
+      },
+      {
+        "word": "of",
+        "start": 94.7,
+        "end": 94.86,
+        "probability": 0.9977626800537109
+      },
+      {
+        "word": "us.",
+        "start": 94.86,
+        "end": 95.08,
+        "probability": 0.9975368976593018
+      }
+    ]
+  },
+  {
+    "text": "We've grown used to wonders in this century.",
+    "start": 96.06,
+    "end": 98.08,
+    "words": [
+      {
+        "word": "We've",
+        "start": 96.06,
+        "end": 96.36,
+        "probability": 0.9441453814506531
+      },
+      {
+        "word": "grown",
+        "start": 96.36,
+        "end": 96.48,
+        "probability": 0.9968209266662598
+      },
+      {
+        "word": "used",
+        "start": 96.48,
+        "end": 96.74,
+        "probability": 0.9341967701911926
+      },
+      {
+        "word": "to",
+        "start": 96.74,
+        "end": 96.98,
+        "probability": 0.9988093376159668
+      },
+      {
+        "word": "wonders",
+        "start": 96.98,
+        "end": 97.22,
+        "probability": 0.9849464893341064
+      },
+      {
+        "word": "in",
+        "start": 97.22,
+        "end": 97.56,
+        "probability": 0.9881784319877625
+      },
+      {
+        "word": "this",
+        "start": 97.56,
+        "end": 97.68,
+        "probability": 0.8216997385025024
+      },
+      {
+        "word": "century.",
+        "start": 97.68,
+        "end": 98.08,
+        "probability": 0.9760619401931763
+      }
+    ]
+  },
+  {
+    "text": "It's hard to dazzle us.",
+    "start": 98.72,
+    "end": 99.88,
+    "words": [
+      {
+        "word": "It's",
+        "start": 98.72,
+        "end": 98.9,
+        "probability": 0.9865992367267609
+      },
+      {
+        "word": "hard",
+        "start": 98.9,
+        "end": 99.12,
+        "probability": 0.998316764831543
+      },
+      {
+        "word": "to",
+        "start": 99.12,
+        "end": 99.3,
+        "probability": 0.998426079750061
+      },
+      {
+        "word": "dazzle",
+        "start": 99.3,
+        "end": 99.72,
+        "probability": 0.990054190158844
+      },
+      {
+        "word": "us.",
+        "start": 99.72,
+        "end": 99.88,
+        "probability": 0.9950613379478455
+      }
+    ]
+  },
+  {
+    "text": "But for 25 years, the United States space program has been doing just that.",
+    "start": 100.66,
+    "end": 104.66,
+    "words": [
+      {
+        "word": "But",
+        "start": 100.66,
+        "end": 100.82,
+        "probability": 0.986562967300415
+      },
+      {
+        "word": "for",
+        "start": 100.82,
+        "end": 100.94,
+        "probability": 0.9589460492134094
+      },
+      {
+        "word": "25",
+        "start": 100.94,
+        "end": 101.22,
+        "probability": 0.865894615650177
+      },
+      {
+        "word": "years,",
+        "start": 101.22,
+        "end": 101.78,
+        "probability": 0.9982280135154724
+      },
+      {
+        "word": "the",
+        "start": 101.94,
+        "end": 102.02,
+        "probability": 0.9928845763206482
+      },
+      {
+        "word": "United",
+        "start": 102.02,
+        "end": 102.18,
+        "probability": 0.9908407926559448
+      },
+      {
+        "word": "States",
+        "start": 102.18,
+        "end": 102.62,
+        "probability": 0.9928701519966125
+      },
+      {
+        "word": "space",
+        "start": 102.62,
+        "end": 102.88,
+        "probability": 0.45005863904953003
+      },
+      {
+        "word": "program",
+        "start": 102.88,
+        "end": 103.34,
+        "probability": 0.990970253944397
+      },
+      {
+        "word": "has",
+        "start": 103.34,
+        "end": 103.66,
+        "probability": 0.9955839514732361
+      },
+      {
+        "word": "been",
+        "start": 103.66,
+        "end": 103.78,
+        "probability": 0.9992534518241882
+      },
+      {
+        "word": "doing",
+        "start": 103.78,
+        "end": 103.98,
+        "probability": 0.997793436050415
+      },
+      {
+        "word": "just",
+        "start": 103.98,
+        "end": 104.36,
+        "probability": 0.9966036081314087
+      },
+      {
+        "word": "that.",
+        "start": 104.36,
+        "end": 104.66,
+        "probability": 0.99882572889328
+      }
+    ]
+  },
+  {
+    "text": "We've grown used to the idea of space, and perhaps we forget that we won't-",
+    "start": 105.48,
+    "end": 109.98,
+    "words": [
+      {
+        "word": "We've",
+        "start": 105.48,
+        "end": 105.8,
+        "probability": 0.9958669543266296
+      },
+      {
+        "word": "grown",
+        "start": 105.8,
+        "end": 105.96,
+        "probability": 0.9974020719528198
+      },
+      {
+        "word": "used",
+        "start": 105.96,
+        "end": 106.24,
+        "probability": 0.9360826015472412
+      },
+      {
+        "word": "to",
+        "start": 106.24,
+        "end": 106.48,
+        "probability": 0.995912492275238
+      },
+      {
+        "word": "the",
+        "start": 106.48,
+        "end": 106.58,
+        "probability": 0.9981305003166199
+      },
+      {
+        "word": "idea",
+        "start": 106.58,
+        "end": 106.76,
+        "probability": 0.9437058568000793
+      },
+      {
+        "word": "of",
+        "start": 106.76,
+        "end": 107.12,
+        "probability": 0.9967921376228333
+      },
+      {
+        "word": "space,",
+        "start": 107.12,
+        "end": 107.36,
+        "probability": 0.9933611154556274
+      },
+      {
+        "word": "and",
+        "start": 107.36,
+        "end": 107.9,
+        "probability": 0.9971240162849426
+      },
+      {
+        "word": "perhaps",
+        "start": 107.9,
+        "end": 108.56,
+        "probability": 0.94111567735672
+      },
+      {
+        "word": "we",
+        "start": 108.56,
+        "end": 108.86,
+        "probability": 0.9765493869781494
+      },
+      {
+        "word": "forget",
+        "start": 108.86,
+        "end": 109.16,
+        "probability": 0.9947575330734253
+      },
+      {
+        "word": "that",
+        "start": 109.16,
+        "end": 109.4,
+        "probability": 0.9715786576271057
+      },
+      {
+        "word": "we",
+        "start": 109.4,
+        "end": 109.76,
+        "probability": 0.8741591572761536
+      },
+      {
+        "word": "won't",
+        "start": 109.76,
+        "end": 109.9,
+        "probability": 0.6645992547273636
+      },
+      {
+        "word": "-",
+        "start": 109.9,
+        "end": 109.98,
+        "probability": 0.09057111293077469
+      }
+    ]
+  }
+]

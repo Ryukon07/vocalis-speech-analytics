@@ -1,0 +1,1921 @@
+{
+  "version": "1.0",
+  "sample_rate": 16000,
+  "channels": 1,
+  "seed": 0,
+  "description": "Controlled contrastive delivery corpus, with transformation-derived ground truth.",
+  "limitations": [
+    "Two source speakers; same-speaker transformed variants are not a substitute for natural flawed recordings.",
+    "Source-level holdout; Reagan occurs in training and validation, Eisenhower is speaker-held-out testing.",
+    "Near-perfect means no injected flaw, not a human-certified perfect speech."
+  ],
+  "groups": [
+    {
+      "id": "reagan_challenger_1986-opening",
+      "title": "Address on the Space Shuttle Challenger - opening",
+      "source_id": "reagan_challenger_1986",
+      "speaker_id": "Ronald Reagan",
+      "source_url": "https://millercenter.org/the-presidency/presidential-speeches/january-28-1986-address-space-shuttle-challenger",
+      "split": "training",
+      "source_start_seconds": 0,
+      "source_end_seconds": 24.46,
+      "source_transcript_match_ratio": 0.9189,
+      "transcript_file": "reagan_challenger_1986-opening/transcript.txt",
+      "transcript": "Ladies and gentlemen, I'd planned to speak to you tonight to report on the state of the Union, but the events of earlier today have led me to change those plans. Today is a day for mourning and remembering. Nancy and I are pained to the core by the tragedy of the shuttle Challenger. We know we share this pain with all of the people of our country. This is truly a national loss.",
+      "reference": {
+        "audio_file": "reagan_challenger_1986-opening/reference.wav",
+        "sha256": "e2caff0a7310a36a4a4a5bdc0b0188b506b09d3da504dd0c5e80327b3b7e5400",
+        "duration_seconds": 24.46
+      },
+      "reference_alignment_file": "reagan_challenger_1986-opening/reference-alignment.json",
+      "license": "U.S. public-domain government speech audio; archive reuse basis and supplied-file provenance documented in dataset/LICENSE_NOTES.md.",
+      "label_review": "Controlled edit intervals are exact; word alignment is model-generated, not human reviewed.",
+      "variants": [
+        {
+          "id": "reagan_challenger_1986-opening-near-perfect",
+          "title": "near-perfect",
+          "level": 1,
+          "audio_file": "reagan_challenger_1986-opening/near-perfect.wav",
+          "sha256": "20896fea46e39e95625281e85ad5a461819800400fe7b1175f69867d427b6ce6",
+          "duration_seconds": 24.46,
+          "annotations": [],
+          "transformation": {
+            "kind": "global_gain",
+            "gain": 0.95
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "reagan_challenger_1986-opening/near-perfect.alignment.json"
+        },
+        {
+          "id": "reagan_challenger_1986-opening-rushed-mild",
+          "title": "rushed-mild",
+          "level": 2,
+          "audio_file": "reagan_challenger_1986-opening/rushed-mild.wav",
+          "sha256": "1572c9ba779f4925a61488718532aece2b902fe2a52cc8f8dbb3f0fac7c91800",
+          "duration_seconds": 23.88919,
+          "annotations": [
+            {
+              "flaw_type": "rushed_pacing",
+              "start_seconds": 5.8047,
+              "end_seconds": 7.435700000000001,
+              "severity": 2
+            }
+          ],
+          "transformation": {
+            "kind": "piecewise_time_stretch",
+            "start": 5.8047,
+            "original_end": 8.0065,
+            "modified_end": 7.435700000000001,
+            "rate": 1.35
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "reagan_challenger_1986-opening/rushed-mild.alignment.json"
+        },
+        {
+          "id": "reagan_challenger_1986-opening-rushed-severe",
+          "title": "rushed-severe",
+          "level": 5,
+          "audio_file": "reagan_challenger_1986-opening/rushed-severe.wav",
+          "sha256": "3ba96d03b3622f12294f3e07412a0a3cab6a7eb97ac7362fbee244a4f8f8b66e",
+          "duration_seconds": 23.48144,
+          "annotations": [
+            {
+              "flaw_type": "rushed_pacing",
+              "start_seconds": 5.8047,
+              "end_seconds": 7.027950000000001,
+              "severity": 5
+            }
+          ],
+          "transformation": {
+            "kind": "piecewise_time_stretch",
+            "start": 5.8047,
+            "original_end": 8.0065,
+            "modified_end": 7.027950000000001,
+            "rate": 1.8
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "reagan_challenger_1986-opening/rushed-severe.alignment.json"
+        },
+        {
+          "id": "reagan_challenger_1986-opening-slow",
+          "title": "slow",
+          "level": 4,
+          "audio_file": "reagan_challenger_1986-opening/slow.wav",
+          "sha256": "33fedbdc30ece1e0fe45358d59476bb4f70c07d94870fad4f2e6f2a3a9416e66",
+          "duration_seconds": 25.92788,
+          "annotations": [
+            {
+              "flaw_type": "slow_pacing",
+              "start_seconds": 5.8047,
+              "end_seconds": 9.4743875,
+              "severity": 4
+            }
+          ],
+          "transformation": {
+            "kind": "piecewise_time_stretch",
+            "start": 5.8047,
+            "original_end": 8.0065,
+            "modified_end": 9.4743875,
+            "rate": 0.6
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "reagan_challenger_1986-opening/slow.alignment.json"
+        },
+        {
+          "id": "reagan_challenger_1986-opening-pause",
+          "title": "pause",
+          "level": 4,
+          "audio_file": "reagan_challenger_1986-opening/pause.wav",
+          "sha256": "8e318634c46e5b64fd994b47f4b8e21b8f24f76b98ac0a11e4673eddb41341cd",
+          "duration_seconds": 26.66,
+          "annotations": [
+            {
+              "flaw_type": "awkward_pause",
+              "start_seconds": 5.9048,
+              "end_seconds": 8.1248,
+              "severity": 4
+            }
+          ],
+          "transformation": {
+            "kind": "insert_silence",
+            "position": 5.9148,
+            "seconds": 2.2
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "reagan_challenger_1986-opening/pause.alignment.json"
+        },
+        {
+          "id": "reagan_challenger_1986-opening-low-energy",
+          "title": "low-energy",
+          "level": 4,
+          "audio_file": "reagan_challenger_1986-opening/low-energy.wav",
+          "sha256": "b31d62fb357d02f542492c8b13f6dc57faf19b549e56b6cc2e86134f26afad0a",
+          "duration_seconds": 24.46,
+          "annotations": [
+            {
+              "flaw_type": "low_energy",
+              "start_seconds": 5.8047,
+              "end_seconds": 8.0065,
+              "severity": 4
+            }
+          ],
+          "transformation": {
+            "kind": "gain",
+            "start": 5.8047,
+            "end": 8.0065,
+            "gain": 0.08,
+            "delta_db": -21.93820026016113
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "reagan_challenger_1986-opening/low-energy.alignment.json"
+        },
+        {
+          "id": "reagan_challenger_1986-opening-monotone",
+          "title": "monotone",
+          "level": 4,
+          "audio_file": "reagan_challenger_1986-opening/monotone.wav",
+          "sha256": "f5ad40a691bfdc87d9d973bc6a89681f95db86e728fe8c9e0a790e19ad575d62",
+          "duration_seconds": 24.46,
+          "annotations": [
+            {
+              "flaw_type": "monotone_delivery",
+              "start_seconds": 5.8047,
+              "end_seconds": 8.0065,
+              "severity": 4
+            }
+          ],
+          "transformation": {
+            "kind": "pitch_tier_compression",
+            "start": 5.8047,
+            "end": 8.0065,
+            "variation_ratio": 0.03
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "reagan_challenger_1986-opening/monotone.alignment.json"
+        }
+      ],
+      "rights_evidence": {
+        "archive_item": "https://www.reaganlibrary.gov/galleries/audio-recordings-01281986-launch-sts-mission-51-l",
+        "archive_identifier": "7087577",
+        "tape": "PP6028B",
+        "basis": "WHCA audio collection public-domain statement; supplied MP3 receipt not retained; no byte-match claim"
+      }
+    },
+    {
+      "id": "reagan_challenger_1986-courage",
+      "title": "Address on the Space Shuttle Challenger - courage",
+      "source_id": "reagan_challenger_1986",
+      "speaker_id": "Ronald Reagan",
+      "source_url": "https://millercenter.org/the-presidency/presidential-speeches/january-28-1986-address-space-shuttle-challenger",
+      "split": "training",
+      "source_start_seconds": 24.22,
+      "source_end_seconds": 48.18,
+      "source_transcript_match_ratio": 0.9692,
+      "transcript_file": "reagan_challenger_1986-courage/transcript.txt",
+      "transcript": "Nineteen years ago, almost to the day, we lost three astronauts in a terrible accident on the ground. But we've never lost an astronaut in flight; we've never had a tragedy like this. And perhaps we've forgotten the courage it took for the crew of the shuttle. But they, the Challenger Seven, were aware of the dangers, but overcame them and did their jobs brilliantly.",
+      "reference": {
+        "audio_file": "reagan_challenger_1986-courage/reference.wav",
+        "sha256": "232b8e863d99f4392ac795fb05cf8855da448b296d867f834e98103f9f07a4ce",
+        "duration_seconds": 23.96
+      },
+      "reference_alignment_file": "reagan_challenger_1986-courage/reference-alignment.json",
+      "license": "U.S. public-domain government speech audio; archive reuse basis and supplied-file provenance documented in dataset/LICENSE_NOTES.md.",
+      "label_review": "Controlled edit intervals are exact; word alignment is model-generated, not human reviewed.",
+      "variants": [
+        {
+          "id": "reagan_challenger_1986-courage-near-perfect",
+          "title": "near-perfect",
+          "level": 1,
+          "audio_file": "reagan_challenger_1986-courage/near-perfect.wav",
+          "sha256": "d360305c30d0e3704906e054ccdb5f1bf59b17b2bde31f96d7aa6d9c4dcb42e3",
+          "duration_seconds": 23.96,
+          "annotations": [],
+          "transformation": {
+            "kind": "global_gain",
+            "gain": 0.95
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "reagan_challenger_1986-courage/near-perfect.alignment.json"
+        },
+        {
+          "id": "reagan_challenger_1986-courage-rushed-mild",
+          "title": "rushed-mild",
+          "level": 2,
+          "audio_file": "reagan_challenger_1986-courage/rushed-mild.wav",
+          "sha256": "ad1d6022f49ea43138e392a291f7203303905f49c9e664e6aab0952a7ccfcc24",
+          "duration_seconds": 23.15044,
+          "annotations": [
+            {
+              "flaw_type": "rushed_pacing",
+              "start_seconds": 6.5655,
+              "end_seconds": 8.878562500000001,
+              "severity": 2
+            }
+          ],
+          "transformation": {
+            "kind": "piecewise_time_stretch",
+            "start": 6.5655,
+            "original_end": 9.6881,
+            "modified_end": 8.878562500000001,
+            "rate": 1.35
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "reagan_challenger_1986-courage/rushed-mild.alignment.json"
+        },
+        {
+          "id": "reagan_challenger_1986-courage-rushed-severe",
+          "title": "rushed-severe",
+          "level": 5,
+          "audio_file": "reagan_challenger_1986-courage/rushed-severe.wav",
+          "sha256": "7ab1eb01f7dee91a3ebd689d509faac88068c822757cf5788f35f52b9b7cacdb",
+          "duration_seconds": 22.57219,
+          "annotations": [
+            {
+              "flaw_type": "rushed_pacing",
+              "start_seconds": 6.5655,
+              "end_seconds": 8.3003125,
+              "severity": 5
+            }
+          ],
+          "transformation": {
+            "kind": "piecewise_time_stretch",
+            "start": 6.5655,
+            "original_end": 9.6881,
+            "modified_end": 8.3003125,
+            "rate": 1.8
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "reagan_challenger_1986-courage/rushed-severe.alignment.json"
+        },
+        {
+          "id": "reagan_challenger_1986-courage-slow",
+          "title": "slow",
+          "level": 4,
+          "audio_file": "reagan_challenger_1986-courage/slow.wav",
+          "sha256": "555645a44f4fa1bdad0be7d3bfc8f15163a7d380efde29f4a7c1a8d6957a6566",
+          "duration_seconds": 26.04175,
+          "annotations": [
+            {
+              "flaw_type": "slow_pacing",
+              "start_seconds": 6.5655,
+              "end_seconds": 11.769874999999999,
+              "severity": 4
+            }
+          ],
+          "transformation": {
+            "kind": "piecewise_time_stretch",
+            "start": 6.5655,
+            "original_end": 9.6881,
+            "modified_end": 11.769874999999999,
+            "rate": 0.6
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "reagan_challenger_1986-courage/slow.alignment.json"
+        },
+        {
+          "id": "reagan_challenger_1986-courage-pause",
+          "title": "pause",
+          "level": 4,
+          "audio_file": "reagan_challenger_1986-courage/pause.wav",
+          "sha256": "82be7e4da97ed171c9b5ecf4cdd1d83c4f688bd9269b0f153793fc811f172fda",
+          "duration_seconds": 26.16,
+          "annotations": [
+            {
+              "flaw_type": "awkward_pause",
+              "start_seconds": 6.6255,
+              "end_seconds": 8.8856,
+              "severity": 4
+            }
+          ],
+          "transformation": {
+            "kind": "insert_silence",
+            "position": 6.65555,
+            "seconds": 2.2
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "reagan_challenger_1986-courage/pause.alignment.json"
+        },
+        {
+          "id": "reagan_challenger_1986-courage-low-energy",
+          "title": "low-energy",
+          "level": 4,
+          "audio_file": "reagan_challenger_1986-courage/low-energy.wav",
+          "sha256": "a3397d31637556b1003e7a90120aa7c323b28ea11e38c620a2c4ac98a45bd68b",
+          "duration_seconds": 23.96,
+          "annotations": [
+            {
+              "flaw_type": "low_energy",
+              "start_seconds": 6.5655,
+              "end_seconds": 9.6881,
+              "severity": 4
+            }
+          ],
+          "transformation": {
+            "kind": "gain",
+            "start": 6.5655,
+            "end": 9.6881,
+            "gain": 0.08,
+            "delta_db": -21.93820026016113
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "reagan_challenger_1986-courage/low-energy.alignment.json"
+        },
+        {
+          "id": "reagan_challenger_1986-courage-monotone",
+          "title": "monotone",
+          "level": 4,
+          "audio_file": "reagan_challenger_1986-courage/monotone.wav",
+          "sha256": "d2a24761e005e7d4352ac23986c4c43ad7a469ceebacd8082f6ae5092a30876f",
+          "duration_seconds": 23.96,
+          "annotations": [
+            {
+              "flaw_type": "monotone_delivery",
+              "start_seconds": 6.5655,
+              "end_seconds": 9.6881,
+              "severity": 4
+            }
+          ],
+          "transformation": {
+            "kind": "pitch_tier_compression",
+            "start": 6.5655,
+            "end": 9.6881,
+            "variation_ratio": 0.03
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "reagan_challenger_1986-courage/monotone.alignment.json"
+        }
+      ],
+      "rights_evidence": {
+        "archive_item": "https://www.reaganlibrary.gov/galleries/audio-recordings-01281986-launch-sts-mission-51-l",
+        "archive_identifier": "7087577",
+        "tape": "PP6028B",
+        "basis": "WHCA audio collection public-domain statement; supplied MP3 receipt not retained; no byte-match claim"
+      }
+    },
+    {
+      "id": "reagan_challenger_1986-families",
+      "title": "Address on the Space Shuttle Challenger - families",
+      "source_id": "reagan_challenger_1986",
+      "speaker_id": "Ronald Reagan",
+      "source_url": "https://millercenter.org/the-presidency/presidential-speeches/january-28-1986-address-space-shuttle-challenger",
+      "split": "training",
+      "source_start_seconds": 66.11999999999999,
+      "source_end_seconds": 86.54,
+      "source_transcript_match_ratio": 0.9831,
+      "transcript_file": "reagan_challenger_1986-families/transcript.txt",
+      "transcript": "For the families of the seven, we cannot bear, as you do, the full impact of this tragedy. But we feel the loss, and we're thinking about you so very much. Your loved ones were daring and brave, and they had that special grace, that special spirit that says, Give me a challenge, and I'll meet it with joy.",
+      "reference": {
+        "audio_file": "reagan_challenger_1986-families/reference.wav",
+        "sha256": "39882032d59023a0b1b0f298cea195f84577c6924b2f66a27a0116a664824d32",
+        "duration_seconds": 20.42
+      },
+      "reference_alignment_file": "reagan_challenger_1986-families/reference-alignment.json",
+      "license": "U.S. public-domain government speech audio; archive reuse basis and supplied-file provenance documented in dataset/LICENSE_NOTES.md.",
+      "label_review": "Controlled edit intervals are exact; word alignment is model-generated, not human reviewed.",
+      "variants": [
+        {
+          "id": "reagan_challenger_1986-families-near-perfect",
+          "title": "near-perfect",
+          "level": 1,
+          "audio_file": "reagan_challenger_1986-families/near-perfect.wav",
+          "sha256": "e0d9634c53ed78466b524f58219396df03e1dc23f18b296ae470a58613b77c76",
+          "duration_seconds": 20.42,
+          "annotations": [],
+          "transformation": {
+            "kind": "global_gain",
+            "gain": 0.95
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "reagan_challenger_1986-families/near-perfect.alignment.json"
+        },
+        {
+          "id": "reagan_challenger_1986-families-rushed-mild",
+          "title": "rushed-mild",
+          "level": 2,
+          "audio_file": "reagan_challenger_1986-families/rushed-mild.wav",
+          "sha256": "9bcc8f05560e5ced209e13fa7d965909fb82d4171ccacf8a51b3086711b97e52",
+          "duration_seconds": 19.64669,
+          "annotations": [
+            {
+              "flaw_type": "rushed_pacing",
+              "start_seconds": 4.6846,
+              "end_seconds": 6.8941625,
+              "severity": 2
+            }
+          ],
+          "transformation": {
+            "kind": "piecewise_time_stretch",
+            "start": 4.6846,
+            "original_end": 7.6675,
+            "modified_end": 6.8941625,
+            "rate": 1.35
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "reagan_challenger_1986-families/rushed-mild.alignment.json"
+        },
+        {
+          "id": "reagan_challenger_1986-families-rushed-severe",
+          "title": "rushed-severe",
+          "level": 5,
+          "audio_file": "reagan_challenger_1986-families/rushed-severe.wav",
+          "sha256": "eb31255b8c57e815f680a8b3695557292f77e93e55ccd1283760413153229259",
+          "duration_seconds": 19.09425,
+          "annotations": [
+            {
+              "flaw_type": "rushed_pacing",
+              "start_seconds": 4.6846,
+              "end_seconds": 6.341724999999999,
+              "severity": 5
+            }
+          ],
+          "transformation": {
+            "kind": "piecewise_time_stretch",
+            "start": 4.6846,
+            "original_end": 7.6675,
+            "modified_end": 6.341724999999999,
+            "rate": 1.8
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "reagan_challenger_1986-families/rushed-severe.alignment.json"
+        },
+        {
+          "id": "reagan_challenger_1986-families-slow",
+          "title": "slow",
+          "level": 4,
+          "audio_file": "reagan_challenger_1986-families/slow.wav",
+          "sha256": "a869ff43046bf0833540f072f92ac1ab2114c1a8366204439be3d243372bb2a7",
+          "duration_seconds": 22.40856,
+          "annotations": [
+            {
+              "flaw_type": "slow_pacing",
+              "start_seconds": 4.6846,
+              "end_seconds": 9.6560375,
+              "severity": 4
+            }
+          ],
+          "transformation": {
+            "kind": "piecewise_time_stretch",
+            "start": 4.6846,
+            "original_end": 7.6675,
+            "modified_end": 9.6560375,
+            "rate": 0.6
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "reagan_challenger_1986-families/slow.alignment.json"
+        },
+        {
+          "id": "reagan_challenger_1986-families-pause",
+          "title": "pause",
+          "level": 4,
+          "audio_file": "reagan_challenger_1986-families/pause.wav",
+          "sha256": "e739647759197480cc5fed0bf7d4eda93187349096e18f431f7c6eb81e836d96",
+          "duration_seconds": 22.62,
+          "annotations": [
+            {
+              "flaw_type": "awkward_pause",
+              "start_seconds": 5.085,
+              "end_seconds": 7.345,
+              "severity": 4
+            }
+          ],
+          "transformation": {
+            "kind": "insert_silence",
+            "position": 5.115,
+            "seconds": 2.2
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "reagan_challenger_1986-families/pause.alignment.json"
+        },
+        {
+          "id": "reagan_challenger_1986-families-low-energy",
+          "title": "low-energy",
+          "level": 4,
+          "audio_file": "reagan_challenger_1986-families/low-energy.wav",
+          "sha256": "17f3c6b1d262f3cb61b02118295cfde94fc8034b2cf27386bb3d3d9efd001bf7",
+          "duration_seconds": 20.42,
+          "annotations": [
+            {
+              "flaw_type": "low_energy",
+              "start_seconds": 4.6846,
+              "end_seconds": 7.6675,
+              "severity": 4
+            }
+          ],
+          "transformation": {
+            "kind": "gain",
+            "start": 4.6846,
+            "end": 7.6675,
+            "gain": 0.08,
+            "delta_db": -21.93820026016113
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "reagan_challenger_1986-families/low-energy.alignment.json"
+        },
+        {
+          "id": "reagan_challenger_1986-families-monotone",
+          "title": "monotone",
+          "level": 4,
+          "audio_file": "reagan_challenger_1986-families/monotone.wav",
+          "sha256": "8015997df23e2a356966f59e49d0103cead64b5317aafb9a01c4d4da18d3e18e",
+          "duration_seconds": 20.42,
+          "annotations": [
+            {
+              "flaw_type": "monotone_delivery",
+              "start_seconds": 4.6846,
+              "end_seconds": 7.6675,
+              "severity": 4
+            }
+          ],
+          "transformation": {
+            "kind": "pitch_tier_compression",
+            "start": 4.6846,
+            "end": 7.6675,
+            "variation_ratio": 0.03
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "reagan_challenger_1986-families/monotone.alignment.json"
+        }
+      ],
+      "rights_evidence": {
+        "archive_item": "https://www.reaganlibrary.gov/galleries/audio-recordings-01281986-launch-sts-mission-51-l",
+        "archive_identifier": "7087577",
+        "tape": "PP6028B",
+        "basis": "WHCA audio collection public-domain statement; supplied MP3 receipt not retained; no byte-match claim"
+      }
+    },
+    {
+      "id": "reagan_challenger_1986-discovery",
+      "title": "Address on the Space Shuttle Challenger - discovery",
+      "source_id": "reagan_challenger_1986",
+      "speaker_id": "Ronald Reagan",
+      "source_url": "https://millercenter.org/the-presidency/presidential-speeches/january-28-1986-address-space-shuttle-challenger",
+      "split": "training",
+      "source_start_seconds": 86.3,
+      "source_end_seconds": 100.0,
+      "source_transcript_match_ratio": 1.0,
+      "transcript_file": "reagan_challenger_1986-discovery/transcript.txt",
+      "transcript": "They had a hunger to explore the universe and discover its truths. They wished to serve, and they did. They served all of us. We've grown used to wonders in this century. It's hard to dazzle us.",
+      "reference": {
+        "audio_file": "reagan_challenger_1986-discovery/reference.wav",
+        "sha256": "b61876b25790d7b15806bbdcb78e20f85c7f2b1c965715cedb12b8611e2d4449",
+        "duration_seconds": 13.7
+      },
+      "reference_alignment_file": "reagan_challenger_1986-discovery/reference-alignment.json",
+      "license": "U.S. public-domain government speech audio; archive reuse basis and supplied-file provenance documented in dataset/LICENSE_NOTES.md.",
+      "label_review": "Controlled edit intervals are exact; word alignment is model-generated, not human reviewed.",
+      "variants": [
+        {
+          "id": "reagan_challenger_1986-discovery-near-perfect",
+          "title": "near-perfect",
+          "level": 1,
+          "audio_file": "reagan_challenger_1986-discovery/near-perfect.wav",
+          "sha256": "d173ba950c5a0d6e8efc6a4c0b0010da9dc55c7eaa92d0c1b34f952fde99667d",
+          "duration_seconds": 13.7,
+          "annotations": [],
+          "transformation": {
+            "kind": "global_gain",
+            "gain": 0.95
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "reagan_challenger_1986-discovery/near-perfect.alignment.json"
+        },
+        {
+          "id": "reagan_challenger_1986-discovery-rushed-mild",
+          "title": "rushed-mild",
+          "level": 2,
+          "audio_file": "reagan_challenger_1986-discovery/rushed-mild.wav",
+          "sha256": "6eeb9ad9e2d9fe10702c95f0ca685c514b030a5f03d154f43063c2c41e20f5a7",
+          "duration_seconds": 12.88994,
+          "annotations": [
+            {
+              "flaw_type": "rushed_pacing",
+              "start_seconds": 3.425,
+              "end_seconds": 5.7395625,
+              "severity": 2
+            }
+          ],
+          "transformation": {
+            "kind": "piecewise_time_stretch",
+            "start": 3.425,
+            "original_end": 6.5496,
+            "modified_end": 5.7395625,
+            "rate": 1.35
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "reagan_challenger_1986-discovery/rushed-mild.alignment.json"
+        },
+        {
+          "id": "reagan_challenger_1986-discovery-rushed-severe",
+          "title": "rushed-severe",
+          "level": 5,
+          "audio_file": "reagan_challenger_1986-discovery/rushed-severe.wav",
+          "sha256": "d0905d3b57ddde41f1cd9ce6f0453e96ed4694328fd557e7594f9c12b129cb93",
+          "duration_seconds": 12.31125,
+          "annotations": [
+            {
+              "flaw_type": "rushed_pacing",
+              "start_seconds": 3.425,
+              "end_seconds": 5.160875,
+              "severity": 5
+            }
+          ],
+          "transformation": {
+            "kind": "piecewise_time_stretch",
+            "start": 3.425,
+            "original_end": 6.5496,
+            "modified_end": 5.160875,
+            "rate": 1.8
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "reagan_challenger_1986-discovery/rushed-severe.alignment.json"
+        },
+        {
+          "id": "reagan_challenger_1986-discovery-slow",
+          "title": "slow",
+          "level": 4,
+          "audio_file": "reagan_challenger_1986-discovery/slow.wav",
+          "sha256": "ae9cf2b0b982f8ba7e8db0601a4c7d823a8f6e0195dbd2d9d68b45f3802777d1",
+          "duration_seconds": 15.78306,
+          "annotations": [
+            {
+              "flaw_type": "slow_pacing",
+              "start_seconds": 3.425,
+              "end_seconds": 8.6326875,
+              "severity": 4
+            }
+          ],
+          "transformation": {
+            "kind": "piecewise_time_stretch",
+            "start": 3.425,
+            "original_end": 6.5496,
+            "modified_end": 8.6326875,
+            "rate": 0.6
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "reagan_challenger_1986-discovery/slow.alignment.json"
+        },
+        {
+          "id": "reagan_challenger_1986-discovery-pause",
+          "title": "pause",
+          "level": 4,
+          "audio_file": "reagan_challenger_1986-discovery/pause.wav",
+          "sha256": "1056ecaa28a9308b7d67794f35dd8ead661fdddaacac78586de58df9486dcf9b",
+          "duration_seconds": 15.9,
+          "annotations": [
+            {
+              "flaw_type": "awkward_pause",
+              "start_seconds": 3.7855,
+              "end_seconds": 6.0656,
+              "severity": 4
+            }
+          ],
+          "transformation": {
+            "kind": "insert_silence",
+            "position": 3.82555,
+            "seconds": 2.2
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "reagan_challenger_1986-discovery/pause.alignment.json"
+        },
+        {
+          "id": "reagan_challenger_1986-discovery-low-energy",
+          "title": "low-energy",
+          "level": 4,
+          "audio_file": "reagan_challenger_1986-discovery/low-energy.wav",
+          "sha256": "b2f6e79760e7c4cadad5a230093530f6d7316f8b53dcf182add8829b3985199b",
+          "duration_seconds": 13.7,
+          "annotations": [
+            {
+              "flaw_type": "low_energy",
+              "start_seconds": 3.425,
+              "end_seconds": 6.5496,
+              "severity": 4
+            }
+          ],
+          "transformation": {
+            "kind": "gain",
+            "start": 3.425,
+            "end": 6.5496,
+            "gain": 0.08,
+            "delta_db": -21.93820026016113
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "reagan_challenger_1986-discovery/low-energy.alignment.json"
+        },
+        {
+          "id": "reagan_challenger_1986-discovery-monotone",
+          "title": "monotone",
+          "level": 4,
+          "audio_file": "reagan_challenger_1986-discovery/monotone.wav",
+          "sha256": "45c334ee66438dfa7d28afb1d9a654d46e091a6bc207f7f6f24464b71ed9de6b",
+          "duration_seconds": 13.7,
+          "annotations": [
+            {
+              "flaw_type": "monotone_delivery",
+              "start_seconds": 3.425,
+              "end_seconds": 6.5496,
+              "severity": 4
+            }
+          ],
+          "transformation": {
+            "kind": "pitch_tier_compression",
+            "start": 3.425,
+            "end": 6.5496,
+            "variation_ratio": 0.03
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "reagan_challenger_1986-discovery/monotone.alignment.json"
+        }
+      ],
+      "rights_evidence": {
+        "archive_item": "https://www.reaganlibrary.gov/galleries/audio-recordings-01281986-launch-sts-mission-51-l",
+        "archive_identifier": "7087577",
+        "tape": "PP6028B",
+        "basis": "WHCA audio collection public-domain statement; supplied MP3 receipt not retained; no byte-match claim"
+      }
+    },
+    {
+      "id": "reagan_farewell_1989-opening",
+      "title": "Farewell Address - opening",
+      "source_id": "reagan_farewell_1989",
+      "speaker_id": "Ronald Reagan",
+      "source_url": "https://millercenter.org/the-presidency/presidential-speeches/january-11-1989-farewell-address",
+      "split": "validation",
+      "source_start_seconds": 2.69,
+      "source_end_seconds": 16.87,
+      "source_transcript_match_ratio": 0.9615,
+      "transcript_file": "reagan_farewell_1989-opening/transcript.txt",
+      "transcript": "This is the thirty fourth time I'll speak to you from the Oval Office, and the last. We've been together eight years now, and soon it'll be time for me to go. But before I do, I wanted to share some thoughts, some of which I've been saving for a long time.",
+      "reference": {
+        "audio_file": "reagan_farewell_1989-opening/reference.wav",
+        "sha256": "3ef742ea3cb307d40a0d9190f5e7587b58ad2916a43373d7e9ad9075c9d9ba8e",
+        "duration_seconds": 14.18
+      },
+      "reference_alignment_file": "reagan_farewell_1989-opening/reference-alignment.json",
+      "license": "U.S. public-domain government speech audio; archive reuse basis and supplied-file provenance documented in dataset/LICENSE_NOTES.md.",
+      "label_review": "Controlled edit intervals are exact; word alignment is model-generated, not human reviewed.",
+      "variants": [
+        {
+          "id": "reagan_farewell_1989-opening-near-perfect",
+          "title": "near-perfect",
+          "level": 1,
+          "audio_file": "reagan_farewell_1989-opening/near-perfect.wav",
+          "sha256": "fef8d32dfd0080e7aeaefb493cc125e4b94e5d87dfca5b4b1016c26c062a8649",
+          "duration_seconds": 14.18,
+          "annotations": [],
+          "transformation": {
+            "kind": "global_gain",
+            "gain": 0.95
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "reagan_farewell_1989-opening/near-perfect.alignment.json"
+        },
+        {
+          "id": "reagan_farewell_1989-opening-rushed-mild",
+          "title": "rushed-mild",
+          "level": 2,
+          "audio_file": "reagan_farewell_1989-opening/rushed-mild.wav",
+          "sha256": "c29ce825ff81bbe4e7afe48537dc597cc312e711de5376fdcef464f526ac0f63",
+          "duration_seconds": 13.46344,
+          "annotations": [
+            {
+              "flaw_type": "rushed_pacing",
+              "start_seconds": 2.9241,
+              "end_seconds": 4.9714125,
+              "severity": 2
+            }
+          ],
+          "transformation": {
+            "kind": "piecewise_time_stretch",
+            "start": 2.9241,
+            "original_end": 5.688,
+            "modified_end": 4.9714125,
+            "rate": 1.35
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "reagan_farewell_1989-opening/rushed-mild.alignment.json"
+        },
+        {
+          "id": "reagan_farewell_1989-opening-rushed-severe",
+          "title": "rushed-severe",
+          "level": 5,
+          "audio_file": "reagan_farewell_1989-opening/rushed-severe.wav",
+          "sha256": "89c053a56ac2247006c0ca6cc0ca9386822e8b772ca830be347466bf3a4f64a4",
+          "duration_seconds": 12.95162,
+          "annotations": [
+            {
+              "flaw_type": "rushed_pacing",
+              "start_seconds": 2.9241,
+              "end_seconds": 4.4596,
+              "severity": 5
+            }
+          ],
+          "transformation": {
+            "kind": "piecewise_time_stretch",
+            "start": 2.9241,
+            "original_end": 5.688,
+            "modified_end": 4.4596,
+            "rate": 1.8
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "reagan_farewell_1989-opening/rushed-severe.alignment.json"
+        },
+        {
+          "id": "reagan_farewell_1989-opening-slow",
+          "title": "slow",
+          "level": 4,
+          "audio_file": "reagan_farewell_1989-opening/slow.wav",
+          "sha256": "47ddcf5a43b59c246bda7c0edfeb0bad879ad58f46aeaaf4730e12d943a37f69",
+          "duration_seconds": 16.02256,
+          "annotations": [
+            {
+              "flaw_type": "slow_pacing",
+              "start_seconds": 2.9241,
+              "end_seconds": 7.5305375,
+              "severity": 4
+            }
+          ],
+          "transformation": {
+            "kind": "piecewise_time_stretch",
+            "start": 2.9241,
+            "original_end": 5.688,
+            "modified_end": 7.5305375,
+            "rate": 0.6
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "reagan_farewell_1989-opening/slow.alignment.json"
+        },
+        {
+          "id": "reagan_farewell_1989-opening-pause",
+          "title": "pause",
+          "level": 4,
+          "audio_file": "reagan_farewell_1989-opening/pause.wav",
+          "sha256": "ff01f9412edfee89d0dd448e82ea6fd42ce190a465ccd144ad18bd7220049a9d",
+          "duration_seconds": 16.38,
+          "annotations": [
+            {
+              "flaw_type": "awkward_pause",
+              "start_seconds": 3.5049,
+              "end_seconds": 5.7851,
+              "severity": 4
+            }
+          ],
+          "transformation": {
+            "kind": "insert_silence",
+            "position": 3.545,
+            "seconds": 2.2
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "reagan_farewell_1989-opening/pause.alignment.json"
+        },
+        {
+          "id": "reagan_farewell_1989-opening-low-energy",
+          "title": "low-energy",
+          "level": 4,
+          "audio_file": "reagan_farewell_1989-opening/low-energy.wav",
+          "sha256": "98c86f609d45ee4a1b4840f221483041c2c98dde05e7cb7ccfa9460c90294fcf",
+          "duration_seconds": 14.18,
+          "annotations": [
+            {
+              "flaw_type": "low_energy",
+              "start_seconds": 2.9241,
+              "end_seconds": 5.688,
+              "severity": 4
+            }
+          ],
+          "transformation": {
+            "kind": "gain",
+            "start": 2.9241,
+            "end": 5.688,
+            "gain": 0.08,
+            "delta_db": -21.93820026016113
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "reagan_farewell_1989-opening/low-energy.alignment.json"
+        },
+        {
+          "id": "reagan_farewell_1989-opening-monotone",
+          "title": "monotone",
+          "level": 4,
+          "audio_file": "reagan_farewell_1989-opening/monotone.wav",
+          "sha256": "0e1dd407f09ad25c8ff5a4ccb03d9ac78e8f2ef9f297c41706029db04cd6aff6",
+          "duration_seconds": 14.18,
+          "annotations": [
+            {
+              "flaw_type": "monotone_delivery",
+              "start_seconds": 2.9241,
+              "end_seconds": 5.688,
+              "severity": 4
+            }
+          ],
+          "transformation": {
+            "kind": "pitch_tier_compression",
+            "start": 2.9241,
+            "end": 5.688,
+            "variation_ratio": 0.03
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "reagan_farewell_1989-opening/monotone.alignment.json"
+        }
+      ],
+      "rights_evidence": {
+        "archive_item": "https://www.reaganlibrary.gov/archives/audio/remarks-president-reagan-during-farewell-address-nation-oval-office",
+        "archive_identifier": "7087581",
+        "tape": "PP9011B",
+        "basis": "WHCA audio collection public-domain statement; supplied MP3 receipt not retained; no byte-match claim"
+      }
+    },
+    {
+      "id": "reagan_farewell_1989-gratitude",
+      "title": "Farewell Address - gratitude",
+      "source_id": "reagan_farewell_1989",
+      "speaker_id": "Ronald Reagan",
+      "source_url": "https://millercenter.org/the-presidency/presidential-speeches/january-11-1989-farewell-address",
+      "split": "validation",
+      "source_start_seconds": 17.45,
+      "source_end_seconds": 30.290000000000003,
+      "source_transcript_match_ratio": 1.0,
+      "transcript_file": "reagan_farewell_1989-gratitude/transcript.txt",
+      "transcript": "It's been the honor of my life to be your President. So many of you have written the past few weeks to say thanks, but I could say as much to you. Nancy and I are grateful for the opportunity you gave us to serve.",
+      "reference": {
+        "audio_file": "reagan_farewell_1989-gratitude/reference.wav",
+        "sha256": "10fb2fbe0612cf509a1ef78a243c441aa927be6188ec57e99229ea2b2b91c64d",
+        "duration_seconds": 12.84
+      },
+      "reference_alignment_file": "reagan_farewell_1989-gratitude/reference-alignment.json",
+      "license": "U.S. public-domain government speech audio; archive reuse basis and supplied-file provenance documented in dataset/LICENSE_NOTES.md.",
+      "label_review": "Controlled edit intervals are exact; word alignment is model-generated, not human reviewed.",
+      "variants": [
+        {
+          "id": "reagan_farewell_1989-gratitude-near-perfect",
+          "title": "near-perfect",
+          "level": 1,
+          "audio_file": "reagan_farewell_1989-gratitude/near-perfect.wav",
+          "sha256": "ffec7b5df3e2ead009222803a7509e6af4b23f7762363c16a306be2c9498a62c",
+          "duration_seconds": 12.84,
+          "annotations": [],
+          "transformation": {
+            "kind": "global_gain",
+            "gain": 0.95
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "reagan_farewell_1989-gratitude/near-perfect.alignment.json"
+        },
+        {
+          "id": "reagan_farewell_1989-gratitude-rushed-mild",
+          "title": "rushed-mild",
+          "level": 2,
+          "audio_file": "reagan_farewell_1989-gratitude/rushed-mild.wav",
+          "sha256": "a9912297fc8ad5b10531294f44091bab50b680d12e9449832d31395a6b933015",
+          "duration_seconds": 12.43494,
+          "annotations": [
+            {
+              "flaw_type": "rushed_pacing",
+              "start_seconds": 3.4253,
+              "end_seconds": 4.5827375,
+              "severity": 2
+            }
+          ],
+          "transformation": {
+            "kind": "piecewise_time_stretch",
+            "start": 3.4253,
+            "original_end": 4.9878,
+            "modified_end": 4.5827375,
+            "rate": 1.35
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "reagan_farewell_1989-gratitude/rushed-mild.alignment.json"
+        },
+        {
+          "id": "reagan_farewell_1989-gratitude-rushed-severe",
+          "title": "rushed-severe",
+          "level": 5,
+          "audio_file": "reagan_farewell_1989-gratitude/rushed-severe.wav",
+          "sha256": "89ee61a13b6d41718b2f4a8d7edba9b7b09466ca99736f41a98fa4e2902a6716",
+          "duration_seconds": 12.14556,
+          "annotations": [
+            {
+              "flaw_type": "rushed_pacing",
+              "start_seconds": 3.4253,
+              "end_seconds": 4.2933625,
+              "severity": 5
+            }
+          ],
+          "transformation": {
+            "kind": "piecewise_time_stretch",
+            "start": 3.4253,
+            "original_end": 4.9878,
+            "modified_end": 4.2933625,
+            "rate": 1.8
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "reagan_farewell_1989-gratitude/rushed-severe.alignment.json"
+        },
+        {
+          "id": "reagan_farewell_1989-gratitude-slow",
+          "title": "slow",
+          "level": 4,
+          "audio_file": "reagan_farewell_1989-gratitude/slow.wav",
+          "sha256": "4b3eb0c36e50aecc5169b8d0f559a8571cfbf1f6c6846193f6e61048be22f5ba",
+          "duration_seconds": 13.88169,
+          "annotations": [
+            {
+              "flaw_type": "slow_pacing",
+              "start_seconds": 3.4253,
+              "end_seconds": 6.0294875,
+              "severity": 4
+            }
+          ],
+          "transformation": {
+            "kind": "piecewise_time_stretch",
+            "start": 3.4253,
+            "original_end": 4.9878,
+            "modified_end": 6.0294875,
+            "rate": 0.6
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "reagan_farewell_1989-gratitude/slow.alignment.json"
+        },
+        {
+          "id": "reagan_farewell_1989-gratitude-pause",
+          "title": "pause",
+          "level": 4,
+          "audio_file": "reagan_farewell_1989-gratitude/pause.wav",
+          "sha256": "e8ae7cfdac8cbd3419458e5881c94e047cfa57bc5ea5ea795a04db2070a929aa",
+          "duration_seconds": 15.04,
+          "annotations": [
+            {
+              "flaw_type": "awkward_pause",
+              "start_seconds": 3.5255,
+              "end_seconds": 5.8256,
+              "severity": 4
+            }
+          ],
+          "transformation": {
+            "kind": "insert_silence",
+            "position": 3.57555,
+            "seconds": 2.2
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "reagan_farewell_1989-gratitude/pause.alignment.json"
+        },
+        {
+          "id": "reagan_farewell_1989-gratitude-low-energy",
+          "title": "low-energy",
+          "level": 4,
+          "audio_file": "reagan_farewell_1989-gratitude/low-energy.wav",
+          "sha256": "1f3e58202d378ae94267f5d0ed49c30c90272134be5ed46baaed5af677d12208",
+          "duration_seconds": 12.84,
+          "annotations": [
+            {
+              "flaw_type": "low_energy",
+              "start_seconds": 3.4253,
+              "end_seconds": 4.9878,
+              "severity": 4
+            }
+          ],
+          "transformation": {
+            "kind": "gain",
+            "start": 3.4253,
+            "end": 4.9878,
+            "gain": 0.08,
+            "delta_db": -21.93820026016113
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "reagan_farewell_1989-gratitude/low-energy.alignment.json"
+        },
+        {
+          "id": "reagan_farewell_1989-gratitude-monotone",
+          "title": "monotone",
+          "level": 4,
+          "audio_file": "reagan_farewell_1989-gratitude/monotone.wav",
+          "sha256": "62f08c09f5a6190f347f98d08de6f171fc72fac35be8c242c13d723669bfa497",
+          "duration_seconds": 12.84,
+          "annotations": [
+            {
+              "flaw_type": "monotone_delivery",
+              "start_seconds": 3.4253,
+              "end_seconds": 4.9878,
+              "severity": 4
+            }
+          ],
+          "transformation": {
+            "kind": "pitch_tier_compression",
+            "start": 3.4253,
+            "end": 4.9878,
+            "variation_ratio": 0.03
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "reagan_farewell_1989-gratitude/monotone.alignment.json"
+        }
+      ],
+      "rights_evidence": {
+        "archive_item": "https://www.reaganlibrary.gov/archives/audio/remarks-president-reagan-during-farewell-address-nation-oval-office",
+        "archive_identifier": "7087581",
+        "tape": "PP9011B",
+        "basis": "WHCA audio collection public-domain statement; supplied MP3 receipt not retained; no byte-match claim"
+      }
+    },
+    {
+      "id": "reagan_farewell_1989-parting",
+      "title": "Farewell Address - parting",
+      "source_id": "reagan_farewell_1989",
+      "speaker_id": "Ronald Reagan",
+      "source_url": "https://millercenter.org/the-presidency/presidential-speeches/january-11-1989-farewell-address",
+      "split": "validation",
+      "source_start_seconds": 57.21,
+      "source_end_seconds": 72.79,
+      "source_transcript_match_ratio": 1.0,
+      "transcript_file": "reagan_farewell_1989-parting/transcript.txt",
+      "transcript": "People ask how I feel about leaving. And the fact is, parting is such sweet sorrow. The sweet part is California and the ranch and freedom. The sorrow, the goodbyes, of course, and leaving this beautiful place.",
+      "reference": {
+        "audio_file": "reagan_farewell_1989-parting/reference.wav",
+        "sha256": "96ef89612c78be65ef9b19cea37e1c8666ce381da49af9837fb5c178882fb2a2",
+        "duration_seconds": 15.58
+      },
+      "reference_alignment_file": "reagan_farewell_1989-parting/reference-alignment.json",
+      "license": "U.S. public-domain government speech audio; archive reuse basis and supplied-file provenance documented in dataset/LICENSE_NOTES.md.",
+      "label_review": "Controlled edit intervals are exact; word alignment is model-generated, not human reviewed.",
+      "variants": [
+        {
+          "id": "reagan_farewell_1989-parting-near-perfect",
+          "title": "near-perfect",
+          "level": 1,
+          "audio_file": "reagan_farewell_1989-parting/near-perfect.wav",
+          "sha256": "ef7b0d056033c28ffaa51831d3b810564587f7ce5c97e5c68f1c8d4c1a3d8833",
+          "duration_seconds": 15.58,
+          "annotations": [],
+          "transformation": {
+            "kind": "global_gain",
+            "gain": 0.95
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "reagan_farewell_1989-parting/near-perfect.alignment.json"
+        },
+        {
+          "id": "reagan_farewell_1989-parting-rushed-mild",
+          "title": "rushed-mild",
+          "level": 2,
+          "audio_file": "reagan_farewell_1989-parting/rushed-mild.wav",
+          "sha256": "f1d0ff03221d59456e77bf275f82ba84b6cc208b2b6f2ffdc9b6359d7774508e",
+          "duration_seconds": 14.61431,
+          "annotations": [
+            {
+              "flaw_type": "rushed_pacing",
+              "start_seconds": 2.6434,
+              "end_seconds": 5.402525000000001,
+              "severity": 2
+            }
+          ],
+          "transformation": {
+            "kind": "piecewise_time_stretch",
+            "start": 2.6434,
+            "original_end": 6.3682,
+            "modified_end": 5.402525000000001,
+            "rate": 1.35
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "reagan_farewell_1989-parting/rushed-mild.alignment.json"
+        },
+        {
+          "id": "reagan_farewell_1989-parting-rushed-severe",
+          "title": "rushed-severe",
+          "level": 5,
+          "audio_file": "reagan_farewell_1989-parting/rushed-severe.wav",
+          "sha256": "97a7c0f02a74afb3f7411a34f7fee15e07883224e79afd45f8847dd9e9df889f",
+          "duration_seconds": 13.9245,
+          "annotations": [
+            {
+              "flaw_type": "rushed_pacing",
+              "start_seconds": 2.6434,
+              "end_seconds": 4.7127125,
+              "severity": 5
+            }
+          ],
+          "transformation": {
+            "kind": "piecewise_time_stretch",
+            "start": 2.6434,
+            "original_end": 6.3682,
+            "modified_end": 4.7127125,
+            "rate": 1.8
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "reagan_farewell_1989-parting/rushed-severe.alignment.json"
+        },
+        {
+          "id": "reagan_farewell_1989-parting-slow",
+          "title": "slow",
+          "level": 4,
+          "audio_file": "reagan_farewell_1989-parting/slow.wav",
+          "sha256": "e915c2f84eb36c74d164ae53a7b74642861b7277426617c5262b1658f2fec146",
+          "duration_seconds": 18.06319,
+          "annotations": [
+            {
+              "flaw_type": "slow_pacing",
+              "start_seconds": 2.6434,
+              "end_seconds": 8.8514,
+              "severity": 4
+            }
+          ],
+          "transformation": {
+            "kind": "piecewise_time_stretch",
+            "start": 2.6434,
+            "original_end": 6.3682,
+            "modified_end": 8.8514,
+            "rate": 0.6
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "reagan_farewell_1989-parting/slow.alignment.json"
+        },
+        {
+          "id": "reagan_farewell_1989-parting-pause",
+          "title": "pause",
+          "level": 4,
+          "audio_file": "reagan_farewell_1989-parting/pause.wav",
+          "sha256": "d091c82358921b0af9d0aba575516b4386768547b3e0443e8f031953a6c8628a",
+          "duration_seconds": 17.78,
+          "annotations": [
+            {
+              "flaw_type": "awkward_pause",
+              "start_seconds": 2.8837,
+              "end_seconds": 5.2439,
+              "severity": 4
+            }
+          ],
+          "transformation": {
+            "kind": "insert_silence",
+            "position": 2.9638,
+            "seconds": 2.2
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "reagan_farewell_1989-parting/pause.alignment.json"
+        },
+        {
+          "id": "reagan_farewell_1989-parting-low-energy",
+          "title": "low-energy",
+          "level": 4,
+          "audio_file": "reagan_farewell_1989-parting/low-energy.wav",
+          "sha256": "91750a1568406025d4975366abd3936af5e5e95ffe4fa2554e5f19ee4e0bbd96",
+          "duration_seconds": 15.58,
+          "annotations": [
+            {
+              "flaw_type": "low_energy",
+              "start_seconds": 2.6434,
+              "end_seconds": 6.3682,
+              "severity": 4
+            }
+          ],
+          "transformation": {
+            "kind": "gain",
+            "start": 2.6434,
+            "end": 6.3682,
+            "gain": 0.08,
+            "delta_db": -21.93820026016113
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "reagan_farewell_1989-parting/low-energy.alignment.json"
+        },
+        {
+          "id": "reagan_farewell_1989-parting-monotone",
+          "title": "monotone",
+          "level": 4,
+          "audio_file": "reagan_farewell_1989-parting/monotone.wav",
+          "sha256": "25bff7423eada5b542e1d637051c647a5d03bb9c80f3b57a07d7e0e1762b2afb",
+          "duration_seconds": 15.58,
+          "annotations": [
+            {
+              "flaw_type": "monotone_delivery",
+              "start_seconds": 2.6434,
+              "end_seconds": 6.3682,
+              "severity": 4
+            }
+          ],
+          "transformation": {
+            "kind": "pitch_tier_compression",
+            "start": 2.6434,
+            "end": 6.3682,
+            "variation_ratio": 0.03
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "reagan_farewell_1989-parting/monotone.alignment.json"
+        }
+      ],
+      "rights_evidence": {
+        "archive_item": "https://www.reaganlibrary.gov/archives/audio/remarks-president-reagan-during-farewell-address-nation-oval-office",
+        "archive_identifier": "7087581",
+        "tape": "PP9011B",
+        "basis": "WHCA audio collection public-domain statement; supplied MP3 receipt not retained; no byte-match claim"
+      }
+    },
+    {
+      "id": "eisenhower_farewell_1961-transition",
+      "title": "Farewell Address - transition",
+      "source_id": "eisenhower_farewell_1961",
+      "speaker_id": "Dwight D. Eisenhower",
+      "source_url": "https://millercenter.org/the-presidency/presidential-speeches/january-17-1961-farewell-address",
+      "split": "testing",
+      "source_start_seconds": 22.0,
+      "source_end_seconds": 38.4,
+      "source_transcript_match_ratio": 1.0,
+      "transcript_file": "eisenhower_farewell_1961-transition/transcript.txt",
+      "transcript": "Three days from now, after half a century in the service of our country, I shall lay down the responsibilities of office as, in traditional and solemn ceremony, the authority of the Presidency is vested in my successor.",
+      "reference": {
+        "audio_file": "eisenhower_farewell_1961-transition/reference.wav",
+        "sha256": "293864f5b0fe7ac6b67d9a439c40ba1f9c69e92ba9ebe100229beadf1e9787cf",
+        "duration_seconds": 16.4
+      },
+      "reference_alignment_file": "eisenhower_farewell_1961-transition/reference-alignment.json",
+      "license": "U.S. public-domain government speech audio; archive reuse basis and supplied-file provenance documented in dataset/LICENSE_NOTES.md.",
+      "label_review": "Controlled edit intervals are exact; word alignment is model-generated, not human reviewed.",
+      "variants": [
+        {
+          "id": "eisenhower_farewell_1961-transition-near-perfect",
+          "title": "near-perfect",
+          "level": 1,
+          "audio_file": "eisenhower_farewell_1961-transition/near-perfect.wav",
+          "sha256": "d1fa0f07efad2ff02238d12d0d8528a1e5b0c968ae629871b201a34bf5241f7d",
+          "duration_seconds": 16.4,
+          "annotations": [],
+          "transformation": {
+            "kind": "global_gain",
+            "gain": 0.95
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "eisenhower_farewell_1961-transition/near-perfect.alignment.json"
+        },
+        {
+          "id": "eisenhower_farewell_1961-transition-rushed-mild",
+          "title": "rushed-mild",
+          "level": 2,
+          "audio_file": "eisenhower_farewell_1961-transition/rushed-mild.wav",
+          "sha256": "c5b4cbadd3b744e5f311cad2ff0c75289c12927dc6051460966eecbd9c15388e",
+          "duration_seconds": 15.86006,
+          "annotations": [
+            {
+              "flaw_type": "rushed_pacing",
+              "start_seconds": 3.9849,
+              "end_seconds": 5.5274625,
+              "severity": 2
+            }
+          ],
+          "transformation": {
+            "kind": "piecewise_time_stretch",
+            "start": 3.9849,
+            "original_end": 6.0674,
+            "modified_end": 5.5274625,
+            "rate": 1.35
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "eisenhower_farewell_1961-transition/rushed-mild.alignment.json"
+        },
+        {
+          "id": "eisenhower_farewell_1961-transition-rushed-severe",
+          "title": "rushed-severe",
+          "level": 5,
+          "audio_file": "eisenhower_farewell_1961-transition/rushed-severe.wav",
+          "sha256": "d7e9091af7946425ae00f5a037dc2cae3ab8474261a95aae4ec03d1b6e14e269",
+          "duration_seconds": 15.47444,
+          "annotations": [
+            {
+              "flaw_type": "rushed_pacing",
+              "start_seconds": 3.9849,
+              "end_seconds": 5.1418375,
+              "severity": 5
+            }
+          ],
+          "transformation": {
+            "kind": "piecewise_time_stretch",
+            "start": 3.9849,
+            "original_end": 6.0674,
+            "modified_end": 5.1418375,
+            "rate": 1.8
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "eisenhower_farewell_1961-transition/rushed-severe.alignment.json"
+        },
+        {
+          "id": "eisenhower_farewell_1961-transition-slow",
+          "title": "slow",
+          "level": 4,
+          "audio_file": "eisenhower_farewell_1961-transition/slow.wav",
+          "sha256": "b76747786c2140a3e427ce326ce3338ad7ed9779ef91b324d4931c0b6d7f7818",
+          "duration_seconds": 17.78831,
+          "annotations": [
+            {
+              "flaw_type": "slow_pacing",
+              "start_seconds": 3.9849,
+              "end_seconds": 7.455712500000001,
+              "severity": 4
+            }
+          ],
+          "transformation": {
+            "kind": "piecewise_time_stretch",
+            "start": 3.9849,
+            "original_end": 6.0674,
+            "modified_end": 7.455712500000001,
+            "rate": 0.6
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "eisenhower_farewell_1961-transition/slow.alignment.json"
+        },
+        {
+          "id": "eisenhower_farewell_1961-transition-pause",
+          "title": "pause",
+          "level": 4,
+          "audio_file": "eisenhower_farewell_1961-transition/pause.wav",
+          "sha256": "d339fcedf0fea55ecba8960dac3bfbff84cabbc9526c7076c5ea98c5a5294359",
+          "duration_seconds": 18.6,
+          "annotations": [
+            {
+              "flaw_type": "awkward_pause",
+              "start_seconds": 4.0449,
+              "end_seconds": 6.305000000000001,
+              "severity": 4
+            }
+          ],
+          "transformation": {
+            "kind": "insert_silence",
+            "position": 4.07495,
+            "seconds": 2.2
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "eisenhower_farewell_1961-transition/pause.alignment.json"
+        },
+        {
+          "id": "eisenhower_farewell_1961-transition-low-energy",
+          "title": "low-energy",
+          "level": 4,
+          "audio_file": "eisenhower_farewell_1961-transition/low-energy.wav",
+          "sha256": "744272b9539fcab40c213727ed836851371851443c1d6311dcca4e4c3935dbd5",
+          "duration_seconds": 16.4,
+          "annotations": [
+            {
+              "flaw_type": "low_energy",
+              "start_seconds": 3.9849,
+              "end_seconds": 6.0674,
+              "severity": 4
+            }
+          ],
+          "transformation": {
+            "kind": "gain",
+            "start": 3.9849,
+            "end": 6.0674,
+            "gain": 0.08,
+            "delta_db": -21.93820026016113
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "eisenhower_farewell_1961-transition/low-energy.alignment.json"
+        },
+        {
+          "id": "eisenhower_farewell_1961-transition-monotone",
+          "title": "monotone",
+          "level": 4,
+          "audio_file": "eisenhower_farewell_1961-transition/monotone.wav",
+          "sha256": "ade46de107d8779df2788389a454d4a1a320704856365329618a2175894a6052",
+          "duration_seconds": 16.4,
+          "annotations": [
+            {
+              "flaw_type": "monotone_delivery",
+              "start_seconds": 3.9849,
+              "end_seconds": 6.0674,
+              "severity": 4
+            }
+          ],
+          "transformation": {
+            "kind": "pitch_tier_compression",
+            "start": 3.9849,
+            "end": 6.0674,
+            "variation_ratio": 0.03
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "eisenhower_farewell_1961-transition/monotone.alignment.json"
+        }
+      ],
+      "rights_evidence": {
+        "archive_item": "https://www.eisenhowerlibrary.gov/research/online-documents/farewell-address",
+        "archive_identifier": "EL-D16-138 RA",
+        "basis": "Official Library download; U.S. Army Signal Corps; listed digitized items public-domain statement"
+      }
+    },
+    {
+      "id": "eisenhower_farewell_1961-farewell",
+      "title": "Farewell Address - farewell",
+      "source_id": "eisenhower_farewell_1961",
+      "speaker_id": "Dwight D. Eisenhower",
+      "source_url": "https://millercenter.org/the-presidency/presidential-speeches/january-17-1961-farewell-address",
+      "split": "testing",
+      "source_start_seconds": 39.14,
+      "source_end_seconds": 64.30000000000001,
+      "source_transcript_match_ratio": 0.9821,
+      "transcript_file": "eisenhower_farewell_1961-farewell/transcript.txt",
+      "transcript": "This evening I come to you with a message of leave-taking and farewell, and to share a few final thoughts with you, my countrymen. Like every other citizen, I wish the new President, and all who will labor with him, Godspeed. I pray that the coming years will be blessed with peace and prosperity for all.",
+      "reference": {
+        "audio_file": "eisenhower_farewell_1961-farewell/reference.wav",
+        "sha256": "ef0ead95ae24eca971979d490fdf03e60a980eb94161c5e54942aec0f44fe6d5",
+        "duration_seconds": 25.16
+      },
+      "reference_alignment_file": "eisenhower_farewell_1961-farewell/reference-alignment.json",
+      "license": "U.S. public-domain government speech audio; archive reuse basis and supplied-file provenance documented in dataset/LICENSE_NOTES.md.",
+      "label_review": "Controlled edit intervals are exact; word alignment is model-generated, not human reviewed.",
+      "variants": [
+        {
+          "id": "eisenhower_farewell_1961-farewell-near-perfect",
+          "title": "near-perfect",
+          "level": 1,
+          "audio_file": "eisenhower_farewell_1961-farewell/near-perfect.wav",
+          "sha256": "48b37d51a7a5652c0e64ecbc4790bffae5ae5b7c059a120e94a811af395d45ba",
+          "duration_seconds": 25.16,
+          "annotations": [],
+          "transformation": {
+            "kind": "global_gain",
+            "gain": 0.95
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "eisenhower_farewell_1961-farewell/near-perfect.alignment.json"
+        },
+        {
+          "id": "eisenhower_farewell_1961-farewell-rushed-mild",
+          "title": "rushed-mild",
+          "level": 2,
+          "audio_file": "eisenhower_farewell_1961-farewell/rushed-mild.wav",
+          "sha256": "fa4106343bbad67583d69d4de1d0bd7459a6cc7a919cc3a933865785808ea3b8",
+          "duration_seconds": 24.49056,
+          "annotations": [
+            {
+              "flaw_type": "rushed_pacing",
+              "start_seconds": 5.7446,
+              "end_seconds": 7.6571625,
+              "severity": 2
+            }
+          ],
+          "transformation": {
+            "kind": "piecewise_time_stretch",
+            "start": 5.7446,
+            "original_end": 8.3266,
+            "modified_end": 7.6571625,
+            "rate": 1.35
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "eisenhower_farewell_1961-farewell/rushed-mild.alignment.json"
+        },
+        {
+          "id": "eisenhower_farewell_1961-farewell-rushed-severe",
+          "title": "rushed-severe",
+          "level": 5,
+          "audio_file": "eisenhower_farewell_1961-farewell/rushed-severe.wav",
+          "sha256": "8d7d02c6c1e0043492cbce5236978a2f0e75cb08f0c029aa384dd2d3718e94bb",
+          "duration_seconds": 24.01244,
+          "annotations": [
+            {
+              "flaw_type": "rushed_pacing",
+              "start_seconds": 5.7446,
+              "end_seconds": 7.1790375,
+              "severity": 5
+            }
+          ],
+          "transformation": {
+            "kind": "piecewise_time_stretch",
+            "start": 5.7446,
+            "original_end": 8.3266,
+            "modified_end": 7.1790375,
+            "rate": 1.8
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "eisenhower_farewell_1961-farewell/rushed-severe.alignment.json"
+        },
+        {
+          "id": "eisenhower_farewell_1961-farewell-slow",
+          "title": "slow",
+          "level": 4,
+          "audio_file": "eisenhower_farewell_1961-farewell/slow.wav",
+          "sha256": "3f5c0bb1b9663d064709a7f91cc06ca7e2ad6b7016aa36460ece3ec79bc7daff",
+          "duration_seconds": 26.88131,
+          "annotations": [
+            {
+              "flaw_type": "slow_pacing",
+              "start_seconds": 5.7446,
+              "end_seconds": 10.047912499999999,
+              "severity": 4
+            }
+          ],
+          "transformation": {
+            "kind": "piecewise_time_stretch",
+            "start": 5.7446,
+            "original_end": 8.3266,
+            "modified_end": 10.047912499999999,
+            "rate": 0.6
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "eisenhower_farewell_1961-farewell/slow.alignment.json"
+        },
+        {
+          "id": "eisenhower_farewell_1961-farewell-pause",
+          "title": "pause",
+          "level": 4,
+          "audio_file": "eisenhower_farewell_1961-farewell/pause.wav",
+          "sha256": "699d5c3376e4212e857444b2d1be8d392a3893d50ea2f906b35532d92c4b93d1",
+          "duration_seconds": 27.36,
+          "annotations": [
+            {
+              "flaw_type": "awkward_pause",
+              "start_seconds": 5.8246,
+              "end_seconds": 8.1247,
+              "severity": 4
+            }
+          ],
+          "transformation": {
+            "kind": "insert_silence",
+            "position": 5.87465,
+            "seconds": 2.2
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "eisenhower_farewell_1961-farewell/pause.alignment.json"
+        },
+        {
+          "id": "eisenhower_farewell_1961-farewell-low-energy",
+          "title": "low-energy",
+          "level": 4,
+          "audio_file": "eisenhower_farewell_1961-farewell/low-energy.wav",
+          "sha256": "901776137b796dc5bccfd1843b43042a11633d21549add23bac18c947be2ff1b",
+          "duration_seconds": 25.16,
+          "annotations": [
+            {
+              "flaw_type": "low_energy",
+              "start_seconds": 5.7446,
+              "end_seconds": 8.3266,
+              "severity": 4
+            }
+          ],
+          "transformation": {
+            "kind": "gain",
+            "start": 5.7446,
+            "end": 8.3266,
+            "gain": 0.08,
+            "delta_db": -21.93820026016113
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "eisenhower_farewell_1961-farewell/low-energy.alignment.json"
+        },
+        {
+          "id": "eisenhower_farewell_1961-farewell-monotone",
+          "title": "monotone",
+          "level": 4,
+          "audio_file": "eisenhower_farewell_1961-farewell/monotone.wav",
+          "sha256": "3e37ee97e2d147d10791f7ab95dcb90c1fdbb91d3f83f7f20958c435c8154c3d",
+          "duration_seconds": 25.16,
+          "annotations": [
+            {
+              "flaw_type": "monotone_delivery",
+              "start_seconds": 5.7446,
+              "end_seconds": 8.3266,
+              "severity": 4
+            }
+          ],
+          "transformation": {
+            "kind": "pitch_tier_compression",
+            "start": 5.7446,
+            "end": 8.3266,
+            "variation_ratio": 0.03
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "eisenhower_farewell_1961-farewell/monotone.alignment.json"
+        }
+      ],
+      "rights_evidence": {
+        "archive_item": "https://www.eisenhowerlibrary.gov/research/online-documents/farewell-address",
+        "archive_identifier": "EL-D16-138 RA",
+        "basis": "Official Library download; U.S. Army Signal Corps; listed digitized items public-domain statement"
+      }
+    },
+    {
+      "id": "eisenhower_farewell_1961-agreement",
+      "title": "Farewell Address - agreement",
+      "source_id": "eisenhower_farewell_1961",
+      "speaker_id": "Dwight D. Eisenhower",
+      "source_url": "https://millercenter.org/the-presidency/presidential-speeches/january-17-1961-farewell-address",
+      "split": "testing",
+      "source_start_seconds": 65.61999999999999,
+      "source_end_seconds": 77.76,
+      "source_transcript_match_ratio": 1.0,
+      "transcript_file": "eisenhower_farewell_1961-agreement/transcript.txt",
+      "transcript": "Our people expect their President and the Congress to find essential agreement on issues of great moment, the wise resolution of which will better shape the future of the Nation.",
+      "reference": {
+        "audio_file": "eisenhower_farewell_1961-agreement/reference.wav",
+        "sha256": "7fb19da36e988ad0a99ecb245e6fabda46e266960b9df5b36904c7f8262ed5ad",
+        "duration_seconds": 12.14
+      },
+      "reference_alignment_file": "eisenhower_farewell_1961-agreement/reference-alignment.json",
+      "license": "U.S. public-domain government speech audio; archive reuse basis and supplied-file provenance documented in dataset/LICENSE_NOTES.md.",
+      "label_review": "Controlled edit intervals are exact; word alignment is model-generated, not human reviewed.",
+      "variants": [
+        {
+          "id": "eisenhower_farewell_1961-agreement-near-perfect",
+          "title": "near-perfect",
+          "level": 1,
+          "audio_file": "eisenhower_farewell_1961-agreement/near-perfect.wav",
+          "sha256": "d9a02cf9f72cc611ba64f72c8789356585b090c59e14339867a12b365a499695",
+          "duration_seconds": 12.14,
+          "annotations": [],
+          "transformation": {
+            "kind": "global_gain",
+            "gain": 0.95
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "eisenhower_farewell_1961-agreement/near-perfect.alignment.json"
+        },
+        {
+          "id": "eisenhower_farewell_1961-agreement-rushed-mild",
+          "title": "rushed-mild",
+          "level": 2,
+          "audio_file": "eisenhower_farewell_1961-agreement/rushed-mild.wav",
+          "sha256": "c077292ed5282db8d335447df337c66be4b52133a63989e00ee7a8b160ef0057",
+          "duration_seconds": 11.31419,
+          "annotations": [
+            {
+              "flaw_type": "rushed_pacing",
+              "start_seconds": 2.7045,
+              "end_seconds": 5.0638749999999995,
+              "severity": 2
+            }
+          ],
+          "transformation": {
+            "kind": "piecewise_time_stretch",
+            "start": 2.7045,
+            "original_end": 5.8897,
+            "modified_end": 5.0638749999999995,
+            "rate": 1.35
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "eisenhower_farewell_1961-agreement/rushed-mild.alignment.json"
+        },
+        {
+          "id": "eisenhower_farewell_1961-agreement-rushed-severe",
+          "title": "rushed-severe",
+          "level": 5,
+          "audio_file": "eisenhower_farewell_1961-agreement/rushed-severe.wav",
+          "sha256": "9b7bf6168569a63fbbda03694ccadfe92fc9e14b87e81f5154c6b4789ef9ff45",
+          "duration_seconds": 10.72438,
+          "annotations": [
+            {
+              "flaw_type": "rushed_pacing",
+              "start_seconds": 2.7045,
+              "end_seconds": 4.4740625,
+              "severity": 5
+            }
+          ],
+          "transformation": {
+            "kind": "piecewise_time_stretch",
+            "start": 2.7045,
+            "original_end": 5.8897,
+            "modified_end": 4.4740625,
+            "rate": 1.8
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "eisenhower_farewell_1961-agreement/rushed-severe.alignment.json"
+        },
+        {
+          "id": "eisenhower_farewell_1961-agreement-slow",
+          "title": "slow",
+          "level": 4,
+          "audio_file": "eisenhower_farewell_1961-agreement/slow.wav",
+          "sha256": "2645784b188d7e8b4366b1e145e0daa8154c54b1358dfc7c21acb055f11424e5",
+          "duration_seconds": 14.26344,
+          "annotations": [
+            {
+              "flaw_type": "slow_pacing",
+              "start_seconds": 2.7045,
+              "end_seconds": 8.013125,
+              "severity": 4
+            }
+          ],
+          "transformation": {
+            "kind": "piecewise_time_stretch",
+            "start": 2.7045,
+            "original_end": 5.8897,
+            "modified_end": 8.013125,
+            "rate": 0.6
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "eisenhower_farewell_1961-agreement/slow.alignment.json"
+        },
+        {
+          "id": "eisenhower_farewell_1961-agreement-pause",
+          "title": "pause",
+          "level": 4,
+          "audio_file": "eisenhower_farewell_1961-agreement/pause.wav",
+          "sha256": "f004a94c1e3a82ed40997fa4aaf12e54b172a8953d9cb69f68ead619c306185f",
+          "duration_seconds": 14.34,
+          "annotations": [
+            {
+              "flaw_type": "awkward_pause",
+              "start_seconds": 3.1251,
+              "end_seconds": 5.846,
+              "severity": 4
+            }
+          ],
+          "transformation": {
+            "kind": "insert_silence",
+            "position": 3.3855500000000003,
+            "seconds": 2.2
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "eisenhower_farewell_1961-agreement/pause.alignment.json"
+        },
+        {
+          "id": "eisenhower_farewell_1961-agreement-low-energy",
+          "title": "low-energy",
+          "level": 4,
+          "audio_file": "eisenhower_farewell_1961-agreement/low-energy.wav",
+          "sha256": "337e0fdc723b6fb33082dc18b8d08cc9dbbca5f41707594d3a8d186d674b3ed1",
+          "duration_seconds": 12.14,
+          "annotations": [
+            {
+              "flaw_type": "low_energy",
+              "start_seconds": 2.7045,
+              "end_seconds": 5.8897,
+              "severity": 4
+            }
+          ],
+          "transformation": {
+            "kind": "gain",
+            "start": 2.7045,
+            "end": 5.8897,
+            "gain": 0.08,
+            "delta_db": -21.93820026016113
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "eisenhower_farewell_1961-agreement/low-energy.alignment.json"
+        },
+        {
+          "id": "eisenhower_farewell_1961-agreement-monotone",
+          "title": "monotone",
+          "level": 4,
+          "audio_file": "eisenhower_farewell_1961-agreement/monotone.wav",
+          "sha256": "2576b23e943a5145e88be8fa6700ab21b3eed749d353f4f23deeeac2a1ad926b",
+          "duration_seconds": 12.14,
+          "annotations": [
+            {
+              "flaw_type": "monotone_delivery",
+              "start_seconds": 2.7045,
+              "end_seconds": 5.8897,
+              "severity": 4
+            }
+          ],
+          "transformation": {
+            "kind": "pitch_tier_compression",
+            "start": 2.7045,
+            "end": 5.8897,
+            "variation_ratio": 0.03
+          },
+          "ground_truth_source": "known_controlled_edit",
+          "alignment_file": "eisenhower_farewell_1961-agreement/monotone.alignment.json"
+        }
+      ],
+      "rights_evidence": {
+        "archive_item": "https://www.eisenhowerlibrary.gov/research/online-documents/farewell-address",
+        "archive_identifier": "EL-D16-138 RA",
+        "basis": "Official Library download; U.S. Army Signal Corps; listed digitized items public-domain statement"
+      }
+    }
+  ]
+}

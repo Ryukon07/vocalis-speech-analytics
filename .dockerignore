@@ -1,0 +1,13 @@
+.git
+.venv
+frontend/node_modules
+frontend/dist
+backend/data
+model-artifacts
+tmp
+tools-local
+**/.env
+docs/submission/*.zip
+Problem Statements.pdf
+Track C.pdf
+**/__pycache__

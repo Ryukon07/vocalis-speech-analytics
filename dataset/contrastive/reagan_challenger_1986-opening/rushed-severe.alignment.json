@@ -1,0 +1,446 @@
+[
+  {
+    "word": "Ladies",
+    "start": 0.3803,
+    "end": 0.6406,
+    "confidence": 0.5037
+  },
+  {
+    "word": "and",
+    "start": 0.6806,
+    "end": 0.7407,
+    "confidence": 0.1473
+  },
+  {
+    "word": "gentlemen,",
+    "start": 0.7807,
+    "end": 1.1611,
+    "confidence": 0.9098
+  },
+  {
+    "word": "I'd",
+    "start": 1.6815,
+    "end": 1.7816,
+    "confidence": 0.8937
+  },
+  {
+    "word": "planned",
+    "start": 1.8617,
+    "end": 2.142,
+    "confidence": 0.597
+  },
+  {
+    "word": "to",
+    "start": 2.162,
+    "end": 2.222,
+    "confidence": 0.9007
+  },
+  {
+    "word": "speak",
+    "start": 2.2821,
+    "end": 2.5023,
+    "confidence": 0.9284
+  },
+  {
+    "word": "to",
+    "start": 2.5824,
+    "end": 2.6624,
+    "confidence": 0.9712
+  },
+  {
+    "word": "you",
+    "start": 2.7225,
+    "end": 2.8026,
+    "confidence": 0.9907
+  },
+  {
+    "word": "tonight",
+    "start": 2.8626,
+    "end": 3.1629,
+    "confidence": 0.5444
+  },
+  {
+    "word": "to",
+    "start": 3.2229,
+    "end": 3.323,
+    "confidence": 0.9167
+  },
+  {
+    "word": "report",
+    "start": 3.5432,
+    "end": 3.8835,
+    "confidence": 0.9971
+  },
+  {
+    "word": "on",
+    "start": 3.9236,
+    "end": 3.9636,
+    "confidence": 0.7204
+  },
+  {
+    "word": "the",
+    "start": 4.0237,
+    "end": 4.0837,
+    "confidence": 0.9885
+  },
+  {
+    "word": "state",
+    "start": 4.1238,
+    "end": 4.3239,
+    "confidence": 0.9996
+  },
+  {
+    "word": "of",
+    "start": 4.364,
+    "end": 4.404,
+    "confidence": 0.9864
+  },
+  {
+    "word": "the",
+    "start": 4.424,
+    "end": 4.4841,
+    "confidence": 0.9635
+  },
+  {
+    "word": "Union,",
+    "start": 4.6042,
+    "end": 4.8044,
+    "confidence": 0.9992
+  },
+  {
+    "word": "but",
+    "start": 5.8253,
+    "end": 5.9254,
+    "confidence": 0.0278
+  },
+  {
+    "word": "the",
+    "start": 5.9454,
+    "end": 6.0055,
+    "confidence": 0.0038
+  },
+  {
+    "word": "events",
+    "start": 6.0255,
+    "end": 6.1456,
+    "confidence": 0.0779
+  },
+  {
+    "word": "of",
+    "start": 6.1656,
+    "end": 6.2057,
+    "confidence": 0.0168
+  },
+  {
+    "word": "earlier",
+    "start": 6.2257,
+    "end": 6.3658,
+    "confidence": 0.0339
+  },
+  {
+    "word": "today",
+    "start": 6.3858,
+    "end": 6.526,
+    "confidence": 0.0158
+  },
+  {
+    "word": "have",
+    "start": 6.546,
+    "end": 6.626,
+    "confidence": 0.1863
+  },
+  {
+    "word": "led",
+    "start": 6.9263,
+    "end": 7.0464,
+    "confidence": 0.2288
+  },
+  {
+    "word": "me",
+    "start": 7.0865,
+    "end": 7.1265,
+    "confidence": 0.8473
+  },
+  {
+    "word": "to",
+    "start": 7.1866,
+    "end": 7.2466,
+    "confidence": 0.8758
+  },
+  {
+    "word": "change",
+    "start": 7.2867,
+    "end": 7.5669,
+    "confidence": 0.9505
+  },
+  {
+    "word": "those",
+    "start": 7.627,
+    "end": 7.8071,
+    "confidence": 0.9966
+  },
+  {
+    "word": "plans.",
+    "start": 7.9072,
+    "end": 8.2876,
+    "confidence": 0.9989
+  },
+  {
+    "word": "Today",
+    "start": 9.4286,
+    "end": 9.7689,
+    "confidence": 0.9852
+  },
+  {
+    "word": "is",
+    "start": 10.0892,
+    "end": 10.1693,
+    "confidence": 0.9896
+  },
+  {
+    "word": "a",
+    "start": 10.2494,
+    "end": 10.2694,
+    "confidence": 0.9897
+  },
+  {
+    "word": "day",
+    "start": 10.3094,
+    "end": 10.4696,
+    "confidence": 0.9985
+  },
+  {
+    "word": "for",
+    "start": 10.5296,
+    "end": 10.6497,
+    "confidence": 0.7231
+  },
+  {
+    "word": "mourning",
+    "start": 10.7298,
+    "end": 11.0501,
+    "confidence": 0.8603
+  },
+  {
+    "word": "and",
+    "start": 11.3303,
+    "end": 11.4104,
+    "confidence": 0.9933
+  },
+  {
+    "word": "remembering.",
+    "start": 11.4705,
+    "end": 11.9509,
+    "confidence": 0.9495
+  },
+  {
+    "word": "Nancy",
+    "start": 13.112,
+    "end": 13.4323,
+    "confidence": 0.9991
+  },
+  {
+    "word": "and",
+    "start": 13.4723,
+    "end": 13.5724,
+    "confidence": 0.8829
+  },
+  {
+    "word": "I",
+    "start": 13.7125,
+    "end": 13.7325,
+    "confidence": 0.9982
+  },
+  {
+    "word": "are",
+    "start": 13.8526,
+    "end": 13.9527,
+    "confidence": 0.9395
+  },
+  {
+    "word": "pained",
+    "start": 14.0929,
+    "end": 14.3531,
+    "confidence": 0.5528
+  },
+  {
+    "word": "to",
+    "start": 14.3731,
+    "end": 14.4332,
+    "confidence": 0.9834
+  },
+  {
+    "word": "the",
+    "start": 14.4732,
+    "end": 14.5533,
+    "confidence": 0.9627
+  },
+  {
+    "word": "core",
+    "start": 14.5933,
+    "end": 14.8335,
+    "confidence": 0.732
+  },
+  {
+    "word": "by",
+    "start": 14.8736,
+    "end": 14.9336,
+    "confidence": 0.1042
+  },
+  {
+    "word": "the",
+    "start": 14.9937,
+    "end": 15.0537,
+    "confidence": 0.9829
+  },
+  {
+    "word": "tragedy",
+    "start": 15.1138,
+    "end": 15.5142,
+    "confidence": 0.9801
+  },
+  {
+    "word": "of",
+    "start": 15.5542,
+    "end": 15.5942,
+    "confidence": 0.839
+  },
+  {
+    "word": "the",
+    "start": 15.6543,
+    "end": 15.7143,
+    "confidence": 0.968
+  },
+  {
+    "word": "shuttle",
+    "start": 15.7544,
+    "end": 16.0146,
+    "confidence": 0.9836
+  },
+  {
+    "word": "Challenger.",
+    "start": 16.0547,
+    "end": 16.5151,
+    "confidence": 0.9619
+  },
+  {
+    "word": "We",
+    "start": 17.3158,
+    "end": 17.3959,
+    "confidence": 0.9753
+  },
+  {
+    "word": "know",
+    "start": 17.4559,
+    "end": 17.576,
+    "confidence": 0.9947
+  },
+  {
+    "word": "we",
+    "start": 17.6561,
+    "end": 17.7362,
+    "confidence": 0.9998
+  },
+  {
+    "word": "share",
+    "start": 17.8563,
+    "end": 18.0765,
+    "confidence": 0.9641
+  },
+  {
+    "word": "this",
+    "start": 18.1766,
+    "end": 18.2967,
+    "confidence": 0.9748
+  },
+  {
+    "word": "pain",
+    "start": 18.3968,
+    "end": 18.597,
+    "confidence": 0.9947
+  },
+  {
+    "word": "with",
+    "start": 18.6971,
+    "end": 18.8172,
+    "confidence": 0.9953
+  },
+  {
+    "word": "all",
+    "start": 19.2776,
+    "end": 19.3977,
+    "confidence": 0.9816
+  },
+  {
+    "word": "of",
+    "start": 19.4177,
+    "end": 19.4578,
+    "confidence": 0.0095
+  },
+  {
+    "word": "the",
+    "start": 19.4778,
+    "end": 19.5378,
+    "confidence": 0.9888
+  },
+  {
+    "word": "people",
+    "start": 19.5779,
+    "end": 19.8181,
+    "confidence": 0.9977
+  },
+  {
+    "word": "of",
+    "start": 19.8581,
+    "end": 19.8982,
+    "confidence": 0.9993
+  },
+  {
+    "word": "our",
+    "start": 19.9983,
+    "end": 20.0783,
+    "confidence": 0.9224
+  },
+  {
+    "word": "country.",
+    "start": 20.1384,
+    "end": 20.4587,
+    "confidence": 0.9606
+  },
+  {
+    "word": "This",
+    "start": 21.2994,
+    "end": 21.4196,
+    "confidence": 0.9945
+  },
+  {
+    "word": "is",
+    "start": 21.5597,
+    "end": 21.6197,
+    "confidence": 0.9989
+  },
+  {
+    "word": "truly",
+    "start": 21.6998,
+    "end": 22.0201,
+    "confidence": 0.9092
+  },
+  {
+    "word": "a",
+    "start": 22.3404,
+    "end": 22.3604,
+    "confidence": 0.567
+  },
+  {
+    "word": "national",
+    "start": 22.4405,
+    "end": 22.8609,
+    "confidence": 0.9867
+  },
+  {
+    "word": "loss.",
+    "start": 22.9409,
+    "end": 23.2412,
+    "confidence": 0.9764
+  }
+]

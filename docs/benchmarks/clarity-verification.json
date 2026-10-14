@@ -1,0 +1,428 @@
+{
+  "provider_version": "3.1.0-local.1",
+  "method": "reference_relative_wer_v1",
+  "seed": 20261014,
+  "interpretation": "Controlled noise sensitivity only; no human clarity correlation has been measured.",
+  "cases": [
+    {
+      "group_id": "reagan_challenger_1986-opening",
+      "split": "training",
+      "source_id": "reagan_challenger_1986",
+      "snr_db": null,
+      "audio_file": "dataset/contrastive/reagan_challenger_1986-opening/reference.wav",
+      "sha256": "e2caff0a7310a36a4a4a5bdc0b0188b506b09d3da504dd0c5e80327b3b7e5400",
+      "measurement": {
+        "available": true,
+        "method": "reference_relative_wer_v1",
+        "model_name": "base.en",
+        "score": 100.0,
+        "confirmed_word_count": 74,
+        "minimum_word_count": 8,
+        "maximum_reference_wer": 0.25,
+        "reference_text": "Ladies and gentlemen, I'd plan to speak to you tonight to report on the State of the Union, but the events of earlier today have led me to change those plans. Today is a day from morning and remembering. Nancy and I are paying to the core, but the tragedy of the shuttle challenger. We know we share this pain with all of the people of our country. This is truly a national loss. We'll see you next week. We'll see you next week. .",
+        "participant_text": "Ladies and gentlemen, I'd plan to speak to you tonight to report on the State of the Union, but the events of earlier today have led me to change those plans. Today is a day from morning and remembering. Nancy and I are paying to the core, but the tragedy of the shuttle challenger. We know we share this pain with all of the people of our country. This is truly a national loss. We'll see you next week. We'll see you next week. .",
+        "reference": {
+          "substitutions": 5,
+          "deletions": 0,
+          "insertions": 12,
+          "errors": 17,
+          "word_error_rate": 0.22972972972972974
+        },
+        "participant": {
+          "substitutions": 5,
+          "deletions": 0,
+          "insertions": 12,
+          "errors": 17,
+          "word_error_rate": 0.22972972972972974
+        },
+        "excess_word_error_rate": 0.0,
+        "reason": null
+      }
+    },
+    {
+      "group_id": "reagan_challenger_1986-opening",
+      "split": "training",
+      "source_id": "reagan_challenger_1986",
+      "snr_db": 10,
+      "audio_file": "dataset/clarity/reagan_challenger_1986-opening-noise-10db.wav",
+      "sha256": "80cd224ca16f92c9861fdc207b91fe14b13d1f08996ec3ac143f163c77c01115",
+      "measurement": {
+        "available": true,
+        "method": "reference_relative_wer_v1",
+        "model_name": "base.en",
+        "score": 100.0,
+        "confirmed_word_count": 74,
+        "minimum_word_count": 8,
+        "maximum_reference_wer": 0.25,
+        "reference_text": "Ladies and gentlemen, I'd plan to speak to you tonight to report on the State of the Union, but the events of earlier today have led me to change those plans. Today is a day from morning and remembering. Nancy and I are paying to the core, but the tragedy of the shuttle challenger. We know we share this pain with all of the people of our country. This is truly a national loss. We'll see you next week. We'll see you next week. .",
+        "participant_text": "Ladies and gentlemen, I'd plan to speak to you tonight to report on the State of the Union for the events of earlier today have led me to change those plans. Today was a day from mourning and remembering. Nancy and I are a pain to the core of the tragedy of the shuttle challenging. We know we share this pain with all of the people of our country. This is truly a national loss.",
+        "reference": {
+          "substitutions": 5,
+          "deletions": 0,
+          "insertions": 12,
+          "errors": 17,
+          "word_error_rate": 0.22972972972972974
+        },
+        "participant": {
+          "substitutions": 7,
+          "deletions": 0,
+          "insertions": 1,
+          "errors": 8,
+          "word_error_rate": 0.10810810810810811
+        },
+        "excess_word_error_rate": 0.0,
+        "reason": null
+      }
+    },
+    {
+      "group_id": "reagan_challenger_1986-opening",
+      "split": "training",
+      "source_id": "reagan_challenger_1986",
+      "snr_db": 0,
+      "audio_file": "dataset/clarity/reagan_challenger_1986-opening-noise-0db.wav",
+      "sha256": "c77b846a4146e9a4b3396ef1588e16acd8a187e577d6351642cb974ed2b88984",
+      "measurement": {
+        "available": true,
+        "method": "reference_relative_wer_v1",
+        "model_name": "base.en",
+        "score": 89.2,
+        "confirmed_word_count": 74,
+        "minimum_word_count": 8,
+        "maximum_reference_wer": 0.25,
+        "reference_text": "Ladies and gentlemen, I'd plan to speak to you tonight to report on the State of the Union, but the events of earlier today have led me to change those plans. Today is a day from morning and remembering. Nancy and I are paying to the core, but the tragedy of the shuttle challenger. We know we share this pain with all of the people of our country. This is truly a national loss. We'll see you next week. We'll see you next week. .",
+        "participant_text": "Ladies and gentlemen, I'd like to speak to you in the 90s, you've brought him a state of the Union. To the events of earlier today, we've read me the chainsaw of Spain. Today is a day for mourning and redemption. Nancy and I are ashamed of the cause of the tragedy of the subtle talent. You know, we share this pain with all of the people of our country. This is truly a national way.",
+        "reference": {
+          "substitutions": 5,
+          "deletions": 0,
+          "insertions": 12,
+          "errors": 17,
+          "word_error_rate": 0.22972972972972974
+        },
+        "participant": {
+          "substitutions": 21,
+          "deletions": 0,
+          "insertions": 4,
+          "errors": 25,
+          "word_error_rate": 0.33783783783783783
+        },
+        "excess_word_error_rate": 0.10810810810810809,
+        "reason": null
+      }
+    },
+    {
+      "group_id": "reagan_challenger_1986-opening",
+      "split": "training",
+      "source_id": "reagan_challenger_1986",
+      "snr_db": -5,
+      "audio_file": "dataset/clarity/reagan_challenger_1986-opening-noise--5db.wav",
+      "sha256": "d011b8dcb86bbd962ea3c76094de5df83f74e7d9c71e64dfd690ccba14693ac0",
+      "measurement": {
+        "available": true,
+        "method": "reference_relative_wer_v1",
+        "model_name": "base.en",
+        "score": 43.2,
+        "confirmed_word_count": 74,
+        "minimum_word_count": 8,
+        "maximum_reference_wer": 0.25,
+        "reference_text": "Ladies and gentlemen, I'd plan to speak to you tonight to report on the State of the Union, but the events of earlier today have led me to change those plans. Today is a day from morning and remembering. Nancy and I are paying to the core, but the tragedy of the shuttle challenger. We know we share this pain with all of the people of our country. This is truly a national loss. We'll see you next week. We'll see you next week. .",
+        "participant_text": "Ladies and gentlemen, I'd like to speak to you in my speech. You've brought him to state of the Union. The events of the party of the day have been retained by the same. The days, the debate, and many of the events. And actually I have a claim to declare that it's probably the start of time. You know, you should have seen all of the people that come to state of the United States. And that's the way.",
+        "reference": {
+          "substitutions": 5,
+          "deletions": 0,
+          "insertions": 12,
+          "errors": 17,
+          "word_error_rate": 0.22972972972972974
+        },
+        "participant": {
+          "substitutions": 49,
+          "deletions": 1,
+          "insertions": 9,
+          "errors": 59,
+          "word_error_rate": 0.7972972972972973
+        },
+        "excess_word_error_rate": 0.5675675675675675,
+        "reason": null
+      }
+    },
+    {
+      "group_id": "reagan_farewell_1989-opening",
+      "split": "validation",
+      "source_id": "reagan_farewell_1989",
+      "snr_db": null,
+      "audio_file": "dataset/contrastive/reagan_farewell_1989-opening/reference.wav",
+      "sha256": "3ef742ea3cb307d40a0d9190f5e7587b58ad2916a43373d7e9ad9075c9d9ba8e",
+      "measurement": {
+        "available": true,
+        "method": "reference_relative_wer_v1",
+        "model_name": "base.en",
+        "score": 100.0,
+        "confirmed_word_count": 55,
+        "minimum_word_count": 8,
+        "maximum_reference_wer": 0.25,
+        "reference_text": "This is the 34th time I'll speak to you from the Oval Office and the last. We've been together eight years now and soon it'll be time for me to go. But before I do, I wanted to share some thoughts, some of which I've been saving for a long time.",
+        "participant_text": "This is the 34th time I'll speak to you from the Oval Office and the last. We've been together eight years now and soon it'll be time for me to go. But before I do, I wanted to share some thoughts, some of which I've been saving for a long time.",
+        "reference": {
+          "substitutions": 0,
+          "deletions": 0,
+          "insertions": 0,
+          "errors": 0,
+          "word_error_rate": 0.0
+        },
+        "participant": {
+          "substitutions": 0,
+          "deletions": 0,
+          "insertions": 0,
+          "errors": 0,
+          "word_error_rate": 0.0
+        },
+        "excess_word_error_rate": 0.0,
+        "reason": null
+      }
+    },
+    {
+      "group_id": "reagan_farewell_1989-opening",
+      "split": "validation",
+      "source_id": "reagan_farewell_1989",
+      "snr_db": 10,
+      "audio_file": "dataset/clarity/reagan_farewell_1989-opening-noise-10db.wav",
+      "sha256": "4eab3cbed722abcd6bbbf3f661f129b9554a1e035fb6e6a73e6dd85a7d83c14c",
+      "measurement": {
+        "available": true,
+        "method": "reference_relative_wer_v1",
+        "model_name": "base.en",
+        "score": 83.6,
+        "confirmed_word_count": 55,
+        "minimum_word_count": 8,
+        "maximum_reference_wer": 0.25,
+        "reference_text": "This is the 34th time I'll speak to you from the Oval Office and the last. We've been together eight years now and soon it'll be time for me to go. But before I do, I wanted to share some thoughts, some of which I've been saving for a long time.",
+        "participant_text": "This is the 34th time I'll speak to you from the Oval Office and the last. We've been together eight years now and it's two years of the time for me to go. But before I do, I want to share some thoughts on the which I've been saving for a long time.",
+        "reference": {
+          "substitutions": 0,
+          "deletions": 0,
+          "insertions": 0,
+          "errors": 0,
+          "word_error_rate": 0.0
+        },
+        "participant": {
+          "substitutions": 6,
+          "deletions": 0,
+          "insertions": 3,
+          "errors": 9,
+          "word_error_rate": 0.16363636363636364
+        },
+        "excess_word_error_rate": 0.16363636363636364,
+        "reason": null
+      }
+    },
+    {
+      "group_id": "reagan_farewell_1989-opening",
+      "split": "validation",
+      "source_id": "reagan_farewell_1989",
+      "snr_db": 0,
+      "audio_file": "dataset/clarity/reagan_farewell_1989-opening-noise-0db.wav",
+      "sha256": "a59fe7348c591af403deac7bc42b437f09f49f50cb6b18949063ef1c4e095359",
+      "measurement": {
+        "available": true,
+        "method": "reference_relative_wer_v1",
+        "model_name": "base.en",
+        "score": 58.2,
+        "confirmed_word_count": 55,
+        "minimum_word_count": 8,
+        "maximum_reference_wer": 0.25,
+        "reference_text": "This is the 34th time I'll speak to you from the Oval Office and the last. We've been together eight years now and soon it'll be time for me to go. But before I do, I wanted to share some thoughts, some of which I've been saving for a long time.",
+        "participant_text": "This is the 34th time I'll speak to you from the Oval Office and the last. We've been together eight years now and we've seen it at a time to meet again. So before I do, I want to be sure some thoughts on the 35th and saving story anytime.",
+        "reference": {
+          "substitutions": 0,
+          "deletions": 0,
+          "insertions": 0,
+          "errors": 0,
+          "word_error_rate": 0.0
+        },
+        "participant": {
+          "substitutions": 17,
+          "deletions": 3,
+          "insertions": 3,
+          "errors": 23,
+          "word_error_rate": 0.41818181818181815
+        },
+        "excess_word_error_rate": 0.41818181818181815,
+        "reason": null
+      }
+    },
+    {
+      "group_id": "reagan_farewell_1989-opening",
+      "split": "validation",
+      "source_id": "reagan_farewell_1989",
+      "snr_db": -5,
+      "audio_file": "dataset/clarity/reagan_farewell_1989-opening-noise--5db.wav",
+      "sha256": "00637b54e000b806d9b9058f698dfba1401bdb81e7acaec4b357f42baadc6caf",
+      "measurement": {
+        "available": true,
+        "method": "reference_relative_wer_v1",
+        "model_name": "base.en",
+        "score": 3.6,
+        "confirmed_word_count": 55,
+        "minimum_word_count": 8,
+        "maximum_reference_wer": 0.25,
+        "reference_text": "This is the 34th time I'll speak to you from the Oval Office and the last. We've been together eight years now and soon it'll be time for me to go. But before I do, I wanted to share some thoughts, some of which I've been saving for a long time.",
+        "participant_text": "This is the 33rd time I have to teach you, you can be able to walk this into life. You can be better with you now, and you can be the same, and you can be the best. So the 33rd time I have to teach you, and you can be the best. This is the 33rd time I have to teach you.",
+        "reference": {
+          "substitutions": 0,
+          "deletions": 0,
+          "insertions": 0,
+          "errors": 0,
+          "word_error_rate": 0.0
+        },
+        "participant": {
+          "substitutions": 42,
+          "deletions": 0,
+          "insertions": 11,
+          "errors": 53,
+          "word_error_rate": 0.9636363636363636
+        },
+        "excess_word_error_rate": 0.9636363636363636,
+        "reason": null
+      }
+    },
+    {
+      "group_id": "eisenhower_farewell_1961-transition",
+      "split": "testing",
+      "source_id": "eisenhower_farewell_1961",
+      "snr_db": null,
+      "audio_file": "dataset/contrastive/eisenhower_farewell_1961-transition/reference.wav",
+      "sha256": "293864f5b0fe7ac6b67d9a439c40ba1f9c69e92ba9ebe100229beadf1e9787cf",
+      "measurement": {
+        "available": true,
+        "method": "reference_relative_wer_v1",
+        "model_name": "base.en",
+        "score": 100.0,
+        "confirmed_word_count": 38,
+        "minimum_word_count": 8,
+        "maximum_reference_wer": 0.25,
+        "reference_text": "Three days from now, after half a century in the service of our country, I shall lay down the responsibilities of office, as in traditional and solemn ceremony, the authority of the It's a-",
+        "participant_text": "Three days from now, after half a century in the service of our country, I shall lay down the responsibilities of office, as in traditional and solemn ceremony, the authority of the It's a-",
+        "reference": {
+          "substitutions": 2,
+          "deletions": 3,
+          "insertions": 0,
+          "errors": 5,
+          "word_error_rate": 0.13157894736842105
+        },
+        "participant": {
+          "substitutions": 2,
+          "deletions": 3,
+          "insertions": 0,
+          "errors": 5,
+          "word_error_rate": 0.13157894736842105
+        },
+        "excess_word_error_rate": 0.0,
+        "reason": null
+      }
+    },
+    {
+      "group_id": "eisenhower_farewell_1961-transition",
+      "split": "testing",
+      "source_id": "eisenhower_farewell_1961",
+      "snr_db": 10,
+      "audio_file": "dataset/clarity/eisenhower_farewell_1961-transition-noise-10db.wav",
+      "sha256": "b4bd6f531b693019d85bef2fe5a543639285047ebb002b7c236fdb819f27f9c4",
+      "measurement": {
+        "available": true,
+        "method": "reference_relative_wer_v1",
+        "model_name": "base.en",
+        "score": 100.0,
+        "confirmed_word_count": 38,
+        "minimum_word_count": 8,
+        "maximum_reference_wer": 0.25,
+        "reference_text": "Three days from now, after half a century in the service of our country, I shall lay down the responsibilities of office, as in traditional and solemn ceremony, the authority of the It's a-",
+        "participant_text": "Three days from now, after half a century in the service of our country, I shall lay down the responsibilities of office as in traditional and solemn ceremony, the authority of the presidency is vested in my success.",
+        "reference": {
+          "substitutions": 2,
+          "deletions": 3,
+          "insertions": 0,
+          "errors": 5,
+          "word_error_rate": 0.13157894736842105
+        },
+        "participant": {
+          "substitutions": 1,
+          "deletions": 0,
+          "insertions": 0,
+          "errors": 1,
+          "word_error_rate": 0.02631578947368421
+        },
+        "excess_word_error_rate": 0.0,
+        "reason": null
+      }
+    },
+    {
+      "group_id": "eisenhower_farewell_1961-transition",
+      "split": "testing",
+      "source_id": "eisenhower_farewell_1961",
+      "snr_db": 0,
+      "audio_file": "dataset/clarity/eisenhower_farewell_1961-transition-noise-0db.wav",
+      "sha256": "daa64ffbf5439de359899165ade973aa9fcca54a8abaaa70508306b2bb58eb7a",
+      "measurement": {
+        "available": true,
+        "method": "reference_relative_wer_v1",
+        "model_name": "base.en",
+        "score": 100.0,
+        "confirmed_word_count": 38,
+        "minimum_word_count": 8,
+        "maximum_reference_wer": 0.25,
+        "reference_text": "Three days from now, after half a century in the service of our country, I shall lay down the responsibilities of office, as in traditional and solemn ceremony, the authority of the It's a-",
+        "participant_text": "Three days from now, after half a century in the service of our country, I shall lay down the responsibilities of all, as, in traditional and solemn ceremonies, the authority of the presidency is vested in my success.",
+        "reference": {
+          "substitutions": 2,
+          "deletions": 3,
+          "insertions": 0,
+          "errors": 5,
+          "word_error_rate": 0.13157894736842105
+        },
+        "participant": {
+          "substitutions": 3,
+          "deletions": 0,
+          "insertions": 0,
+          "errors": 3,
+          "word_error_rate": 0.07894736842105263
+        },
+        "excess_word_error_rate": 0.0,
+        "reason": null
+      }
+    },
+    {
+      "group_id": "eisenhower_farewell_1961-transition",
+      "split": "testing",
+      "source_id": "eisenhower_farewell_1961",
+      "snr_db": -5,
+      "audio_file": "dataset/clarity/eisenhower_farewell_1961-transition-noise--5db.wav",
+      "sha256": "c9dba78672f888bbb186b6c3a74dbe7767d75c6c33ce9f0fd62aec74dece5229",
+      "measurement": {
+        "available": true,
+        "method": "reference_relative_wer_v1",
+        "model_name": "base.en",
+        "score": 21.1,
+        "confirmed_word_count": 38,
+        "minimum_word_count": 8,
+        "maximum_reference_wer": 0.25,
+        "reference_text": "Three days from now, after half a century in the service of our country, I shall lay down the responsibilities of office, as in traditional and solemn ceremony, the authority of the It's a-",
+        "participant_text": "Three days to now",
+        "reference": {
+          "substitutions": 2,
+          "deletions": 3,
+          "insertions": 0,
+          "errors": 5,
+          "word_error_rate": 0.13157894736842105
+        },
+        "participant": {
+          "substitutions": 1,
+          "deletions": 34,
+          "insertions": 0,
+          "errors": 35,
+          "word_error_rate": 0.9210526315789473
+        },
+        "excess_word_error_rate": 0.7894736842105263,
+        "reason": null
+      }
+    }
+  ]
+}

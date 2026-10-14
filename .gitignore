@@ -1,0 +1,29 @@
+.env
+.venv/
+node_modules/
+dist/
+__pycache__/
+.pytest_cache/
+.coverage
+backend/data/
+*.db
+*.db-shm
+*.db-wal
+playwright-report/
+test-results/
+*.log
+model-artifacts/
+tools-local/
+docs/submission/*.zip
+Problem Statements.pdf
+Track C.pdf
+tmp/
+*.tsbuildinfo
+dataset/reference_speeches/originals/
+dataset/reference_speeches/wav/
+# Preserve original local files, but publish only the attributed paired corpus.
+dataset/reference_speeches/*.mp3
+dataset/reference_speeches/*.WAV
+dataset/reference_speeches/*.mpeg
+dataset/reference_speeches/*.zip
+dataset/reference_speeches/par

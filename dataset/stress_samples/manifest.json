@@ -1,0 +1,52 @@
+{
+  "id": "combined-severe-training-stress",
+  "source_id": "reagan_challenger_1986",
+  "split": "training",
+  "reference_file": "../contrastive/reagan_challenger_1986-opening/reference.wav",
+  "audio_file": "combined-severe.wav",
+  "transcript": "Ladies and gentlemen, I'd planned to speak to you tonight to report on the state of the Union, but the events of earlier today have led me to change those plans. Today is a day for mourning and remembering. Nancy and I are pained to the core by the tragedy of the shuttle Challenger. We know we share this pain with all of the people of our country. This is truly a national loss.",
+  "annotations": [
+    {
+      "flaw_type": "rushed_pacing",
+      "start_seconds": 0.25353333333333333,
+      "end_seconds": 21.946533333333335,
+      "severity": 5
+    },
+    {
+      "flaw_type": "monotone_delivery",
+      "start_seconds": 1.2409999999999999,
+      "end_seconds": 6.002599999999999,
+      "severity": 5
+    },
+    {
+      "flaw_type": "low_energy",
+      "start_seconds": 10.6064,
+      "end_seconds": 18.850666666666665,
+      "severity": 5
+    },
+    {
+      "flaw_type": "awkward_pause",
+      "start_seconds": 2.5888,
+      "end_seconds": 5.415466666666667,
+      "severity": 4
+    },
+    {
+      "flaw_type": "awkward_pause",
+      "start_seconds": 13.021666666666665,
+      "end_seconds": 16.035066666666665,
+      "severity": 4
+    }
+  ],
+  "sha256": "c028513d5c67ac29b61282e2d164cf81628a12266c2baf9b5319a5d5be61bb46",
+  "transformations": {
+    "global_pace": 1.5,
+    "pitch_variation_ratio": 0.03,
+    "local_gain": 0.15,
+    "inserted_pauses": [
+      2.8,
+      3.0
+    ]
+  },
+  "ground_truth_source": "known_controlled_edits",
+  "benchmark_role": "Supplementary training stress case, excluded from the frozen 70-file accuracy benchmark."
+}

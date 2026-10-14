@@ -1,0 +1,47 @@
+{
+  "interpretation": "Diagnostic comparison; production model has not been changed. The private microphone sample returned no recognized speech with this model.",
+  "known_speech": [
+    {
+      "source_id": "reagan_challenger_1986",
+      "split": "training",
+      "model": "small.en",
+      "word_error_rate": 0.02702702702702703,
+      "recognized_text": "Ladies and gentlemen, I'd plan to speak to you tonight to report on the State of the Union. But the events of earlier today have led me to change those plans. Today is a day from mourning and remembering. Nancy and I are pained to the core by the tragedy of the Shuttle Challenger. We know we share this pain with all of the people of our country. This is truly a national loss.",
+      "errors": 2,
+      "compression_ratios": [
+        1.56198347107438,
+        1.56198347107438,
+        1.56198347107438,
+        1.56198347107438,
+        1.56198347107438,
+        1.56198347107438
+      ]
+    },
+    {
+      "source_id": "reagan_farewell_1989",
+      "split": "validation",
+      "model": "small.en",
+      "word_error_rate": 0.0,
+      "recognized_text": "This is the 34th time I'll speak to you from the Oval Office and the last. We've been together eight years now and soon it'll be time for me to go. But before I do, I wanted to share some thoughts, some of which I've been saving for a long time.",
+      "errors": 0,
+      "compression_ratios": [
+        1.4411764705882353,
+        1.4411764705882353,
+        1.4411764705882353
+      ]
+    },
+    {
+      "source_id": "eisenhower_farewell_1961",
+      "split": "testing",
+      "model": "small.en",
+      "word_error_rate": 0.02631578947368421,
+      "recognized_text": "Three days from now after half a century in the service of our country I shall lay down the responsibilities of office as in traditional and solemn ceremony The authority of the presidency is vested in my success",
+      "errors": 1,
+      "compression_ratios": [
+        1.4620689655172414,
+        1.4620689655172414,
+        1.4620689655172414
+      ]
+    }
+  ]
+}

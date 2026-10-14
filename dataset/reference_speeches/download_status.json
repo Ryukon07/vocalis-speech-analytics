@@ -1,0 +1,40 @@
+{
+  "jfk_civil_rights_1963": {
+    "status": "failed",
+    "error": "All advertised media URLs failed: HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "source_page": "https://millercenter.org/the-presidency/presidential-speeches/june-11-1963-address-civil-rights",
+    "transcript_file": "transcripts\\jfk_civil_rights_1963.txt",
+    "transcript_status": "source_text_not_audio_verified"
+  },
+  "reagan_challenger_1986": {
+    "status": "wav_ready_for_review",
+    "source_page": "https://millercenter.org/the-presidency/presidential-speeches/january-28-1986-address-space-shuttle-challenger",
+    "transcript_file": "transcripts\\reagan_challenger_1986.txt",
+    "transcript_status": "source_text_not_audio_verified",
+    "original_file": "spe_1986_0128_reagan.mp3",
+    "wav_file": "wav\\reagan_challenger_1986.wav",
+    "duration_seconds": 254.119,
+    "sha256": "5a017c479d0c760fc5ad16799d73282a300656deed9c719bf18942bf0678e5a0"
+  },
+  "reagan_farewell_1989": {
+    "status": "wav_ready_for_review",
+    "source_page": "https://millercenter.org/the-presidency/presidential-speeches/january-11-1989-farewell-address",
+    "transcript_file": "transcripts\\reagan_farewell_1989.txt",
+    "transcript_status": "source_text_not_audio_verified",
+    "original_file": "spe_1989_0111_reagan.mp3",
+    "wav_file": "wav\\reagan_farewell_1989.wav",
+    "duration_seconds": 1282.227,
+    "sha256": "f2e452f26cd9178a01a645832b5df99f41c9f384b667fb500f5581592efb41c1"
+  },
+  "eisenhower_farewell_1961": {
+    "status": "wav_ready_for_review",
+    "source_page": "https://millercenter.org/the-presidency/presidential-speeches/january-17-1961-farewell-address",
+    "transcript_file": "transcripts\\eisenhower_farewell_1961.txt",
+    "transcript_status": "source_text_not_audio_verified",
+    "original_file": "originals/eisenhower_farewell_1961.mp3",
+    "wav_file": "wav\\eisenhower_farewell_1961.wav",
+    "duration_seconds": 931.422,
+    "sha256": "9bd6b9afc4c49a345156da2aec0f00e467760ad7f28e40d8fef3ffe6b1be0102",
+    "media_url": "https://www.eisenhowerlibrary.gov/sites/default/files/all-about-ike/speeches/wav-files/farewell-address.mp3"
+  }
+}

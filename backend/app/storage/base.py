@@ -1,0 +1,16 @@
+from abc import ABC, abstractmethod
+from pathlib import Path
+from typing import BinaryIO
+
+
+class Storage(ABC):
+    @abstractmethod
+    def path(self, key: str) -> Path: ...
+    @abstractmethod
+    def save(self, stream: BinaryIO, suffix: str, limit: int) -> tuple[str, int]: ...
+    @abstractmethod
+    def delete(self, key: str) -> None: ...
+    @abstractmethod
+    def save_json(self, value: dict) -> str: ...
+    @abstractmethod
+    def read_json(self, key: str) -> dict: ...

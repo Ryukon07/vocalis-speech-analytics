@@ -1,0 +1,182 @@
+[
+  {
+    "word": "Our",
+    "start": 0.4407,
+    "end": 0.5409,
+    "confidence": 0.9769
+  },
+  {
+    "word": "people",
+    "start": 0.6811,
+    "end": 0.9616,
+    "confidence": 0.9847
+  },
+  {
+    "word": "expect",
+    "start": 1.0818,
+    "end": 1.4223,
+    "confidence": 0.9994
+  },
+  {
+    "word": "their",
+    "start": 1.7629,
+    "end": 1.9232,
+    "confidence": 0.9941
+  },
+  {
+    "word": "President",
+    "start": 2.0233,
+    "end": 2.404,
+    "confidence": 0.9301
+  },
+  {
+    "word": "and",
+    "start": 2.4841,
+    "end": 2.5442,
+    "confidence": 0.9344
+  },
+  {
+    "word": "the",
+    "start": 2.5842,
+    "end": 2.6443,
+    "confidence": 0.8366
+  },
+  {
+    "word": "Congress",
+    "start": 2.7044,
+    "end": 3.3255,
+    "confidence": 0.9889
+  },
+  {
+    "word": "to",
+    "start": 4.287,
+    "end": 4.3471,
+    "confidence": 0.0262
+  },
+  {
+    "word": "find",
+    "start": 4.5074,
+    "end": 4.868,
+    "confidence": 0.0998
+  },
+  {
+    "word": "essential",
+    "start": 5.0283,
+    "end": 5.7895,
+    "confidence": 0.3773
+  },
+  {
+    "word": "agreement",
+    "start": 5.9698,
+    "end": 6.5708,
+    "confidence": 0.4186
+  },
+  {
+    "word": "on",
+    "start": 7.0716,
+    "end": 7.1518,
+    "confidence": 0.4065
+  },
+  {
+    "word": "issues",
+    "start": 7.332,
+    "end": 7.7527,
+    "confidence": 0.4776
+  },
+  {
+    "word": "of",
+    "start": 7.913,
+    "end": 7.9531,
+    "confidence": 0.6538
+  },
+  {
+    "word": "great",
+    "start": 8.0733,
+    "end": 8.2736,
+    "confidence": 0.9962
+  },
+  {
+    "word": "moment,",
+    "start": 8.3537,
+    "end": 8.5941,
+    "confidence": 0.8622
+  },
+  {
+    "word": "the",
+    "start": 9.5958,
+    "end": 9.6759,
+    "confidence": 0.9977
+  },
+  {
+    "word": "wise",
+    "start": 9.756,
+    "end": 10.1367,
+    "confidence": 0.9826
+  },
+  {
+    "word": "resolution",
+    "start": 10.2368,
+    "end": 10.7176,
+    "confidence": 0.9985
+  },
+  {
+    "word": "of",
+    "start": 10.7977,
+    "end": 10.8378,
+    "confidence": 0.9939
+  },
+  {
+    "word": "which",
+    "start": 10.9179,
+    "end": 11.0982,
+    "confidence": 0.783
+  },
+  {
+    "word": "will",
+    "start": 11.9396,
+    "end": 12.16,
+    "confidence": 0.9984
+  },
+  {
+    "word": "better",
+    "start": 12.2401,
+    "end": 12.4605,
+    "confidence": 0.9952
+  },
+  {
+    "word": "shape",
+    "start": 12.5406,
+    "end": 12.801,
+    "confidence": 0.9968
+  },
+  {
+    "word": "the",
+    "start": 13.0815,
+    "end": 13.1616,
+    "confidence": 0.9927
+  },
+  {
+    "word": "future",
+    "start": 13.2217,
+    "end": 13.5823,
+    "confidence": 0.9974
+  },
+  {
+    "word": "of",
+    "start": 13.8227,
+    "end": 13.8828,
+    "confidence": 0.9595
+  },
+  {
+    "word": "the",
+    "start": 13.9229,
+    "end": 13.983,
+    "confidence": 0.9634
+  },
+  {
+    "word": "Nation.",
+    "start": 14.023,
+    "end": 14.2634,
+    "confidence": 0.9427
+  }
+]

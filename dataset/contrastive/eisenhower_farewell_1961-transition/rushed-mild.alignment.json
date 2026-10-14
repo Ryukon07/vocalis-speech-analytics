@@ -1,0 +1,230 @@
+[
+  {
+    "word": "Three",
+    "start": 0.3404,
+    "end": 0.5207,
+    "confidence": 0.9544
+  },
+  {
+    "word": "days",
+    "start": 0.5607,
+    "end": 0.801,
+    "confidence": 0.9979
+  },
+  {
+    "word": "from",
+    "start": 0.8811,
+    "end": 1.0213,
+    "confidence": 0.9652
+  },
+  {
+    "word": "now,",
+    "start": 1.0814,
+    "end": 1.2416,
+    "confidence": 0.9925
+  },
+  {
+    "word": "after",
+    "start": 2.0826,
+    "end": 2.2829,
+    "confidence": 0.9992
+  },
+  {
+    "word": "half",
+    "start": 2.383,
+    "end": 2.5432,
+    "confidence": 0.9751
+  },
+  {
+    "word": "a",
+    "start": 2.6233,
+    "end": 2.6433,
+    "confidence": 0.9974
+  },
+  {
+    "word": "century",
+    "start": 2.7234,
+    "end": 3.164,
+    "confidence": 0.9564
+  },
+  {
+    "word": "in",
+    "start": 3.8849,
+    "end": 3.925,
+    "confidence": 0.9488
+  },
+  {
+    "word": "the",
+    "start": 3.965,
+    "end": 4.0251,
+    "confidence": 0.9006
+  },
+  {
+    "word": "service",
+    "start": 4.0651,
+    "end": 4.2854,
+    "confidence": 0.3934
+  },
+  {
+    "word": "of",
+    "start": 4.3054,
+    "end": 4.3455,
+    "confidence": 0.0013
+  },
+  {
+    "word": "our",
+    "start": 4.3655,
+    "end": 4.4256,
+    "confidence": 0.044
+  },
+  {
+    "word": "country,",
+    "start": 4.4456,
+    "end": 4.6859,
+    "confidence": 0.277
+  },
+  {
+    "word": "I",
+    "start": 5.1866,
+    "end": 5.2066,
+    "confidence": 0.9176
+  },
+  {
+    "word": "shall",
+    "start": 5.2667,
+    "end": 5.4068,
+    "confidence": 0.3369
+  },
+  {
+    "word": "lay",
+    "start": 5.4269,
+    "end": 5.527,
+    "confidence": 0.9732
+  },
+  {
+    "word": "down",
+    "start": 5.5871,
+    "end": 5.8073,
+    "confidence": 0.9975
+  },
+  {
+    "word": "the",
+    "start": 5.8874,
+    "end": 5.9475,
+    "confidence": 0.9983
+  },
+  {
+    "word": "responsibilities",
+    "start": 6.0076,
+    "end": 6.9688,
+    "confidence": 0.9574
+  },
+  {
+    "word": "of",
+    "start": 7.2892,
+    "end": 7.3293,
+    "confidence": 0.9998
+  },
+  {
+    "word": "office",
+    "start": 7.4895,
+    "end": 7.7899,
+    "confidence": 0.9979
+  },
+  {
+    "word": "as,",
+    "start": 8.3906,
+    "end": 8.4907,
+    "confidence": 0.999
+  },
+  {
+    "word": "in",
+    "start": 9.2717,
+    "end": 9.3118,
+    "confidence": 0.9992
+  },
+  {
+    "word": "traditional",
+    "start": 9.4319,
+    "end": 9.9926,
+    "confidence": 0.9912
+  },
+  {
+    "word": "and",
+    "start": 10.1128,
+    "end": 10.1929,
+    "confidence": 0.9788
+  },
+  {
+    "word": "solemn",
+    "start": 10.273,
+    "end": 10.6535,
+    "confidence": 0.9752
+  },
+  {
+    "word": "ceremony,",
+    "start": 10.9138,
+    "end": 11.3744,
+    "confidence": 0.9939
+  },
+  {
+    "word": "the",
+    "start": 12.2355,
+    "end": 12.3156,
+    "confidence": 0.9975
+  },
+  {
+    "word": "authority",
+    "start": 12.3957,
+    "end": 12.8563,
+    "confidence": 0.9986
+  },
+  {
+    "word": "of",
+    "start": 12.9163,
+    "end": 12.9564,
+    "confidence": 0.9992
+  },
+  {
+    "word": "the",
+    "start": 13.0165,
+    "end": 13.0765,
+    "confidence": 0.9946
+  },
+  {
+    "word": "Presidency",
+    "start": 13.1366,
+    "end": 13.6573,
+    "confidence": 0.8178
+  },
+  {
+    "word": "is",
+    "start": 14.2981,
+    "end": 14.3582,
+    "confidence": 0.9998
+  },
+  {
+    "word": "vested",
+    "start": 14.4583,
+    "end": 14.7987,
+    "confidence": 0.9141
+  },
+  {
+    "word": "in",
+    "start": 15.3394,
+    "end": 15.3795,
+    "confidence": 0.9989
+  },
+  {
+    "word": "my",
+    "start": 15.4596,
+    "end": 15.5397,
+    "confidence": 0.9999
+  },
+  {
+    "word": "successor.",
+    "start": 15.5797,
+    "end": 15.8601,
+    "confidence": 0.0
+  }
+]

@@ -1,0 +1,338 @@
+[
+  {
+    "word": "This",
+    "start": 0.6403,
+    "end": 0.7603,
+    "confidence": 0.9893
+  },
+  {
+    "word": "evening",
+    "start": 0.8604,
+    "end": 1.1205,
+    "confidence": 0.9627
+  },
+  {
+    "word": "I",
+    "start": 1.4606,
+    "end": 1.4806,
+    "confidence": 0.9998
+  },
+  {
+    "word": "come",
+    "start": 1.6207,
+    "end": 1.8008,
+    "confidence": 0.9997
+  },
+  {
+    "word": "to",
+    "start": 1.8608,
+    "end": 1.9008,
+    "confidence": 0.9987
+  },
+  {
+    "word": "you",
+    "start": 1.9608,
+    "end": 2.0609,
+    "confidence": 1.0
+  },
+  {
+    "word": "with",
+    "start": 2.221,
+    "end": 2.341,
+    "confidence": 0.9989
+  },
+  {
+    "word": "a",
+    "start": 2.401,
+    "end": 2.421,
+    "confidence": 0.9788
+  },
+  {
+    "word": "message",
+    "start": 2.4811,
+    "end": 2.8212,
+    "confidence": 0.9999
+  },
+  {
+    "word": "of",
+    "start": 2.9613,
+    "end": 3.0013,
+    "confidence": 0.999
+  },
+  {
+    "word": "leave-taking",
+    "start": 3.1414,
+    "end": 3.7616,
+    "confidence": 0.9978
+  },
+  {
+    "word": "and",
+    "start": 3.9617,
+    "end": 4.0217,
+    "confidence": 0.9995
+  },
+  {
+    "word": "farewell,",
+    "start": 4.1218,
+    "end": 4.522,
+    "confidence": 0.9691
+  },
+  {
+    "word": "and",
+    "start": 5.6024,
+    "end": 5.6825,
+    "confidence": 0.9977
+  },
+  {
+    "word": "to",
+    "start": 5.7425,
+    "end": 5.8225,
+    "confidence": 0.9789
+  },
+  {
+    "word": "share",
+    "start": 5.8625,
+    "end": 6.1226,
+    "confidence": 0.9437
+  },
+  {
+    "word": "a",
+    "start": 6.5828,
+    "end": 6.6028,
+    "confidence": 0.0015
+  },
+  {
+    "word": "few",
+    "start": 6.7029,
+    "end": 6.7829,
+    "confidence": 0.0028
+  },
+  {
+    "word": "final",
+    "start": 6.883,
+    "end": 7.0831,
+    "confidence": 0.1026
+  },
+  {
+    "word": "thoughts",
+    "start": 7.1431,
+    "end": 7.4032,
+    "confidence": 0.1043
+  },
+  {
+    "word": "with",
+    "start": 7.4232,
+    "end": 7.5032,
+    "confidence": 0.0454
+  },
+  {
+    "word": "you,",
+    "start": 7.5633,
+    "end": 7.6633,
+    "confidence": 0.9931
+  },
+  {
+    "word": "my",
+    "start": 8.4436,
+    "end": 8.5237,
+    "confidence": 0.9993
+  },
+  {
+    "word": "countrymen.",
+    "start": 8.6237,
+    "end": 9.0639,
+    "confidence": 0.9272
+  },
+  {
+    "word": "Like",
+    "start": 12.0852,
+    "end": 12.2453,
+    "confidence": 0.9738
+  },
+  {
+    "word": "every",
+    "start": 12.3453,
+    "end": 12.5254,
+    "confidence": 0.9706
+  },
+  {
+    "word": "other",
+    "start": 12.6254,
+    "end": 12.7855,
+    "confidence": 0.9967
+  },
+  {
+    "word": "citizen,",
+    "start": 14.6863,
+    "end": 15.0265,
+    "confidence": 0.927
+  },
+  {
+    "word": "I",
+    "start": 15.1665,
+    "end": 15.1865,
+    "confidence": 0.9997
+  },
+  {
+    "word": "wish",
+    "start": 15.3266,
+    "end": 15.4867,
+    "confidence": 0.9525
+  },
+  {
+    "word": "the",
+    "start": 15.6067,
+    "end": 15.6668,
+    "confidence": 0.9969
+  },
+  {
+    "word": "new",
+    "start": 15.7268,
+    "end": 15.8268,
+    "confidence": 0.9328
+  },
+  {
+    "word": "President,",
+    "start": 15.9069,
+    "end": 16.307,
+    "confidence": 0.9992
+  },
+  {
+    "word": "and",
+    "start": 16.7272,
+    "end": 16.7872,
+    "confidence": 0.9936
+  },
+  {
+    "word": "all",
+    "start": 17.0674,
+    "end": 17.2074,
+    "confidence": 0.9995
+  },
+  {
+    "word": "who",
+    "start": 17.2674,
+    "end": 17.3475,
+    "confidence": 0.996
+  },
+  {
+    "word": "will",
+    "start": 17.4075,
+    "end": 17.5276,
+    "confidence": 0.9983
+  },
+  {
+    "word": "labor",
+    "start": 17.5676,
+    "end": 17.7877,
+    "confidence": 0.9976
+  },
+  {
+    "word": "with",
+    "start": 17.8477,
+    "end": 17.9878,
+    "confidence": 0.9993
+  },
+  {
+    "word": "him,",
+    "start": 18.0278,
+    "end": 18.1478,
+    "confidence": 0.974
+  },
+  {
+    "word": "Godspeed.",
+    "start": 18.468,
+    "end": 18.9482,
+    "confidence": 0.7443
+  },
+  {
+    "word": "I",
+    "start": 19.9286,
+    "end": 19.9486,
+    "confidence": 0.9999
+  },
+  {
+    "word": "pray",
+    "start": 20.0887,
+    "end": 20.3088,
+    "confidence": 0.9992
+  },
+  {
+    "word": "that",
+    "start": 20.4288,
+    "end": 20.5689,
+    "confidence": 0.9487
+  },
+  {
+    "word": "the",
+    "start": 20.6089,
+    "end": 20.6889,
+    "confidence": 0.9975
+  },
+  {
+    "word": "coming",
+    "start": 20.7489,
+    "end": 21.0091,
+    "confidence": 0.9996
+  },
+  {
+    "word": "years",
+    "start": 21.0691,
+    "end": 21.4092,
+    "confidence": 0.9602
+  },
+  {
+    "word": "will",
+    "start": 21.4893,
+    "end": 21.6293,
+    "confidence": 0.9993
+  },
+  {
+    "word": "be",
+    "start": 21.6693,
+    "end": 21.7294,
+    "confidence": 0.9994
+  },
+  {
+    "word": "blessed",
+    "start": 21.8094,
+    "end": 22.0495,
+    "confidence": 0.9909
+  },
+  {
+    "word": "with",
+    "start": 22.0895,
+    "end": 22.2096,
+    "confidence": 0.9981
+  },
+  {
+    "word": "peace",
+    "start": 22.2896,
+    "end": 22.5297,
+    "confidence": 0.9988
+  },
+  {
+    "word": "and",
+    "start": 22.6498,
+    "end": 22.7098,
+    "confidence": 0.9996
+  },
+  {
+    "word": "prosperity",
+    "start": 22.7698,
+    "end": 23.3901,
+    "confidence": 0.9841
+  },
+  {
+    "word": "for",
+    "start": 24.0704,
+    "end": 24.1904,
+    "confidence": 0.9975
+  },
+  {
+    "word": "all.",
+    "start": 24.2905,
+    "end": 24.4105,
+    "confidence": 0.972
+  }
+]

@@ -1,0 +1,25 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    ports: ["127.0.0.1:8000:8000"]
+    environment:
+      DATABASE_URL: sqlite:///./data/vocalis.db
+      STORAGE_ROOT: ./data/storage
+      ANALYSIS_PROVIDER: evaluator
+      ENABLE_DEMO_MODE: "false"
+      JOB_TIMEOUT_SECONDS: "1800"
+      MODEL_CACHE_ROOT: /models
+      CORS_ORIGINS: '["http://localhost:5173","http://127.0.0.1:5173"]'
+    volumes: ["vocalis-data:/app/backend/data", "vocalis-models:/models"]
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        VITE_API_BASE_URL: http://127.0.0.1:8000/api/v1
+    ports: ["127.0.0.1:5173:80"]
+    depends_on: [backend]
+volumes:
+  vocalis-data:
+  vocalis-models:

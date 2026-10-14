@@ -1,0 +1,13 @@
+{
+  "url": "https://jackson-nutten-high-taken.trycloudflare.com",
+  "temporary": true,
+  "requires_laptop_online": true,
+  "healthy": true,
+  "real_transcription": true,
+  "actual_model": "medium",
+  "private_microphone_excluded": true,
+  "seed_mutation_protected": true,
+  "cross_session_items_hidden": true,
+  "audio_ranges": true,
+  "pdf_export": true
+}

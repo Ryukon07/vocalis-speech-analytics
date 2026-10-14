@@ -1,0 +1,1752 @@
+[
+  {
+    "group_id": "reagan_challenger_1986-opening",
+    "variant_id": "reagan_challenger_1986-opening-near-perfect",
+    "split": "training",
+    "level": 1,
+    "scores": {
+      "overall": 100.0,
+      "pacing": 100.0,
+      "intonation": 100.0,
+      "energy": 100.0
+    },
+    "label_count": 0,
+    "detected_count": 0,
+    "true_positives": 0,
+    "false_positives": 0,
+    "matches": [],
+    "elapsed_seconds": 1.77,
+    "error": null
+  },
+  {
+    "group_id": "reagan_challenger_1986-opening",
+    "variant_id": "reagan_challenger_1986-opening-rushed-mild",
+    "split": "training",
+    "level": 2,
+    "scores": {
+      "overall": 99.1,
+      "pacing": 97.8,
+      "intonation": 100.0,
+      "energy": 100.0
+    },
+    "label_count": 1,
+    "detected_count": 1,
+    "true_positives": 1,
+    "false_positives": 0,
+    "matches": [
+      {
+        "type": "rushed_pacing",
+        "best_iou": 0.3924,
+        "matched": true,
+        "boundary_error_seconds": 0.4955
+      }
+    ],
+    "elapsed_seconds": 0.06,
+    "error": null
+  },
+  {
+    "group_id": "reagan_challenger_1986-opening",
+    "variant_id": "reagan_challenger_1986-opening-rushed-severe",
+    "split": "training",
+    "level": 5,
+    "scores": {
+      "overall": 98.1,
+      "pacing": 95.3,
+      "intonation": 100.0,
+      "energy": 100.0
+    },
+    "label_count": 1,
+    "detected_count": 1,
+    "true_positives": 1,
+    "false_positives": 0,
+    "matches": [
+      {
+        "type": "rushed_pacing",
+        "best_iou": 0.9691,
+        "matched": true,
+        "boundary_error_seconds": 0.0192
+      }
+    ],
+    "elapsed_seconds": 0.06,
+    "error": null
+  },
+  {
+    "group_id": "reagan_challenger_1986-opening",
+    "variant_id": "reagan_challenger_1986-opening-slow",
+    "split": "training",
+    "level": 4,
+    "scores": {
+      "overall": 98.1,
+      "pacing": 95.2,
+      "intonation": 100.0,
+      "energy": 100.0
+    },
+    "label_count": 1,
+    "detected_count": 1,
+    "true_positives": 1,
+    "false_positives": 0,
+    "matches": [
+      {
+        "type": "slow_pacing",
+        "best_iou": 0.993,
+        "matched": true,
+        "boundary_error_seconds": 0.013
+      }
+    ],
+    "elapsed_seconds": 0.06,
+    "error": null
+  },
+  {
+    "group_id": "reagan_challenger_1986-opening",
+    "variant_id": "reagan_challenger_1986-opening-pause",
+    "split": "training",
+    "level": 4,
+    "scores": {
+      "overall": 99.2,
+      "pacing": 97.9,
+      "intonation": 100.0,
+      "energy": 100.0
+    },
+    "label_count": 1,
+    "detected_count": 1,
+    "true_positives": 1,
+    "false_positives": 0,
+    "matches": [
+      {
+        "type": "awkward_pause",
+        "best_iou": 0.9908,
+        "matched": true,
+        "boundary_error_seconds": 0.0102
+      }
+    ],
+    "elapsed_seconds": 0.06,
+    "error": null
+  },
+  {
+    "group_id": "reagan_challenger_1986-opening",
+    "variant_id": "reagan_challenger_1986-opening-low-energy",
+    "split": "training",
+    "level": 4,
+    "scores": {
+      "overall": 99.3,
+      "pacing": 100.0,
+      "intonation": 100.0,
+      "energy": 97.3
+    },
+    "label_count": 1,
+    "detected_count": 1,
+    "true_positives": 1,
+    "false_positives": 0,
+    "matches": [
+      {
+        "type": "low_energy",
+        "best_iou": 0.5998,
+        "matched": true,
+        "boundary_error_seconds": 0.5256
+      }
+    ],
+    "elapsed_seconds": 0.08,
+    "error": null
+  },
+  {
+    "group_id": "reagan_challenger_1986-opening",
+    "variant_id": "reagan_challenger_1986-opening-monotone",
+    "split": "training",
+    "level": 4,
+    "scores": {
+      "overall": 98.6,
+      "pacing": 100.0,
+      "intonation": 95.9,
+      "energy": 100.0
+    },
+    "label_count": 1,
+    "detected_count": 1,
+    "true_positives": 1,
+    "false_positives": 0,
+    "matches": [
+      {
+        "type": "monotone_delivery",
+        "best_iou": 0.5998,
+        "matched": true,
+        "boundary_error_seconds": 0.5256
+      }
+    ],
+    "elapsed_seconds": 0.08,
+    "error": null
+  },
+  {
+    "group_id": "reagan_challenger_1986-courage",
+    "variant_id": "reagan_challenger_1986-courage-near-perfect",
+    "split": "training",
+    "level": 1,
+    "scores": {
+      "overall": 100.0,
+      "pacing": 100.0,
+      "intonation": 100.0,
+      "energy": 100.0
+    },
+    "label_count": 0,
+    "detected_count": 0,
+    "true_positives": 0,
+    "false_positives": 0,
+    "matches": [],
+    "elapsed_seconds": 0.08,
+    "error": null
+  },
+  {
+    "group_id": "reagan_challenger_1986-courage",
+    "variant_id": "reagan_challenger_1986-courage-rushed-mild",
+    "split": "training",
+    "level": 2,
+    "scores": {
+      "overall": 100.0,
+      "pacing": 100.0,
+      "intonation": 100.0,
+      "energy": 100.0
+    },
+    "label_count": 1,
+    "detected_count": 0,
+    "true_positives": 0,
+    "false_positives": 0,
+    "matches": [
+      {
+        "type": "rushed_pacing",
+        "best_iou": 0,
+        "matched": false,
+        "boundary_error_seconds": null
+      }
+    ],
+    "elapsed_seconds": 0.06,
+    "error": null
+  },
+  {
+    "group_id": "reagan_challenger_1986-courage",
+    "variant_id": "reagan_challenger_1986-courage-rushed-severe",
+    "split": "training",
+    "level": 5,
+    "scores": {
+      "overall": 97.4,
+      "pacing": 93.6,
+      "intonation": 100.0,
+      "energy": 100.0
+    },
+    "label_count": 1,
+    "detected_count": 1,
+    "true_positives": 1,
+    "false_positives": 0,
+    "matches": [
+      {
+        "type": "rushed_pacing",
+        "best_iou": 0.7878,
+        "matched": true,
+        "boundary_error_seconds": 0.2336
+      }
+    ],
+    "elapsed_seconds": 0.08,
+    "error": null
+  },
+  {
+    "group_id": "reagan_challenger_1986-courage",
+    "variant_id": "reagan_challenger_1986-courage-slow",
+    "split": "training",
+    "level": 4,
+    "scores": {
+      "overall": 98.2,
+      "pacing": 95.4,
+      "intonation": 100.0,
+      "energy": 100.0
+    },
+    "label_count": 1,
+    "detected_count": 1,
+    "true_positives": 1,
+    "false_positives": 0,
+    "matches": [
+      {
+        "type": "slow_pacing",
+        "best_iou": 0.5539,
+        "matched": true,
+        "boundary_error_seconds": 1.1608
+      }
+    ],
+    "elapsed_seconds": 0.06,
+    "error": null
+  },
+  {
+    "group_id": "reagan_challenger_1986-courage",
+    "variant_id": "reagan_challenger_1986-courage-pause",
+    "split": "training",
+    "level": 4,
+    "scores": {
+      "overall": 99.1,
+      "pacing": 97.8,
+      "intonation": 100.0,
+      "energy": 100.0
+    },
+    "label_count": 1,
+    "detected_count": 1,
+    "true_positives": 1,
+    "false_positives": 0,
+    "matches": [
+      {
+        "type": "awkward_pause",
+        "best_iou": 0.9916,
+        "matched": true,
+        "boundary_error_seconds": 0.0095
+      }
+    ],
+    "elapsed_seconds": 0.05,
+    "error": null
+  },
+  {
+    "group_id": "reagan_challenger_1986-courage",
+    "variant_id": "reagan_challenger_1986-courage-low-energy",
+    "split": "training",
+    "level": 4,
+    "scores": {
+      "overall": 99.3,
+      "pacing": 100.0,
+      "intonation": 100.0,
+      "energy": 97.2
+    },
+    "label_count": 1,
+    "detected_count": 1,
+    "true_positives": 1,
+    "false_positives": 0,
+    "matches": [
+      {
+        "type": "low_energy",
+        "best_iou": 0.6405,
+        "matched": true,
+        "boundary_error_seconds": 0.5613
+      }
+    ],
+    "elapsed_seconds": 0.08,
+    "error": null
+  },
+  {
+    "group_id": "reagan_challenger_1986-courage",
+    "variant_id": "reagan_challenger_1986-courage-monotone",
+    "split": "training",
+    "level": 4,
+    "scores": {
+      "overall": 98.5,
+      "pacing": 100.0,
+      "intonation": 95.8,
+      "energy": 100.0
+    },
+    "label_count": 1,
+    "detected_count": 1,
+    "true_positives": 1,
+    "false_positives": 0,
+    "matches": [
+      {
+        "type": "monotone_delivery",
+        "best_iou": 0.6405,
+        "matched": true,
+        "boundary_error_seconds": 0.5613
+      }
+    ],
+    "elapsed_seconds": 0.08,
+    "error": null
+  },
+  {
+    "group_id": "reagan_challenger_1986-families",
+    "variant_id": "reagan_challenger_1986-families-near-perfect",
+    "split": "training",
+    "level": 1,
+    "scores": {
+      "overall": 100.0,
+      "pacing": 100.0,
+      "intonation": 100.0,
+      "energy": 100.0
+    },
+    "label_count": 0,
+    "detected_count": 0,
+    "true_positives": 0,
+    "false_positives": 0,
+    "matches": [],
+    "elapsed_seconds": 0.08,
+    "error": null
+  },
+  {
+    "group_id": "reagan_challenger_1986-families",
+    "variant_id": "reagan_challenger_1986-families-rushed-mild",
+    "split": "training",
+    "level": 2,
+    "scores": {
+      "overall": 98.4,
+      "pacing": 96.1,
+      "intonation": 100.0,
+      "energy": 100.0
+    },
+    "label_count": 1,
+    "detected_count": 1,
+    "true_positives": 1,
+    "false_positives": 0,
+    "matches": [
+      {
+        "type": "rushed_pacing",
+        "best_iou": 0.8396,
+        "matched": true,
+        "boundary_error_seconds": 0.1774
+      }
+    ],
+    "elapsed_seconds": 0.06,
+    "error": null
+  },
+  {
+    "group_id": "reagan_challenger_1986-families",
+    "variant_id": "reagan_challenger_1986-families-rushed-severe",
+    "split": "training",
+    "level": 5,
+    "scores": {
+      "overall": 96.8,
+      "pacing": 92.1,
+      "intonation": 100.0,
+      "energy": 100.0
+    },
+    "label_count": 1,
+    "detected_count": 1,
+    "true_positives": 1,
+    "false_positives": 0,
+    "matches": [
+      {
+        "type": "rushed_pacing",
+        "best_iou": 0.9772,
+        "matched": true,
+        "boundary_error_seconds": 0.0192
+      }
+    ],
+    "elapsed_seconds": 0.08,
+    "error": null
+  },
+  {
+    "group_id": "reagan_challenger_1986-families",
+    "variant_id": "reagan_challenger_1986-families-slow",
+    "split": "training",
+    "level": 4,
+    "scores": {
+      "overall": 99.3,
+      "pacing": 98.3,
+      "intonation": 100.0,
+      "energy": 100.0
+    },
+    "label_count": 1,
+    "detected_count": 1,
+    "true_positives": 0,
+    "false_positives": 1,
+    "matches": [
+      {
+        "type": "slow_pacing",
+        "best_iou": 0.2255,
+        "matched": false,
+        "boundary_error_seconds": 1.9252
+      }
+    ],
+    "elapsed_seconds": 0.08,
+    "error": null
+  },
+  {
+    "group_id": "reagan_challenger_1986-families",
+    "variant_id": "reagan_challenger_1986-families-pause",
+    "split": "training",
+    "level": 4,
+    "scores": {
+      "overall": 99.0,
+      "pacing": 97.4,
+      "intonation": 100.0,
+      "energy": 100.0
+    },
+    "label_count": 1,
+    "detected_count": 1,
+    "true_positives": 1,
+    "false_positives": 0,
+    "matches": [
+      {
+        "type": "awkward_pause",
+        "best_iou": 0.9904,
+        "matched": true,
+        "boundary_error_seconds": 0.011
+      }
+    ],
+    "elapsed_seconds": 0.08,
+    "error": null
+  },
+  {
+    "group_id": "reagan_challenger_1986-families",
+    "variant_id": "reagan_challenger_1986-families-low-energy",
+    "split": "training",
+    "level": 4,
+    "scores": {
+      "overall": 99.2,
+      "pacing": 100.0,
+      "intonation": 100.0,
+      "energy": 96.7
+    },
+    "label_count": 1,
+    "detected_count": 1,
+    "true_positives": 1,
+    "false_positives": 0,
+    "matches": [
+      {
+        "type": "low_energy",
+        "best_iou": 0.6705,
+        "matched": true,
+        "boundary_error_seconds": 0.4915
+      }
+    ],
+    "elapsed_seconds": 0.06,
+    "error": null
+  },
+  {
+    "group_id": "reagan_challenger_1986-families",
+    "variant_id": "reagan_challenger_1986-families-monotone",
+    "split": "training",
+    "level": 4,
+    "scores": {
+      "overall": 98.3,
+      "pacing": 100.0,
+      "intonation": 95.1,
+      "energy": 100.0
+    },
+    "label_count": 1,
+    "detected_count": 1,
+    "true_positives": 1,
+    "false_positives": 0,
+    "matches": [
+      {
+        "type": "monotone_delivery",
+        "best_iou": 0.4015,
+        "matched": true,
+        "boundary_error_seconds": 1.064
+      }
+    ],
+    "elapsed_seconds": 0.06,
+    "error": null
+  },
+  {
+    "group_id": "reagan_challenger_1986-discovery",
+    "variant_id": "reagan_challenger_1986-discovery-near-perfect",
+    "split": "training",
+    "level": 1,
+    "scores": {
+      "overall": 100.0,
+      "pacing": 100.0,
+      "intonation": 100.0,
+      "energy": 100.0
+    },
+    "label_count": 0,
+    "detected_count": 0,
+    "true_positives": 0,
+    "false_positives": 0,
+    "matches": [],
+    "elapsed_seconds": 0.06,
+    "error": null
+  },
+  {
+    "group_id": "reagan_challenger_1986-discovery",
+    "variant_id": "reagan_challenger_1986-discovery-rushed-mild",
+    "split": "training",
+    "level": 2,
+    "scores": {
+      "overall": 98.8,
+      "pacing": 96.9,
+      "intonation": 100.0,
+      "energy": 100.0
+    },
+    "label_count": 1,
+    "detected_count": 1,
+    "true_positives": 0,
+    "false_positives": 1,
+    "matches": [
+      {
+        "type": "rushed_pacing",
+        "best_iou": 0.234,
+        "matched": false,
+        "boundary_error_seconds": 0.9422
+      }
+    ],
+    "elapsed_seconds": 0.03,
+    "error": null
+  },
+  {
+    "group_id": "reagan_challenger_1986-discovery",
+    "variant_id": "reagan_challenger_1986-discovery-rushed-severe",
+    "split": "training",
+    "level": 5,
+    "scores": {
+      "overall": 94.4,
+      "pacing": 86.1,
+      "intonation": 100.0,
+      "energy": 100.0
+    },
+    "label_count": 1,
+    "detected_count": 1,
+    "true_positives": 1,
+    "false_positives": 0,
+    "matches": [
+      {
+        "type": "rushed_pacing",
+        "best_iou": 0.8671,
+        "matched": true,
+        "boundary_error_seconds": 0.1331
+      }
+    ],
+    "elapsed_seconds": 0.06,
+    "error": null
+  },
+  {
+    "group_id": "reagan_challenger_1986-discovery",
+    "variant_id": "reagan_challenger_1986-discovery-slow",
+    "split": "training",
+    "level": 4,
+    "scores": {
+      "overall": 98.6,
+      "pacing": 96.4,
+      "intonation": 100.0,
+      "energy": 100.0
+    },
+    "label_count": 1,
+    "detected_count": 1,
+    "true_positives": 1,
+    "false_positives": 0,
+    "matches": [
+      {
+        "type": "slow_pacing",
+        "best_iou": 0.2969,
+        "matched": true,
+        "boundary_error_seconds": 1.8728
+      }
+    ],
+    "elapsed_seconds": 0.05,
+    "error": null
+  },
+  {
+    "group_id": "reagan_challenger_1986-discovery",
+    "variant_id": "reagan_challenger_1986-discovery-pause",
+    "split": "training",
+    "level": 4,
+    "scores": {
+      "overall": 98.6,
+      "pacing": 96.4,
+      "intonation": 100.0,
+      "energy": 100.0
+    },
+    "label_count": 1,
+    "detected_count": 1,
+    "true_positives": 1,
+    "false_positives": 0,
+    "matches": [
+      {
+        "type": "awkward_pause",
+        "best_iou": 0.9904,
+        "matched": true,
+        "boundary_error_seconds": 0.011
+      }
+    ],
+    "elapsed_seconds": 0.06,
+    "error": null
+  },
+  {
+    "group_id": "reagan_challenger_1986-discovery",
+    "variant_id": "reagan_challenger_1986-discovery-low-energy",
+    "split": "training",
+    "level": 4,
+    "scores": {
+      "overall": 98.0,
+      "pacing": 100.0,
+      "intonation": 100.0,
+      "energy": 92.1
+    },
+    "label_count": 1,
+    "detected_count": 2,
+    "true_positives": 1,
+    "false_positives": 1,
+    "matches": [
+      {
+        "type": "low_energy",
+        "best_iou": 0.6401,
+        "matched": true,
+        "boundary_error_seconds": 0.5623
+      }
+    ],
+    "elapsed_seconds": 0.06,
+    "error": null
+  },
+  {
+    "group_id": "reagan_challenger_1986-discovery",
+    "variant_id": "reagan_challenger_1986-discovery-monotone",
+    "split": "training",
+    "level": 4,
+    "scores": {
+      "overall": 97.4,
+      "pacing": 100.0,
+      "intonation": 92.7,
+      "energy": 100.0
+    },
+    "label_count": 1,
+    "detected_count": 1,
+    "true_positives": 1,
+    "false_positives": 0,
+    "matches": [
+      {
+        "type": "monotone_delivery",
+        "best_iou": 0.6401,
+        "matched": true,
+        "boundary_error_seconds": 0.5623
+      }
+    ],
+    "elapsed_seconds": 0.06,
+    "error": null
+  },
+  {
+    "group_id": "reagan_farewell_1989-opening",
+    "variant_id": "reagan_farewell_1989-opening-near-perfect",
+    "split": "validation",
+    "level": 1,
+    "scores": {
+      "overall": 100.0,
+      "pacing": 100.0,
+      "intonation": 100.0,
+      "energy": 100.0
+    },
+    "label_count": 0,
+    "detected_count": 0,
+    "true_positives": 0,
+    "false_positives": 0,
+    "matches": [],
+    "elapsed_seconds": 9.0,
+    "error": null
+  },
+  {
+    "group_id": "reagan_farewell_1989-opening",
+    "variant_id": "reagan_farewell_1989-opening-rushed-mild",
+    "split": "validation",
+    "level": 2,
+    "scores": {
+      "overall": 97.5,
+      "pacing": 93.8,
+      "intonation": 100.0,
+      "energy": 100.0
+    },
+    "label_count": 1,
+    "detected_count": 1,
+    "true_positives": 1,
+    "false_positives": 0,
+    "matches": [
+      {
+        "type": "rushed_pacing",
+        "best_iou": 0.7532,
+        "matched": true,
+        "boundary_error_seconds": 0.2527
+      }
+    ],
+    "elapsed_seconds": 3.72,
+    "error": null
+  },
+  {
+    "group_id": "reagan_farewell_1989-opening",
+    "variant_id": "reagan_farewell_1989-opening-rushed-severe",
+    "split": "validation",
+    "level": 5,
+    "scores": {
+      "overall": 95.8,
+      "pacing": 89.5,
+      "intonation": 100.0,
+      "energy": 100.0
+    },
+    "label_count": 1,
+    "detected_count": 1,
+    "true_positives": 1,
+    "false_positives": 0,
+    "matches": [
+      {
+        "type": "rushed_pacing",
+        "best_iou": 0.7236,
+        "matched": true,
+        "boundary_error_seconds": 0.2933
+      }
+    ],
+    "elapsed_seconds": 3.98,
+    "error": null
+  },
+  {
+    "group_id": "reagan_farewell_1989-opening",
+    "variant_id": "reagan_farewell_1989-opening-slow",
+    "split": "validation",
+    "level": 4,
+    "scores": {
+      "overall": 100.0,
+      "pacing": 100.0,
+      "intonation": 100.0,
+      "energy": 100.0
+    },
+    "label_count": 1,
+    "detected_count": 0,
+    "true_positives": 0,
+    "false_positives": 0,
+    "matches": [
+      {
+        "type": "slow_pacing",
+        "best_iou": 0,
+        "matched": false,
+        "boundary_error_seconds": null
+      }
+    ],
+    "elapsed_seconds": 4.76,
+    "error": null
+  },
+  {
+    "group_id": "reagan_farewell_1989-opening",
+    "variant_id": "reagan_farewell_1989-opening-pause",
+    "split": "validation",
+    "level": 4,
+    "scores": {
+      "overall": 98.6,
+      "pacing": 96.4,
+      "intonation": 100.0,
+      "energy": 100.0
+    },
+    "label_count": 1,
+    "detected_count": 1,
+    "true_positives": 1,
+    "false_positives": 0,
+    "matches": [
+      {
+        "type": "awkward_pause",
+        "best_iou": 0.9988,
+        "matched": true,
+        "boundary_error_seconds": 0.0014
+      }
+    ],
+    "elapsed_seconds": 5.11,
+    "error": null
+  },
+  {
+    "group_id": "reagan_farewell_1989-opening",
+    "variant_id": "reagan_farewell_1989-opening-low-energy",
+    "split": "validation",
+    "level": 4,
+    "scores": {
+      "overall": 99.0,
+      "pacing": 100.0,
+      "intonation": 100.0,
+      "energy": 96.2
+    },
+    "label_count": 1,
+    "detected_count": 1,
+    "true_positives": 1,
+    "false_positives": 0,
+    "matches": [
+      {
+        "type": "low_energy",
+        "best_iou": 0.7236,
+        "matched": true,
+        "boundary_error_seconds": 0.3819
+      }
+    ],
+    "elapsed_seconds": 3.89,
+    "error": null
+  },
+  {
+    "group_id": "reagan_farewell_1989-opening",
+    "variant_id": "reagan_farewell_1989-opening-monotone",
+    "split": "validation",
+    "level": 4,
+    "scores": {
+      "overall": 97.5,
+      "pacing": 100.0,
+      "intonation": 92.9,
+      "energy": 100.0
+    },
+    "label_count": 1,
+    "detected_count": 1,
+    "true_positives": 1,
+    "false_positives": 0,
+    "matches": [
+      {
+        "type": "monotone_delivery",
+        "best_iou": 0.7236,
+        "matched": true,
+        "boundary_error_seconds": 0.3819
+      }
+    ],
+    "elapsed_seconds": 3.89,
+    "error": null
+  },
+  {
+    "group_id": "reagan_farewell_1989-gratitude",
+    "variant_id": "reagan_farewell_1989-gratitude-near-perfect",
+    "split": "validation",
+    "level": 1,
+    "scores": {
+      "overall": 100.0,
+      "pacing": 100.0,
+      "intonation": 100.0,
+      "energy": 100.0
+    },
+    "label_count": 0,
+    "detected_count": 0,
+    "true_positives": 0,
+    "false_positives": 0,
+    "matches": [],
+    "elapsed_seconds": 6.48,
+    "error": null
+  },
+  {
+    "group_id": "reagan_farewell_1989-gratitude",
+    "variant_id": "reagan_farewell_1989-gratitude-rushed-mild",
+    "split": "validation",
+    "level": 2,
+    "scores": {
+      "overall": 98.2,
+      "pacing": 95.6,
+      "intonation": 100.0,
+      "energy": 100.0
+    },
+    "label_count": 1,
+    "detected_count": 1,
+    "true_positives": 0,
+    "false_positives": 1,
+    "matches": [
+      {
+        "type": "rushed_pacing",
+        "best_iou": 0.1987,
+        "matched": false,
+        "boundary_error_seconds": 0.7215
+      }
+    ],
+    "elapsed_seconds": 4.75,
+    "error": null
+  },
+  {
+    "group_id": "reagan_farewell_1989-gratitude",
+    "variant_id": "reagan_farewell_1989-gratitude-rushed-severe",
+    "split": "validation",
+    "level": 5,
+    "scores": {
+      "overall": 96.7,
+      "pacing": 91.7,
+      "intonation": 100.0,
+      "energy": 100.0
+    },
+    "label_count": 1,
+    "detected_count": 2,
+    "true_positives": 1,
+    "false_positives": 1,
+    "matches": [
+      {
+        "type": "rushed_pacing",
+        "best_iou": 0.258,
+        "matched": true,
+        "boundary_error_seconds": 0.5627
+      }
+    ],
+    "elapsed_seconds": 3.89,
+    "error": null
+  },
+  {
+    "group_id": "reagan_farewell_1989-gratitude",
+    "variant_id": "reagan_farewell_1989-gratitude-slow",
+    "split": "validation",
+    "level": 4,
+    "scores": {
+      "overall": 100.0,
+      "pacing": 100.0,
+      "intonation": 100.0,
+      "energy": 100.0
+    },
+    "label_count": 1,
+    "detected_count": 0,
+    "true_positives": 0,
+    "false_positives": 0,
+    "matches": [
+      {
+        "type": "slow_pacing",
+        "best_iou": 0,
+        "matched": false,
+        "boundary_error_seconds": null
+      }
+    ],
+    "elapsed_seconds": 4.42,
+    "error": null
+  },
+  {
+    "group_id": "reagan_farewell_1989-gratitude",
+    "variant_id": "reagan_farewell_1989-gratitude-pause",
+    "split": "validation",
+    "level": 4,
+    "scores": {
+      "overall": 98.4,
+      "pacing": 96.1,
+      "intonation": 100.0,
+      "energy": 100.0
+    },
+    "label_count": 1,
+    "detected_count": 1,
+    "true_positives": 1,
+    "false_positives": 0,
+    "matches": [
+      {
+        "type": "awkward_pause",
+        "best_iou": 0.9987,
+        "matched": true,
+        "boundary_error_seconds": 0.0015
+      }
+    ],
+    "elapsed_seconds": 4.42,
+    "error": null
+  },
+  {
+    "group_id": "reagan_farewell_1989-gratitude",
+    "variant_id": "reagan_farewell_1989-gratitude-low-energy",
+    "split": "validation",
+    "level": 4,
+    "scores": {
+      "overall": 99.2,
+      "pacing": 100.0,
+      "intonation": 100.0,
+      "energy": 96.8
+    },
+    "label_count": 1,
+    "detected_count": 1,
+    "true_positives": 1,
+    "false_positives": 0,
+    "matches": [
+      {
+        "type": "low_energy",
+        "best_iou": 0.7813,
+        "matched": true,
+        "boundary_error_seconds": 0.2187
+      }
+    ],
+    "elapsed_seconds": 3.81,
+    "error": null
+  },
+  {
+    "group_id": "reagan_farewell_1989-gratitude",
+    "variant_id": "reagan_farewell_1989-gratitude-monotone",
+    "split": "validation",
+    "level": 4,
+    "scores": {
+      "overall": 97.3,
+      "pacing": 100.0,
+      "intonation": 92.2,
+      "energy": 100.0
+    },
+    "label_count": 1,
+    "detected_count": 1,
+    "true_positives": 1,
+    "false_positives": 0,
+    "matches": [
+      {
+        "type": "monotone_delivery",
+        "best_iou": 0.7813,
+        "matched": true,
+        "boundary_error_seconds": 0.2187
+      }
+    ],
+    "elapsed_seconds": 3.78,
+    "error": null
+  },
+  {
+    "group_id": "reagan_farewell_1989-parting",
+    "variant_id": "reagan_farewell_1989-parting-near-perfect",
+    "split": "validation",
+    "level": 1,
+    "scores": {
+      "overall": 100.0,
+      "pacing": 100.0,
+      "intonation": 100.0,
+      "energy": 100.0
+    },
+    "label_count": 0,
+    "detected_count": 0,
+    "true_positives": 0,
+    "false_positives": 0,
+    "matches": [],
+    "elapsed_seconds": 7.75,
+    "error": null
+  },
+  {
+    "group_id": "reagan_farewell_1989-parting",
+    "variant_id": "reagan_farewell_1989-parting-rushed-mild",
+    "split": "validation",
+    "level": 2,
+    "scores": {
+      "overall": 100.0,
+      "pacing": 100.0,
+      "intonation": 100.0,
+      "energy": 100.0
+    },
+    "label_count": 1,
+    "detected_count": 0,
+    "true_positives": 0,
+    "false_positives": 0,
+    "matches": [
+      {
+        "type": "rushed_pacing",
+        "best_iou": 0,
+        "matched": false,
+        "boundary_error_seconds": null
+      }
+    ],
+    "elapsed_seconds": 4.16,
+    "error": null
+  },
+  {
+    "group_id": "reagan_farewell_1989-parting",
+    "variant_id": "reagan_farewell_1989-parting-rushed-severe",
+    "split": "validation",
+    "level": 5,
+    "scores": {
+      "overall": 95.8,
+      "pacing": 89.6,
+      "intonation": 100.0,
+      "energy": 100.0
+    },
+    "label_count": 1,
+    "detected_count": 1,
+    "true_positives": 1,
+    "false_positives": 0,
+    "matches": [
+      {
+        "type": "rushed_pacing",
+        "best_iou": 0.7945,
+        "matched": true,
+        "boundary_error_seconds": 0.2389
+      }
+    ],
+    "elapsed_seconds": 4.17,
+    "error": null
+  },
+  {
+    "group_id": "reagan_farewell_1989-parting",
+    "variant_id": "reagan_farewell_1989-parting-slow",
+    "split": "validation",
+    "level": 4,
+    "scores": {
+      "overall": 93.9,
+      "pacing": 84.7,
+      "intonation": 100.0,
+      "energy": 100.0
+    },
+    "label_count": 1,
+    "detected_count": 1,
+    "true_positives": 1,
+    "false_positives": 0,
+    "matches": [
+      {
+        "type": "slow_pacing",
+        "best_iou": 0.9393,
+        "matched": true,
+        "boundary_error_seconds": 0.2005
+      }
+    ],
+    "elapsed_seconds": 5.5,
+    "error": null
+  },
+  {
+    "group_id": "reagan_farewell_1989-parting",
+    "variant_id": "reagan_farewell_1989-parting-pause",
+    "split": "validation",
+    "level": 4,
+    "scores": {
+      "overall": 98.6,
+      "pacing": 96.6,
+      "intonation": 100.0,
+      "energy": 100.0
+    },
+    "label_count": 1,
+    "detected_count": 1,
+    "true_positives": 1,
+    "false_positives": 0,
+    "matches": [
+      {
+        "type": "awkward_pause",
+        "best_iou": 0.9988,
+        "matched": true,
+        "boundary_error_seconds": 0.0014
+      }
+    ],
+    "elapsed_seconds": 5.14,
+    "error": null
+  },
+  {
+    "group_id": "reagan_farewell_1989-parting",
+    "variant_id": "reagan_farewell_1989-parting-low-energy",
+    "split": "validation",
+    "level": 4,
+    "scores": {
+      "overall": 98.9,
+      "pacing": 100.0,
+      "intonation": 100.0,
+      "energy": 95.7
+    },
+    "label_count": 1,
+    "detected_count": 1,
+    "true_positives": 1,
+    "false_positives": 0,
+    "matches": [
+      {
+        "type": "low_energy",
+        "best_iou": 0.5369,
+        "matched": true,
+        "boundary_error_seconds": 0.8624
+      }
+    ],
+    "elapsed_seconds": 4.59,
+    "error": null
+  },
+  {
+    "group_id": "reagan_farewell_1989-parting",
+    "variant_id": "reagan_farewell_1989-parting-monotone",
+    "split": "validation",
+    "level": 4,
+    "scores": {
+      "overall": 95.5,
+      "pacing": 100.0,
+      "intonation": 87.0,
+      "energy": 100.0
+    },
+    "label_count": 1,
+    "detected_count": 2,
+    "true_positives": 1,
+    "false_positives": 1,
+    "matches": [
+      {
+        "type": "monotone_delivery",
+        "best_iou": 0.5369,
+        "matched": true,
+        "boundary_error_seconds": 0.8624
+      }
+    ],
+    "elapsed_seconds": 4.55,
+    "error": null
+  },
+  {
+    "group_id": "eisenhower_farewell_1961-transition",
+    "variant_id": "eisenhower_farewell_1961-transition-near-perfect",
+    "split": "testing",
+    "level": 1,
+    "scores": {
+      "overall": 100.0,
+      "pacing": 100.0,
+      "intonation": 100.0,
+      "energy": 100.0
+    },
+    "label_count": 0,
+    "detected_count": 0,
+    "true_positives": 0,
+    "false_positives": 0,
+    "matches": [],
+    "elapsed_seconds": 8.31,
+    "error": null
+  },
+  {
+    "group_id": "eisenhower_farewell_1961-transition",
+    "variant_id": "eisenhower_farewell_1961-transition-rushed-mild",
+    "split": "testing",
+    "level": 2,
+    "scores": {
+      "overall": 100.0,
+      "pacing": 100.0,
+      "intonation": 100.0,
+      "energy": 100.0
+    },
+    "label_count": 1,
+    "detected_count": 0,
+    "true_positives": 0,
+    "false_positives": 0,
+    "matches": [
+      {
+        "type": "rushed_pacing",
+        "best_iou": 0,
+        "matched": false,
+        "boundary_error_seconds": null
+      }
+    ],
+    "elapsed_seconds": 4.94,
+    "error": null
+  },
+  {
+    "group_id": "eisenhower_farewell_1961-transition",
+    "variant_id": "eisenhower_farewell_1961-transition-rushed-severe",
+    "split": "testing",
+    "level": 5,
+    "scores": {
+      "overall": 97.9,
+      "pacing": 94.8,
+      "intonation": 100.0,
+      "energy": 100.0
+    },
+    "label_count": 1,
+    "detected_count": 1,
+    "true_positives": 1,
+    "false_positives": 0,
+    "matches": [
+      {
+        "type": "rushed_pacing",
+        "best_iou": 0.7983,
+        "matched": true,
+        "boundary_error_seconds": 0.1289
+      }
+    ],
+    "elapsed_seconds": 4.53,
+    "error": null
+  },
+  {
+    "group_id": "eisenhower_farewell_1961-transition",
+    "variant_id": "eisenhower_farewell_1961-transition-slow",
+    "split": "testing",
+    "level": 4,
+    "scores": {
+      "overall": 97.0,
+      "pacing": 92.4,
+      "intonation": 100.0,
+      "energy": 100.0
+    },
+    "label_count": 1,
+    "detected_count": 1,
+    "true_positives": 1,
+    "false_positives": 0,
+    "matches": [
+      {
+        "type": "slow_pacing",
+        "best_iou": 0.8781,
+        "matched": true,
+        "boundary_error_seconds": 0.2178
+      }
+    ],
+    "elapsed_seconds": 5.11,
+    "error": null
+  },
+  {
+    "group_id": "eisenhower_farewell_1961-transition",
+    "variant_id": "eisenhower_farewell_1961-transition-pause",
+    "split": "testing",
+    "level": 4,
+    "scores": {
+      "overall": 98.8,
+      "pacing": 96.9,
+      "intonation": 100.0,
+      "energy": 100.0
+    },
+    "label_count": 1,
+    "detected_count": 1,
+    "true_positives": 1,
+    "false_positives": 0,
+    "matches": [
+      {
+        "type": "awkward_pause",
+        "best_iou": 0.9987,
+        "matched": true,
+        "boundary_error_seconds": 0.0015
+      }
+    ],
+    "elapsed_seconds": 5.5,
+    "error": null
+  },
+  {
+    "group_id": "eisenhower_farewell_1961-transition",
+    "variant_id": "eisenhower_farewell_1961-transition-low-energy",
+    "split": "testing",
+    "level": 4,
+    "scores": {
+      "overall": 99.2,
+      "pacing": 100.0,
+      "intonation": 100.0,
+      "energy": 96.7
+    },
+    "label_count": 1,
+    "detected_count": 1,
+    "true_positives": 1,
+    "false_positives": 0,
+    "matches": [
+      {
+        "type": "low_energy",
+        "best_iou": 0.486,
+        "matched": true,
+        "boundary_error_seconds": 0.7062
+      }
+    ],
+    "elapsed_seconds": 4.95,
+    "error": null
+  },
+  {
+    "group_id": "eisenhower_farewell_1961-transition",
+    "variant_id": "eisenhower_farewell_1961-transition-monotone",
+    "split": "testing",
+    "level": 4,
+    "scores": {
+      "overall": 97.9,
+      "pacing": 100.0,
+      "intonation": 93.9,
+      "energy": 100.0
+    },
+    "label_count": 1,
+    "detected_count": 1,
+    "true_positives": 1,
+    "false_positives": 0,
+    "matches": [
+      {
+        "type": "monotone_delivery",
+        "best_iou": 0.7483,
+        "matched": true,
+        "boundary_error_seconds": 0.2939
+      }
+    ],
+    "elapsed_seconds": 4.8,
+    "error": null
+  },
+  {
+    "group_id": "eisenhower_farewell_1961-farewell",
+    "variant_id": "eisenhower_farewell_1961-farewell-near-perfect",
+    "split": "testing",
+    "level": 1,
+    "scores": {
+      "overall": 100.0,
+      "pacing": 100.0,
+      "intonation": 100.0,
+      "energy": 100.0
+    },
+    "label_count": 0,
+    "detected_count": 0,
+    "true_positives": 0,
+    "false_positives": 0,
+    "matches": [],
+    "elapsed_seconds": 13.11,
+    "error": null
+  },
+  {
+    "group_id": "eisenhower_farewell_1961-farewell",
+    "variant_id": "eisenhower_farewell_1961-farewell-rushed-mild",
+    "split": "testing",
+    "level": 2,
+    "scores": {
+      "overall": 97.9,
+      "pacing": 94.8,
+      "intonation": 100.0,
+      "energy": 100.0
+    },
+    "label_count": 1,
+    "detected_count": 2,
+    "true_positives": 1,
+    "false_positives": 1,
+    "matches": [
+      {
+        "type": "rushed_pacing",
+        "best_iou": 0.9956,
+        "matched": true,
+        "boundary_error_seconds": 0.0042
+      }
+    ],
+    "elapsed_seconds": 8.02,
+    "error": null
+  },
+  {
+    "group_id": "eisenhower_farewell_1961-farewell",
+    "variant_id": "eisenhower_farewell_1961-farewell-rushed-severe",
+    "split": "testing",
+    "level": 5,
+    "scores": {
+      "overall": 97.0,
+      "pacing": 92.6,
+      "intonation": 100.0,
+      "energy": 100.0
+    },
+    "label_count": 1,
+    "detected_count": 2,
+    "true_positives": 1,
+    "false_positives": 1,
+    "matches": [
+      {
+        "type": "rushed_pacing",
+        "best_iou": 0.9686,
+        "matched": true,
+        "boundary_error_seconds": 0.0233
+      }
+    ],
+    "elapsed_seconds": 7.69,
+    "error": null
+  },
+  {
+    "group_id": "eisenhower_farewell_1961-farewell",
+    "variant_id": "eisenhower_farewell_1961-farewell-slow",
+    "split": "testing",
+    "level": 4,
+    "scores": {
+      "overall": 98.0,
+      "pacing": 98.2,
+      "intonation": 96.3,
+      "energy": 100.0
+    },
+    "label_count": 1,
+    "detected_count": 2,
+    "true_positives": 0,
+    "false_positives": 2,
+    "matches": [
+      {
+        "type": "slow_pacing",
+        "best_iou": 0,
+        "matched": false,
+        "boundary_error_seconds": null
+      }
+    ],
+    "elapsed_seconds": 8.69,
+    "error": null
+  },
+  {
+    "group_id": "eisenhower_farewell_1961-farewell",
+    "variant_id": "eisenhower_farewell_1961-farewell-pause",
+    "split": "testing",
+    "level": 4,
+    "scores": {
+      "overall": 99.1,
+      "pacing": 97.8,
+      "intonation": 100.0,
+      "energy": 100.0
+    },
+    "label_count": 1,
+    "detected_count": 1,
+    "true_positives": 1,
+    "false_positives": 0,
+    "matches": [
+      {
+        "type": "awkward_pause",
+        "best_iou": 0.9906,
+        "matched": true,
+        "boundary_error_seconds": 0.0109
+      }
+    ],
+    "elapsed_seconds": 8.47,
+    "error": null
+  },
+  {
+    "group_id": "eisenhower_farewell_1961-farewell",
+    "variant_id": "eisenhower_farewell_1961-farewell-low-energy",
+    "split": "testing",
+    "level": 4,
+    "scores": {
+      "overall": 98.8,
+      "pacing": 100.0,
+      "intonation": 100.0,
+      "energy": 95.2
+    },
+    "label_count": 1,
+    "detected_count": 2,
+    "true_positives": 1,
+    "false_positives": 1,
+    "matches": [
+      {
+        "type": "low_energy",
+        "best_iou": 0.5825,
+        "matched": true,
+        "boundary_error_seconds": 0.6044
+      }
+    ],
+    "elapsed_seconds": 8.25,
+    "error": null
+  },
+  {
+    "group_id": "eisenhower_farewell_1961-farewell",
+    "variant_id": "eisenhower_farewell_1961-farewell-monotone",
+    "split": "testing",
+    "level": 4,
+    "scores": {
+      "overall": 98.6,
+      "pacing": 100.0,
+      "intonation": 96.0,
+      "energy": 100.0
+    },
+    "label_count": 1,
+    "detected_count": 1,
+    "true_positives": 1,
+    "false_positives": 0,
+    "matches": [
+      {
+        "type": "monotone_delivery",
+        "best_iou": 0.7055,
+        "matched": true,
+        "boundary_error_seconds": 0.3956
+      }
+    ],
+    "elapsed_seconds": 8.25,
+    "error": null
+  },
+  {
+    "group_id": "eisenhower_farewell_1961-agreement",
+    "variant_id": "eisenhower_farewell_1961-agreement-near-perfect",
+    "split": "testing",
+    "level": 1,
+    "scores": {
+      "overall": 100.0,
+      "pacing": 100.0,
+      "intonation": 100.0,
+      "energy": 100.0
+    },
+    "label_count": 0,
+    "detected_count": 0,
+    "true_positives": 0,
+    "false_positives": 0,
+    "matches": [],
+    "elapsed_seconds": 7.5,
+    "error": null
+  },
+  {
+    "group_id": "eisenhower_farewell_1961-agreement",
+    "variant_id": "eisenhower_farewell_1961-agreement-rushed-mild",
+    "split": "testing",
+    "level": 2,
+    "scores": {
+      "overall": 95.4,
+      "pacing": 96.2,
+      "intonation": 91.1,
+      "energy": 100.0
+    },
+    "label_count": 1,
+    "detected_count": 2,
+    "true_positives": 1,
+    "false_positives": 1,
+    "matches": [
+      {
+        "type": "rushed_pacing",
+        "best_iou": 0.4412,
+        "matched": true,
+        "boundary_error_seconds": 0.6592
+      }
+    ],
+    "elapsed_seconds": 3.94,
+    "error": null
+  },
+  {
+    "group_id": "eisenhower_farewell_1961-agreement",
+    "variant_id": "eisenhower_farewell_1961-agreement-rushed-severe",
+    "split": "testing",
+    "level": 5,
+    "scores": {
+      "overall": 94.6,
+      "pacing": 86.6,
+      "intonation": 100.0,
+      "energy": 100.0
+    },
+    "label_count": 1,
+    "detected_count": 1,
+    "true_positives": 1,
+    "false_positives": 0,
+    "matches": [
+      {
+        "type": "rushed_pacing",
+        "best_iou": 0.8327,
+        "matched": true,
+        "boundary_error_seconds": 0.1777
+      }
+    ],
+    "elapsed_seconds": 3.12,
+    "error": null
+  },
+  {
+    "group_id": "eisenhower_farewell_1961-agreement",
+    "variant_id": "eisenhower_farewell_1961-agreement-slow",
+    "split": "testing",
+    "level": 4,
+    "scores": {
+      "overall": 93.9,
+      "pacing": 84.8,
+      "intonation": 100.0,
+      "energy": 100.0
+    },
+    "label_count": 1,
+    "detected_count": 1,
+    "true_positives": 1,
+    "false_positives": 0,
+    "matches": [
+      {
+        "type": "slow_pacing",
+        "best_iou": 0.9299,
+        "matched": true,
+        "boundary_error_seconds": 0.1903
+      }
+    ],
+    "elapsed_seconds": 4.09,
+    "error": null
+  },
+  {
+    "group_id": "eisenhower_farewell_1961-agreement",
+    "variant_id": "eisenhower_farewell_1961-agreement-pause",
+    "split": "testing",
+    "level": 4,
+    "scores": {
+      "overall": 98.0,
+      "pacing": 95.1,
+      "intonation": 100.0,
+      "energy": 100.0
+    },
+    "label_count": 1,
+    "detected_count": 1,
+    "true_positives": 1,
+    "false_positives": 0,
+    "matches": [
+      {
+        "type": "awkward_pause",
+        "best_iou": 0.9916,
+        "matched": true,
+        "boundary_error_seconds": 0.0115
+      }
+    ],
+    "elapsed_seconds": 4.09,
+    "error": null
+  },
+  {
+    "group_id": "eisenhower_farewell_1961-agreement",
+    "variant_id": "eisenhower_farewell_1961-agreement-low-energy",
+    "split": "testing",
+    "level": 4,
+    "scores": {
+      "overall": 98.6,
+      "pacing": 100.0,
+      "intonation": 100.0,
+      "energy": 94.5
+    },
+    "label_count": 1,
+    "detected_count": 1,
+    "true_positives": 1,
+    "false_positives": 0,
+    "matches": [
+      {
+        "type": "low_energy",
+        "best_iou": 0.6279,
+        "matched": true,
+        "boundary_error_seconds": 0.5926
+      }
+    ],
+    "elapsed_seconds": 3.53,
+    "error": null
+  },
+  {
+    "group_id": "eisenhower_farewell_1961-agreement",
+    "variant_id": "eisenhower_farewell_1961-agreement-monotone",
+    "split": "testing",
+    "level": 4,
+    "scores": {
+      "overall": 97.1,
+      "pacing": 100.0,
+      "intonation": 91.7,
+      "energy": 100.0
+    },
+    "label_count": 1,
+    "detected_count": 1,
+    "true_positives": 1,
+    "false_positives": 0,
+    "matches": [
+      {
+        "type": "monotone_delivery",
+        "best_iou": 0.6279,
+        "matched": true,
+        "boundary_error_seconds": 0.5926
+      }
+    ],
+    "elapsed_seconds": 3.77,
+    "error": null
+  }
+]

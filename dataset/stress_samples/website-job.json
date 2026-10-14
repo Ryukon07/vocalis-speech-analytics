@@ -1,0 +1,55 @@
+{
+  "id": "f884319e-ba59-4fb6-aadf-823f8c9c198b",
+  "participant_recording_id": "2c1e4724-a383-4dce-8fd9-2affc5359810",
+  "participant_filename": "combined-severe-training-stress.wav",
+  "reference_id": "e4765d8d-f2b5-4d9e-9869-7dac63ce5aab",
+  "reference_title": "Address on the Space Shuttle Challenger - opening",
+  "rubric_id": "96c93273-6945-4f6d-a31c-2c5b7837470a",
+  "rubric_snapshot": {
+    "name": "Contrastive delivery",
+    "weights": {
+      "pacing": 35.0,
+      "pitch": 25.0,
+      "energy": 25.0,
+      "pausing": 15.0,
+      "clarity": 0.0
+    },
+    "enabled_categories": [
+      "pacing",
+      "pitch",
+      "energy",
+      "pausing"
+    ],
+    "id": "96c93273-6945-4f6d-a31c-2c5b7837470a",
+    "version": 1,
+    "created_at": "2026-10-13T21:41:50.211735+00:00",
+    "updated_at": "2026-10-13T21:41:50.211735+00:00"
+  },
+  "transcript": "Ladies and gentlemen, I'd planned to speak to you tonight to report on the state of the Union, but the events of earlier today have led me to change those plans. Today is a day for mourning and remembering. Nancy and I are pained to the core by the tragedy of the shuttle Challenger. We know we share this pain with all of the people of our country. This is truly a national loss.",
+  "settings": {
+    "comparison_mode": "recording",
+    "enabled_categories": [
+      "pacing",
+      "pitch",
+      "energy",
+      "pausing"
+    ],
+    "sensitivity": 0.5,
+    "window_seconds": 2.0,
+    "overlap": 0.5,
+    "detailed_plots": true
+  },
+  "provider_name": "evaluator",
+  "provider_version": "3.0.0-local.1",
+  "execution_mode": "real",
+  "status": "completed",
+  "progress_stage": "Completed",
+  "progress_percent": 100.0,
+  "error_code": null,
+  "error_summary": null,
+  "created_at": "2026-10-14T03:56:52.476875+00:00",
+  "started_at": "2026-10-14T03:56:52.497864+00:00",
+  "completed_at": "2026-10-14T03:57:08.631547+00:00",
+  "overall_score": 84.75,
+  "flaw_count": 16
+}

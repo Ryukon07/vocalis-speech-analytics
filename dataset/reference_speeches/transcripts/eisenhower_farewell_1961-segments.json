@@ -1,0 +1,1591 @@
+[
+  {
+    "text": "Good evening, my fellow Americans. First, I should like to express my gratitude to the",
+    "start": 0.72,
+    "end": 7.02,
+    "words": [
+      {
+        "word": "Good",
+        "start": 0.72,
+        "end": 1.2,
+        "probability": 0.853266179561615
+      },
+      {
+        "word": "evening,",
+        "start": 1.2,
+        "end": 1.32,
+        "probability": 0.9896236062049866
+      },
+      {
+        "word": "my",
+        "start": 1.32,
+        "end": 1.72,
+        "probability": 0.9854686856269836
+      },
+      {
+        "word": "fellow",
+        "start": 1.72,
+        "end": 2.0,
+        "probability": 0.9977573752403259
+      },
+      {
+        "word": "Americans.",
+        "start": 2.0,
+        "end": 2.26,
+        "probability": 0.9930537343025208
+      },
+      {
+        "word": "First,",
+        "start": 3.46,
+        "end": 3.88,
+        "probability": 0.9912375211715698
+      },
+      {
+        "word": "I",
+        "start": 4.06,
+        "end": 4.2,
+        "probability": 0.9987188577651978
+      },
+      {
+        "word": "should",
+        "start": 4.2,
+        "end": 4.4,
+        "probability": 0.9294030666351318
+      },
+      {
+        "word": "like",
+        "start": 4.4,
+        "end": 4.58,
+        "probability": 0.9962897300720215
+      },
+      {
+        "word": "to",
+        "start": 4.58,
+        "end": 4.8,
+        "probability": 0.9981122016906738
+      },
+      {
+        "word": "express",
+        "start": 4.8,
+        "end": 5.1,
+        "probability": 0.9982171654701233
+      },
+      {
+        "word": "my",
+        "start": 5.1,
+        "end": 5.44,
+        "probability": 0.9946322441101074
+      },
+      {
+        "word": "gratitude",
+        "start": 5.44,
+        "end": 5.9,
+        "probability": 0.996563732624054
+      },
+      {
+        "word": "to",
+        "start": 5.9,
+        "end": 6.92,
+        "probability": 0.9838465452194214
+      },
+      {
+        "word": "the",
+        "start": 6.92,
+        "end": 7.02,
+        "probability": 0.9948225021362305
+      }
+    ]
+  },
+  {
+    "text": "radio and television networks for the opportunities they have given me over the years to bring reports",
+    "start": 7.02,
+    "end": 13.5,
+    "words": [
+      {
+        "word": "radio",
+        "start": 7.02,
+        "end": 7.4,
+        "probability": 0.6722367405891418
+      },
+      {
+        "word": "and",
+        "start": 7.4,
+        "end": 7.7,
+        "probability": 0.9961645603179932
+      },
+      {
+        "word": "television",
+        "start": 7.7,
+        "end": 8.1,
+        "probability": 0.9972847700119019
+      },
+      {
+        "word": "networks",
+        "start": 8.1,
+        "end": 8.62,
+        "probability": 0.976134717464447
+      },
+      {
+        "word": "for",
+        "start": 8.62,
+        "end": 9.64,
+        "probability": 0.9561903476715088
+      },
+      {
+        "word": "the",
+        "start": 9.64,
+        "end": 9.76,
+        "probability": 0.9991012811660767
+      },
+      {
+        "word": "opportunities",
+        "start": 9.76,
+        "end": 10.2,
+        "probability": 0.9779499173164368
+      },
+      {
+        "word": "they",
+        "start": 10.2,
+        "end": 10.6,
+        "probability": 0.993335485458374
+      },
+      {
+        "word": "have",
+        "start": 10.6,
+        "end": 10.72,
+        "probability": 0.9938356280326843
+      },
+      {
+        "word": "given",
+        "start": 10.72,
+        "end": 10.94,
+        "probability": 0.9987523555755615
+      },
+      {
+        "word": "me",
+        "start": 10.94,
+        "end": 11.18,
+        "probability": 0.9980777502059937
+      },
+      {
+        "word": "over",
+        "start": 11.18,
+        "end": 11.6,
+        "probability": 0.9697062969207764
+      },
+      {
+        "word": "the",
+        "start": 11.6,
+        "end": 11.74,
+        "probability": 0.9995419979095459
+      },
+      {
+        "word": "years",
+        "start": 11.74,
+        "end": 12.04,
+        "probability": 0.9995656609535217
+      },
+      {
+        "word": "to",
+        "start": 12.04,
+        "end": 12.82,
+        "probability": 0.9279912114143372
+      },
+      {
+        "word": "bring",
+        "start": 12.82,
+        "end": 13.02,
+        "probability": 0.9980407357215881
+      },
+      {
+        "word": "reports",
+        "start": 13.02,
+        "end": 13.5,
+        "probability": 0.9902961850166321
+      }
+    ]
+  },
+  {
+    "text": "and messages to our nation. My special thanks go to them for the opportunity of addressing",
+    "start": 13.5,
+    "end": 19.56,
+    "words": [
+      {
+        "word": "and",
+        "start": 13.5,
+        "end": 13.82,
+        "probability": 0.997531533241272
+      },
+      {
+        "word": "messages",
+        "start": 13.82,
+        "end": 14.14,
+        "probability": 0.9971326589584351
+      },
+      {
+        "word": "to",
+        "start": 14.14,
+        "end": 14.94,
+        "probability": 0.9981991648674011
+      },
+      {
+        "word": "our",
+        "start": 14.94,
+        "end": 15.1,
+        "probability": 0.9985163807868958
+      },
+      {
+        "word": "nation.",
+        "start": 15.1,
+        "end": 15.28,
+        "probability": 0.9661223888397217
+      },
+      {
+        "word": "My",
+        "start": 16.26,
+        "end": 16.58,
+        "probability": 0.9962904453277588
+      },
+      {
+        "word": "special",
+        "start": 16.58,
+        "end": 16.92,
+        "probability": 0.9875885844230652
+      },
+      {
+        "word": "thanks",
+        "start": 16.92,
+        "end": 17.3,
+        "probability": 0.9929202198982239
+      },
+      {
+        "word": "go",
+        "start": 17.3,
+        "end": 17.54,
+        "probability": 0.9704861044883728
+      },
+      {
+        "word": "to",
+        "start": 17.54,
+        "end": 17.68,
+        "probability": 0.9949983358383179
+      },
+      {
+        "word": "them",
+        "start": 17.68,
+        "end": 17.88,
+        "probability": 0.9976194500923157
+      },
+      {
+        "word": "for",
+        "start": 17.88,
+        "end": 18.4,
+        "probability": 0.9909913539886475
+      },
+      {
+        "word": "the",
+        "start": 18.4,
+        "end": 18.56,
+        "probability": 0.9990382194519043
+      },
+      {
+        "word": "opportunity",
+        "start": 18.56,
+        "end": 18.94,
+        "probability": 0.9980366826057434
+      },
+      {
+        "word": "of",
+        "start": 18.94,
+        "end": 19.26,
+        "probability": 0.9960748553276062
+      },
+      {
+        "word": "addressing",
+        "start": 19.26,
+        "end": 19.56,
+        "probability": 0.9972100853919983
+      }
+    ]
+  },
+  {
+    "text": "you this evening. Three days from now, after half a century in the service of our country,",
+    "start": 19.56,
+    "end": 26.84,
+    "words": [
+      {
+        "word": "you",
+        "start": 19.56,
+        "end": 19.9,
+        "probability": 0.9978454113006592
+      },
+      {
+        "word": "this",
+        "start": 19.9,
+        "end": 20.56,
+        "probability": 0.9908961653709412
+      },
+      {
+        "word": "evening.",
+        "start": 20.56,
+        "end": 20.78,
+        "probability": 0.9985641837120056
+      },
+      {
+        "word": "Three",
+        "start": 22.12,
+        "end": 22.42,
+        "probability": 0.972935140132904
+      },
+      {
+        "word": "days",
+        "start": 22.42,
+        "end": 22.66,
+        "probability": 0.9988939166069031
+      },
+      {
+        "word": "from",
+        "start": 22.66,
+        "end": 22.96,
+        "probability": 0.9971486926078796
+      },
+      {
+        "word": "now,",
+        "start": 22.96,
+        "end": 23.22,
+        "probability": 0.9992089867591858
+      },
+      {
+        "word": "after",
+        "start": 23.66,
+        "end": 24.22,
+        "probability": 0.998621940612793
+      },
+      {
+        "word": "half",
+        "start": 24.22,
+        "end": 24.46,
+        "probability": 0.9806472063064575
+      },
+      {
+        "word": "a",
+        "start": 24.46,
+        "end": 24.6,
+        "probability": 0.9884232878684998
+      },
+      {
+        "word": "century",
+        "start": 24.6,
+        "end": 25.08,
+        "probability": 0.9994744658470154
+      },
+      {
+        "word": "in",
+        "start": 25.08,
+        "end": 25.9,
+        "probability": 0.8833504915237427
+      },
+      {
+        "word": "the",
+        "start": 25.9,
+        "end": 26.02,
+        "probability": 0.9986935257911682
+      },
+      {
+        "word": "service",
+        "start": 26.02,
+        "end": 26.22,
+        "probability": 0.9960790276527405
+      },
+      {
+        "word": "of",
+        "start": 26.22,
+        "end": 26.44,
+        "probability": 0.998036801815033
+      },
+      {
+        "word": "our",
+        "start": 26.44,
+        "end": 26.52,
+        "probability": 0.9968016147613525
+      },
+      {
+        "word": "country,",
+        "start": 26.52,
+        "end": 26.84,
+        "probability": 0.9975676536560059
+      }
+    ]
+  },
+  {
+    "text": "history, I shall lay down the responsibilities of office. As in traditional and solemn ceremony,",
+    "start": 26.84,
+    "end": 33.84,
+    "words": [
+      {
+        "word": "history,",
+        "start": 26.84,
+        "end": 26.94,
+        "probability": 0.03584611788392067
+      },
+      {
+        "word": "I",
+        "start": 27.42,
+        "end": 27.68,
+        "probability": 0.9770684838294983
+      },
+      {
+        "word": "shall",
+        "start": 27.68,
+        "end": 27.84,
+        "probability": 0.9964928030967712
+      },
+      {
+        "word": "lay",
+        "start": 27.84,
+        "end": 28.0,
+        "probability": 0.9960881471633911
+      },
+      {
+        "word": "down",
+        "start": 28.0,
+        "end": 28.32,
+        "probability": 0.9939112663269043
+      },
+      {
+        "word": "the",
+        "start": 28.32,
+        "end": 28.46,
+        "probability": 0.989104151725769
+      },
+      {
+        "word": "responsibilities",
+        "start": 28.46,
+        "end": 29.06,
+        "probability": 0.9836770296096802
+      },
+      {
+        "word": "of",
+        "start": 29.06,
+        "end": 29.86,
+        "probability": 0.9959768652915955
+      },
+      {
+        "word": "office.",
+        "start": 29.86,
+        "end": 30.24,
+        "probability": 0.8790938258171082
+      },
+      {
+        "word": "As",
+        "start": 30.8,
+        "end": 31.02,
+        "probability": 0.9754966497421265
+      },
+      {
+        "word": "in",
+        "start": 31.02,
+        "end": 31.82,
+        "probability": 0.6789580583572388
+      },
+      {
+        "word": "traditional",
+        "start": 31.82,
+        "end": 32.2,
+        "probability": 0.9526857137680054
+      },
+      {
+        "word": "and",
+        "start": 32.2,
+        "end": 32.66,
+        "probability": 0.9493709802627563
+      },
+      {
+        "word": "solemn",
+        "start": 32.66,
+        "end": 32.98,
+        "probability": 0.9987586736679077
+      },
+      {
+        "word": "ceremony,",
+        "start": 32.98,
+        "end": 33.84,
+        "probability": 0.8900834321975708
+      }
+    ]
+  },
+  {
+    "text": "the authority of the presidency is vested in my successor. This evening I come to you",
+    "start": 34.52,
+    "end": 41.2,
+    "words": [
+      {
+        "word": "the",
+        "start": 34.52,
+        "end": 34.82,
+        "probability": 0.9854922890663147
+      },
+      {
+        "word": "authority",
+        "start": 34.82,
+        "end": 35.18,
+        "probability": 0.9949195981025696
+      },
+      {
+        "word": "of",
+        "start": 35.18,
+        "end": 35.46,
+        "probability": 0.9953717589378357
+      },
+      {
+        "word": "the",
+        "start": 35.46,
+        "end": 35.56,
+        "probability": 0.9948335886001587
+      },
+      {
+        "word": "presidency",
+        "start": 35.56,
+        "end": 36.02,
+        "probability": 0.8511186838150024
+      },
+      {
+        "word": "is",
+        "start": 36.02,
+        "end": 36.82,
+        "probability": 0.9866226315498352
+      },
+      {
+        "word": "vested",
+        "start": 36.82,
+        "end": 37.12,
+        "probability": 0.9791755676269531
+      },
+      {
+        "word": "in",
+        "start": 37.12,
+        "end": 37.88,
+        "probability": 0.9909765720367432
+      },
+      {
+        "word": "my",
+        "start": 37.88,
+        "end": 38.04,
+        "probability": 0.992774248123169
+      },
+      {
+        "word": "successor.",
+        "start": 38.04,
+        "end": 38.28,
+        "probability": 0.973607063293457
+      },
+      {
+        "word": "This",
+        "start": 39.26,
+        "end": 39.86,
+        "probability": 0.9732619524002075
+      },
+      {
+        "word": "evening",
+        "start": 39.86,
+        "end": 40.1,
+        "probability": 0.9965315461158752
+      },
+      {
+        "word": "I",
+        "start": 40.1,
+        "end": 40.6,
+        "probability": 0.6361152529716492
+      },
+      {
+        "word": "come",
+        "start": 40.6,
+        "end": 40.82,
+        "probability": 0.9871318340301514
+      },
+      {
+        "word": "to",
+        "start": 40.82,
+        "end": 41.04,
+        "probability": 0.9948728680610657
+      },
+      {
+        "word": "you",
+        "start": 41.04,
+        "end": 41.2,
+        "probability": 0.9913492202758789
+      }
+    ]
+  },
+  {
+    "text": "with a message of leave-taking and farewell, and to share a few final thoughts with you",
+    "start": 41.2,
+    "end": 47.8,
+    "words": [
+      {
+        "word": "with",
+        "start": 41.2,
+        "end": 41.42,
+        "probability": 0.987052857875824
+      },
+      {
+        "word": "a",
+        "start": 41.42,
+        "end": 41.52,
+        "probability": 0.8947018384933472
+      },
+      {
+        "word": "message",
+        "start": 41.52,
+        "end": 41.8,
+        "probability": 0.9989367127418518
+      },
+      {
+        "word": "of",
+        "start": 41.8,
+        "end": 42.1,
+        "probability": 0.9936892986297607
+      },
+      {
+        "word": "leave",
+        "start": 42.1,
+        "end": 42.34,
+        "probability": 0.7395681142807007
+      },
+      {
+        "word": "-taking",
+        "start": 42.34,
+        "end": 42.82,
+        "probability": 0.7502318620681763
+      },
+      {
+        "word": "and",
+        "start": 42.82,
+        "end": 43.12,
+        "probability": 0.9847419261932373
+      },
+      {
+        "word": "farewell,",
+        "start": 43.12,
+        "end": 43.4,
+        "probability": 0.9919624924659729
+      },
+      {
+        "word": "and",
+        "start": 44.54,
+        "end": 44.8,
+        "probability": 0.9925267696380615
+      },
+      {
+        "word": "to",
+        "start": 44.8,
+        "end": 44.94,
+        "probability": 0.9833674430847168
+      },
+      {
+        "word": "share",
+        "start": 44.94,
+        "end": 45.22,
+        "probability": 0.9974856376647949
+      },
+      {
+        "word": "a",
+        "start": 45.22,
+        "end": 46.02,
+        "probability": 0.9859358072280884
+      },
+      {
+        "word": "few",
+        "start": 46.02,
+        "end": 46.26,
+        "probability": 0.9964171648025513
+      },
+      {
+        "word": "final",
+        "start": 46.26,
+        "end": 46.6,
+        "probability": 0.9925191402435303
+      },
+      {
+        "word": "thoughts",
+        "start": 46.6,
+        "end": 46.96,
+        "probability": 0.9987106323242188
+      },
+      {
+        "word": "with",
+        "start": 46.96,
+        "end": 47.24,
+        "probability": 0.9942347407341003
+      },
+      {
+        "word": "you",
+        "start": 47.24,
+        "end": 47.8,
+        "probability": 0.9928035140037537
+      }
+    ]
+  },
+  {
+    "text": "my countrymen. Like every other citizen, I wish the new president and all who will labor",
+    "start": 47.8,
+    "end": 57.46,
+    "words": [
+      {
+        "word": "my",
+        "start": 47.8,
+        "end": 48.32,
+        "probability": 0.26758500933647156
+      },
+      {
+        "word": "countrymen.",
+        "start": 48.32,
+        "end": 48.82,
+        "probability": 0.6822359561920166
+      },
+      {
+        "word": "Like",
+        "start": 51.48,
+        "end": 52.0,
+        "probability": 0.960910439491272
+      },
+      {
+        "word": "every",
+        "start": 52.0,
+        "end": 52.26,
+        "probability": 0.9791324734687805
+      },
+      {
+        "word": "other",
+        "start": 52.26,
+        "end": 52.52,
+        "probability": 0.9826669096946716
+      },
+      {
+        "word": "citizen,",
+        "start": 52.52,
+        "end": 52.74,
+        "probability": 0.968505322933197
+      },
+      {
+        "word": "I",
+        "start": 53.4,
+        "end": 54.96,
+        "probability": 0.8865785598754883
+      },
+      {
+        "word": "wish",
+        "start": 54.96,
+        "end": 55.18,
+        "probability": 0.9495678544044495
+      },
+      {
+        "word": "the",
+        "start": 55.18,
+        "end": 55.46,
+        "probability": 0.9785749912261963
+      },
+      {
+        "word": "new",
+        "start": 55.46,
+        "end": 55.56,
+        "probability": 0.9490333199501038
+      },
+      {
+        "word": "president",
+        "start": 55.56,
+        "end": 55.92,
+        "probability": 0.730177104473114
+      },
+      {
+        "word": "and",
+        "start": 55.92,
+        "end": 56.56,
+        "probability": 0.7667844295501709
+      },
+      {
+        "word": "all",
+        "start": 56.56,
+        "end": 56.88,
+        "probability": 0.9767959117889404
+      },
+      {
+        "word": "who",
+        "start": 56.88,
+        "end": 57.16,
+        "probability": 0.9445174336433411
+      },
+      {
+        "word": "will",
+        "start": 57.16,
+        "end": 57.28,
+        "probability": 0.8880361318588257
+      },
+      {
+        "word": "labor",
+        "start": 57.28,
+        "end": 57.46,
+        "probability": 0.7743448615074158
+      }
+    ]
+  },
+  {
+    "text": "with him Godspeed. I pray that the coming years will be blessed with peace and prosperity for all.",
+    "start": 57.46,
+    "end": 64.18,
+    "words": [
+      {
+        "word": "with",
+        "start": 57.46,
+        "end": 57.74,
+        "probability": 0.1150888130068779
+      },
+      {
+        "word": "him",
+        "start": 57.74,
+        "end": 57.96,
+        "probability": 0.6865167021751404
+      },
+      {
+        "word": "Godspeed.",
+        "start": 57.96,
+        "end": 58.6,
+        "probability": 0.7559646368026733
+      },
+      {
+        "word": "I",
+        "start": 59.56,
+        "end": 59.74,
+        "probability": 0.9082468748092651
+      },
+      {
+        "word": "pray",
+        "start": 59.74,
+        "end": 60.02,
+        "probability": 0.9928914308547974
+      },
+      {
+        "word": "that",
+        "start": 60.02,
+        "end": 60.32,
+        "probability": 0.9701355695724487
+      },
+      {
+        "word": "the",
+        "start": 60.32,
+        "end": 60.44,
+        "probability": 0.9472508430480957
+      },
+      {
+        "word": "coming",
+        "start": 60.44,
+        "end": 60.7,
+        "probability": 0.9947570562362671
+      },
+      {
+        "word": "years",
+        "start": 60.7,
+        "end": 61.02,
+        "probability": 0.9747183322906494
+      },
+      {
+        "word": "will",
+        "start": 61.02,
+        "end": 61.34,
+        "probability": 0.9890648126602173
+      },
+      {
+        "word": "be",
+        "start": 61.34,
+        "end": 61.48,
+        "probability": 0.9913462996482849
+      },
+      {
+        "word": "blessed",
+        "start": 61.48,
+        "end": 61.74,
+        "probability": 0.9951707720756531
+      },
+      {
+        "word": "with",
+        "start": 61.74,
+        "end": 61.96,
+        "probability": 0.9905521869659424
+      },
+      {
+        "word": "peace",
+        "start": 61.96,
+        "end": 62.22,
+        "probability": 0.9930777549743652
+      },
+      {
+        "word": "and",
+        "start": 62.22,
+        "end": 62.48,
+        "probability": 0.9789921641349792
+      },
+      {
+        "word": "prosperity",
+        "start": 62.48,
+        "end": 62.8,
+        "probability": 0.9994188547134399
+      },
+      {
+        "word": "for",
+        "start": 62.8,
+        "end": 63.94,
+        "probability": 0.9615318775177002
+      },
+      {
+        "word": "all.",
+        "start": 63.94,
+        "end": 64.18,
+        "probability": 0.9934523105621338
+      }
+    ]
+  },
+  {
+    "text": "Our people expect their President and the Congress to find essential agreement on issues of great",
+    "start": 65.74,
+    "end": 71.64,
+    "words": [
+      {
+        "word": "Our",
+        "start": 65.74,
+        "end": 66.12,
+        "probability": 0.9360246658325195
+      },
+      {
+        "word": "people",
+        "start": 66.12,
+        "end": 66.46,
+        "probability": 0.9836553335189819
+      },
+      {
+        "word": "expect",
+        "start": 66.46,
+        "end": 66.9,
+        "probability": 0.9894026517868042
+      },
+      {
+        "word": "their",
+        "start": 66.9,
+        "end": 67.46,
+        "probability": 0.972276508808136
+      },
+      {
+        "word": "President",
+        "start": 67.46,
+        "end": 67.9,
+        "probability": 0.5814270973205566
+      },
+      {
+        "word": "and",
+        "start": 67.9,
+        "end": 68.14,
+        "probability": 0.9751095175743103
+      },
+      {
+        "word": "the",
+        "start": 68.14,
+        "end": 68.24,
+        "probability": 0.883864164352417
+      },
+      {
+        "word": "Congress",
+        "start": 68.24,
+        "end": 68.56,
+        "probability": 0.97596275806427
+      },
+      {
+        "word": "to",
+        "start": 68.56,
+        "end": 69.32,
+        "probability": 0.9908560514450073
+      },
+      {
+        "word": "find",
+        "start": 69.32,
+        "end": 69.56,
+        "probability": 0.9967687129974365
+      },
+      {
+        "word": "essential",
+        "start": 69.56,
+        "end": 70.06,
+        "probability": 0.7428832650184631
+      },
+      {
+        "word": "agreement",
+        "start": 70.06,
+        "end": 70.44,
+        "probability": 0.9517781138420105
+      },
+      {
+        "word": "on",
+        "start": 70.44,
+        "end": 70.92,
+        "probability": 0.9949618577957153
+      },
+      {
+        "word": "issues",
+        "start": 70.92,
+        "end": 71.2,
+        "probability": 0.9861181378364563
+      },
+      {
+        "word": "of",
+        "start": 71.2,
+        "end": 71.48,
+        "probability": 0.9806262254714966
+      },
+      {
+        "word": "great",
+        "start": 71.48,
+        "end": 71.64,
+        "probability": 0.9699487686157227
+      }
+    ]
+  },
+  {
+    "text": "moment, the wise resolution of which will better shape the future of the nation. My own relations",
+    "start": 71.64,
+    "end": 79.82,
+    "words": [
+      {
+        "word": "moment,",
+        "start": 71.64,
+        "end": 72.0,
+        "probability": 0.8811597228050232
+      },
+      {
+        "word": "the",
+        "start": 72.98,
+        "end": 73.12,
+        "probability": 0.9925711750984192
+      },
+      {
+        "word": "wise",
+        "start": 73.12,
+        "end": 73.46,
+        "probability": 0.9519432783126831
+      },
+      {
+        "word": "resolution",
+        "start": 73.46,
+        "end": 74.0,
+        "probability": 0.9888930916786194
+      },
+      {
+        "word": "of",
+        "start": 74.0,
+        "end": 74.3,
+        "probability": 0.9290218949317932
+      },
+      {
+        "word": "which",
+        "start": 74.3,
+        "end": 74.5,
+        "probability": 0.9977895021438599
+      },
+      {
+        "word": "will",
+        "start": 74.5,
+        "end": 75.5,
+        "probability": 0.9780199527740479
+      },
+      {
+        "word": "better",
+        "start": 75.5,
+        "end": 75.82,
+        "probability": 0.9961856007575989
+      },
+      {
+        "word": "shape",
+        "start": 75.82,
+        "end": 76.16,
+        "probability": 0.9696022868156433
+      },
+      {
+        "word": "the",
+        "start": 76.16,
+        "end": 76.6,
+        "probability": 0.9923027753829956
+      },
+      {
+        "word": "future",
+        "start": 76.6,
+        "end": 76.92,
+        "probability": 0.9990828037261963
+      },
+      {
+        "word": "of",
+        "start": 76.92,
+        "end": 77.32,
+        "probability": 0.9952157735824585
+      },
+      {
+        "word": "the",
+        "start": 77.32,
+        "end": 77.44,
+        "probability": 0.9883044958114624
+      },
+      {
+        "word": "nation.",
+        "start": 77.44,
+        "end": 77.64,
+        "probability": 0.9701833724975586
+      },
+      {
+        "word": "My",
+        "start": 78.7,
+        "end": 79.34,
+        "probability": 0.9876939058303833
+      },
+      {
+        "word": "own",
+        "start": 79.34,
+        "end": 79.48,
+        "probability": 0.9983543157577515
+      },
+      {
+        "word": "relations",
+        "start": 79.48,
+        "end": 79.82,
+        "probability": 0.9650774002075195
+      }
+    ]
+  },
+  {
+    "text": "with the Congress, which began on a remote and tenuous basis when, long ago, a member of",
+    "start": 79.82,
+    "end": 87.38,
+    "words": [
+      {
+        "word": "with",
+        "start": 79.82,
+        "end": 80.22,
+        "probability": 0.27111491560935974
+      },
+      {
+        "word": "the",
+        "start": 80.22,
+        "end": 80.36,
+        "probability": 0.9303445816040039
+      },
+      {
+        "word": "Congress,",
+        "start": 80.36,
+        "end": 80.56,
+        "probability": 0.9066383838653564
+      },
+      {
+        "word": "which",
+        "start": 81.46,
+        "end": 81.66,
+        "probability": 0.9965367317199707
+      },
+      {
+        "word": "began",
+        "start": 81.66,
+        "end": 81.98,
+        "probability": 0.9977313876152039
+      },
+      {
+        "word": "on",
+        "start": 81.98,
+        "end": 82.32,
+        "probability": 0.9934961795806885
+      },
+      {
+        "word": "a",
+        "start": 82.32,
+        "end": 82.5,
+        "probability": 0.9952849745750427
+      },
+      {
+        "word": "remote",
+        "start": 82.5,
+        "end": 82.84,
+        "probability": 0.9746657609939575
+      },
+      {
+        "word": "and",
+        "start": 82.84,
+        "end": 83.14,
+        "probability": 0.9179112315177917
+      },
+      {
+        "word": "tenuous",
+        "start": 83.14,
+        "end": 83.62,
+        "probability": 0.9812338948249817
+      },
+      {
+        "word": "basis",
+        "start": 83.62,
+        "end": 83.98,
+        "probability": 0.9991052746772766
+      },
+      {
+        "word": "when,",
+        "start": 83.98,
+        "end": 85.06,
+        "probability": 0.2219098061323166
+      },
+      {
+        "word": "long",
+        "start": 85.14,
+        "end": 85.36,
+        "probability": 0.9932605624198914
+      },
+      {
+        "word": "ago,",
+        "start": 85.36,
+        "end": 85.8,
+        "probability": 0.9990959167480469
+      },
+      {
+        "word": "a",
+        "start": 86.74,
+        "end": 86.96,
+        "probability": 0.9957442879676819
+      },
+      {
+        "word": "member",
+        "start": 86.96,
+        "end": 87.22,
+        "probability": 0.9915151596069336
+      },
+      {
+        "word": "of",
+        "start": 87.22,
+        "end": 87.38,
+        "probability": 0.9887491464614868
+      }
+    ]
+  },
+  {
+    "text": "the Senate appointed me to West Point have since, ranged to the element during the war",
+    "start": 87.38,
+    "end": 92.98,
+    "words": [
+      {
+        "word": "the",
+        "start": 87.38,
+        "end": 87.46,
+        "probability": 0.9959281086921692
+      },
+      {
+        "word": "Senate",
+        "start": 87.46,
+        "end": 87.68,
+        "probability": 0.7250920534133911
+      },
+      {
+        "word": "appointed",
+        "start": 87.68,
+        "end": 87.92,
+        "probability": 0.9908603429794312
+      },
+      {
+        "word": "me",
+        "start": 87.92,
+        "end": 88.26,
+        "probability": 0.9788808822631836
+      },
+      {
+        "word": "to",
+        "start": 88.26,
+        "end": 88.38,
+        "probability": 0.5473944544792175
+      },
+      {
+        "word": "West",
+        "start": 88.38,
+        "end": 88.5,
+        "probability": 0.9559218287467957
+      },
+      {
+        "word": "Point",
+        "start": 88.5,
+        "end": 88.74,
+        "probability": 0.8377172350883484
+      },
+      {
+        "word": "have",
+        "start": 88.74,
+        "end": 89.66,
+        "probability": 0.6156465411186218
+      },
+      {
+        "word": "since,",
+        "start": 89.66,
+        "end": 89.9,
+        "probability": 0.9901448488235474
+      },
+      {
+        "word": "ranged",
+        "start": 90.94,
+        "end": 91.06,
+        "probability": 0.43590930104255676
+      },
+      {
+        "word": "to",
+        "start": 91.06,
+        "end": 91.42,
+        "probability": 0.9927240014076233
+      },
+      {
+        "word": "the",
+        "start": 91.42,
+        "end": 91.5,
+        "probability": 0.9616572260856628
+      },
+      {
+        "word": "element",
+        "start": 91.5,
+        "end": 91.76,
+        "probability": 0.11700662970542908
+      },
+      {
+        "word": "during",
+        "start": 91.76,
+        "end": 92.46,
+        "probability": 0.9665928483009338
+      },
+      {
+        "word": "the",
+        "start": 92.46,
+        "end": 92.72,
+        "probability": 0.992993175983429
+      },
+      {
+        "word": "war",
+        "start": 92.72,
+        "end": 92.98,
+        "probability": 0.9390451908111572
+      }
+    ]
+  },
+  {
+    "text": "and immediate post-war period, and finally to the mutually interdependent during these",
+    "start": 92.98,
+    "end": 100.02,
+    "words": [
+      {
+        "word": "and",
+        "start": 92.98,
+        "end": 93.52,
+        "probability": 0.7154273986816406
+      },
+      {
+        "word": "immediate",
+        "start": 93.52,
+        "end": 93.84,
+        "probability": 0.9654844999313354
+      },
+      {
+        "word": "post",
+        "start": 93.84,
+        "end": 94.66,
+        "probability": 0.8482276201248169
+      },
+      {
+        "word": "-war",
+        "start": 94.66,
+        "end": 94.92,
+        "probability": 0.9686557352542877
+      },
+      {
+        "word": "period,",
+        "start": 94.92,
+        "end": 95.3,
+        "probability": 0.9957210421562195
+      },
+      {
+        "word": "and",
+        "start": 95.3,
+        "end": 96.28,
+        "probability": 0.9978427886962891
+      },
+      {
+        "word": "finally",
+        "start": 96.28,
+        "end": 96.74,
+        "probability": 0.8289251923561096
+      },
+      {
+        "word": "to",
+        "start": 96.74,
+        "end": 97.56,
+        "probability": 0.6497722268104553
+      },
+      {
+        "word": "the",
+        "start": 97.56,
+        "end": 97.68,
+        "probability": 0.9950628876686096
+      },
+      {
+        "word": "mutually",
+        "start": 97.68,
+        "end": 98.0,
+        "probability": 0.9939926266670227
+      },
+      {
+        "word": "interdependent",
+        "start": 98.0,
+        "end": 98.86,
+        "probability": 0.8282008469104767
+      },
+      {
+        "word": "during",
+        "start": 98.86,
+        "end": 99.72,
+        "probability": 0.9223946332931519
+      },
+      {
+        "word": "these",
+        "start": 99.72,
+        "end": 100.02,
+        "probability": 0.982376217842102
+      }
+    ]
+  },
+  {
+    "text": "past eight years.",
+    "start": 100.02,
+    "end": 101.1,
+    "words": [
+      {
+        "word": "past",
+        "start": 100.02,
+        "end": 100.38,
+        "probability": 0.9942208528518677
+      },
+      {
+        "word": "eight",
+        "start": 100.38,
+        "end": 100.8,
+        "probability": 0.9816089272499084
+      },
+      {
+        "word": "years.",
+        "start": 100.8,
+        "end": 101.1,
+        "probability": 0.9994575381278992
+      }
+    ]
+  },
+  {
+    "text": "In this final relationship, the Congress and the administration have, on most vital issues,",
+    "start": 102.24,
+    "end": 108.14,
+    "words": [
+      {
+        "word": "In",
+        "start": 102.24,
+        "end": 102.76,
+        "probability": 0.9962588548660278
+      },
+      {
+        "word": "this",
+        "start": 102.76,
+        "end": 102.88,
+        "probability": 0.998530387878418
+      },
+      {
+        "word": "final",
+        "start": 102.88,
+        "end": 103.2,
+        "probability": 0.9973913431167603
+      },
+      {
+        "word": "relationship,",
+        "start": 103.2,
+        "end": 104.02,
+        "probability": 0.9993137121200562
+      },
+      {
+        "word": "the",
+        "start": 104.02,
+        "end": 104.38,
+        "probability": 0.9903081059455872
+      },
+      {
+        "word": "Congress",
+        "start": 104.38,
+        "end": 104.76,
+        "probability": 0.9887630343437195
+      },
+      {
+        "word": "and",
+        "start": 104.76,
+        "end": 105.18,
+        "probability": 0.99430251121521
+      },
+      {
+        "word": "the",
+        "start": 105.18,
+        "end": 105.32,
+        "probability": 0.9881312847137451
+      },
+      {
+        "word": "administration",
+        "start": 105.32,
+        "end": 105.76,
+        "probability": 0.7793217897415161
+      },
+      {
+        "word": "have,",
+        "start": 105.76,
+        "end": 106.28,
+        "probability": 0.996192216873169
+      },
+      {
+        "word": "on",
+        "start": 106.86,
+        "end": 107.1,
+        "probability": 0.9952998161315918
+      },
+      {
+        "word": "most",
+        "start": 107.1,
+        "end": 107.36,
+        "probability": 0.995182454586029
+      },
+      {
+        "word": "vital",
+        "start": 107.36,
+        "end": 107.68,
+        "probability": 0.9993244409561157
+      },
+      {
+        "word": "issues,",
+        "start": 107.68,
+        "end": 108.14,
+        "probability": 0.9984458088874817
+      }
+    ]
+  },
+  {
+    "text": "cooperated well.",
+    "start": 108.14,
+    "end": 109.5,
+    "words": [
+      {
+        "word": "cooperated",
+        "start": 108.14,
+        "end": 109.22,
+        "probability": 0.7606285512447357
+      },
+      {
+        "word": "well.",
+        "start": 109.22,
+        "end": 109.5,
+        "probability": 0.9671459197998047
+      }
+    ]
+  }
+]

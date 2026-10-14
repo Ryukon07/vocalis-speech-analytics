@@ -1,0 +1,57 @@
+{
+  "dataset": "hf-internal-testing/librispeech_asr_dummy",
+  "config": "clean",
+  "split": "validation",
+  "selection": "First four rows, before recognition; no accuracy-based selection",
+  "dataset_url": "https://huggingface.co/datasets/hf-internal-testing/librispeech_asr_dummy",
+  "original_source": "https://www.openslr.org/12/",
+  "license": "CC BY 4.0",
+  "attribution": "LibriSpeech, Vassil Panayotov, Daniel Povey, Guoguo Chen and Sanjeev Khudanpur; audiobook readings from LibriVox",
+  "limitations": "Four clean clips from one reader; verifies this sample set, not general accent/noise performance or absence from upstream model training.",
+  "samples": [
+    {
+      "id": "1272-128104-0000",
+      "file": "1272-128104-0000.wav",
+      "text": "MISTER QUILTER IS THE APOSTLE OF THE MIDDLE CLASSES AND WE ARE GLAD TO WELCOME HIS GOSPEL",
+      "speaker_id": 1272,
+      "chapter_id": 128104,
+      "sample_rate": 16000,
+      "duration_seconds": 5.855,
+      "sha256": "799f78ed4beb4de7ceae3a809262d4ce242394342ccd1d58cef7d49dbc2def46",
+      "row_index": 0
+    },
+    {
+      "id": "1272-128104-0001",
+      "file": "1272-128104-0001.wav",
+      "text": "NOR IS MISTER QUILTER'S MANNER LESS INTERESTING THAN HIS MATTER",
+      "speaker_id": 1272,
+      "chapter_id": 128104,
+      "sample_rate": 16000,
+      "duration_seconds": 4.815,
+      "sha256": "473b1bb573e8f7cdcd639c6e318036236190107b66bfe6892286121a92d464c1",
+      "row_index": 1
+    },
+    {
+      "id": "1272-128104-0002",
+      "file": "1272-128104-0002.wav",
+      "text": "HE TELLS US THAT AT THIS FESTIVE SEASON OF THE YEAR WITH CHRISTMAS AND ROAST BEEF LOOMING BEFORE US SIMILES DRAWN FROM EATING AND ITS RESULTS OCCUR MOST READILY TO THE MIND",
+      "speaker_id": 1272,
+      "chapter_id": 128104,
+      "sample_rate": 16000,
+      "duration_seconds": 12.485,
+      "sha256": "5f4d8f7331acffc3d2efbe0f764b9eb3447911dc17f9843e38e1083eb1685b9c",
+      "row_index": 2
+    },
+    {
+      "id": "1272-128104-0003",
+      "file": "1272-128104-0003.wav",
+      "text": "HE HAS GRAVE DOUBTS WHETHER SIR FREDERICK LEIGHTON'S WORK IS REALLY GREEK AFTER ALL AND CAN DISCOVER IN IT BUT LITTLE OF ROCKY ITHACA",
+      "speaker_id": 1272,
+      "chapter_id": 128104,
+      "sample_rate": 16000,
+      "duration_seconds": 9.9,
+      "sha256": "fc23353b884061a5c5784b0cf6b5c539680c50cfae993882822ebdd4a06ddf8c",
+      "row_index": 3
+    }
+  ]
+}

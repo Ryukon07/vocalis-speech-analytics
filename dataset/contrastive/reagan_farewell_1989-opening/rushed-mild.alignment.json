@@ -1,0 +1,314 @@
+[
+  {
+    "word": "This",
+    "start": 0.2404,
+    "end": 0.3807,
+    "confidence": 0.9599
+  },
+  {
+    "word": "is",
+    "start": 0.4808,
+    "end": 0.5209,
+    "confidence": 0.9064
+  },
+  {
+    "word": "the",
+    "start": 0.581,
+    "end": 0.6411,
+    "confidence": 0.9993
+  },
+  {
+    "word": "thirty",
+    "start": 0.6812,
+    "end": 0.9216,
+    "confidence": 0.9713
+  },
+  {
+    "word": "fourth",
+    "start": 0.9617,
+    "end": 1.1821,
+    "confidence": 0.9675
+  },
+  {
+    "word": "time",
+    "start": 1.2622,
+    "end": 1.4625,
+    "confidence": 0.9995
+  },
+  {
+    "word": "I'll",
+    "start": 1.5627,
+    "end": 1.723,
+    "confidence": 0.9945
+  },
+  {
+    "word": "speak",
+    "start": 1.7631,
+    "end": 1.9634,
+    "confidence": 0.9998
+  },
+  {
+    "word": "to",
+    "start": 2.0436,
+    "end": 2.1037,
+    "confidence": 0.9931
+  },
+  {
+    "word": "you",
+    "start": 2.1437,
+    "end": 2.2439,
+    "confidence": 1.0
+  },
+  {
+    "word": "from",
+    "start": 2.324,
+    "end": 2.4242,
+    "confidence": 0.9822
+  },
+  {
+    "word": "the",
+    "start": 2.4643,
+    "end": 2.5444,
+    "confidence": 0.9697
+  },
+  {
+    "word": "Oval",
+    "start": 2.6446,
+    "end": 2.8249,
+    "confidence": 0.9952
+  },
+  {
+    "word": "Office,",
+    "start": 2.9251,
+    "end": 3.1455,
+    "confidence": 0.9926
+  },
+  {
+    "word": "and",
+    "start": 3.2857,
+    "end": 3.3458,
+    "confidence": 0.3319
+  },
+  {
+    "word": "the",
+    "start": 3.3859,
+    "end": 3.446,
+    "confidence": 0.328
+  },
+  {
+    "word": "last.",
+    "start": 3.5061,
+    "end": 3.7065,
+    "confidence": 0.6064
+  },
+  {
+    "word": "We've",
+    "start": 4.3676,
+    "end": 4.5078,
+    "confidence": 0.0808
+  },
+  {
+    "word": "been",
+    "start": 4.5279,
+    "end": 4.6281,
+    "confidence": 0.0072
+  },
+  {
+    "word": "together",
+    "start": 4.6481,
+    "end": 4.8284,
+    "confidence": 0.0971
+  },
+  {
+    "word": "eight",
+    "start": 4.8484,
+    "end": 4.9887,
+    "confidence": 0.0492
+  },
+  {
+    "word": "years",
+    "start": 5.0087,
+    "end": 5.2692,
+    "confidence": 0.877
+  },
+  {
+    "word": "now,",
+    "start": 5.3493,
+    "end": 5.5296,
+    "confidence": 0.9987
+  },
+  {
+    "word": "and",
+    "start": 5.6498,
+    "end": 5.7099,
+    "confidence": 0.9965
+  },
+  {
+    "word": "soon",
+    "start": 5.9904,
+    "end": 6.1707,
+    "confidence": 0.9977
+  },
+  {
+    "word": "it'll",
+    "start": 6.2308,
+    "end": 6.4112,
+    "confidence": 0.9824
+  },
+  {
+    "word": "be",
+    "start": 6.4312,
+    "end": 6.4913,
+    "confidence": 0.9041
+  },
+  {
+    "word": "time",
+    "start": 6.5314,
+    "end": 6.7518,
+    "confidence": 0.9995
+  },
+  {
+    "word": "for",
+    "start": 6.8119,
+    "end": 6.912,
+    "confidence": 0.9986
+  },
+  {
+    "word": "me",
+    "start": 6.9721,
+    "end": 7.0322,
+    "confidence": 1.0
+  },
+  {
+    "word": "to",
+    "start": 7.1124,
+    "end": 7.1725,
+    "confidence": 0.9701
+  },
+  {
+    "word": "go.",
+    "start": 7.2126,
+    "end": 7.3728,
+    "confidence": 0.9999
+  },
+  {
+    "word": "But",
+    "start": 8.1943,
+    "end": 8.2944,
+    "confidence": 0.9979
+  },
+  {
+    "word": "before",
+    "start": 8.3545,
+    "end": 8.6551,
+    "confidence": 0.987
+  },
+  {
+    "word": "I",
+    "start": 8.7352,
+    "end": 8.7552,
+    "confidence": 0.9998
+  },
+  {
+    "word": "do,",
+    "start": 8.8554,
+    "end": 8.9957,
+    "confidence": 0.9997
+  },
+  {
+    "word": "I",
+    "start": 9.5767,
+    "end": 9.5967,
+    "confidence": 0.9998
+  },
+  {
+    "word": "wanted",
+    "start": 9.6568,
+    "end": 9.8972,
+    "confidence": 0.9422
+  },
+  {
+    "word": "to",
+    "start": 9.9373,
+    "end": 9.9974,
+    "confidence": 0.9992
+  },
+  {
+    "word": "share",
+    "start": 10.0575,
+    "end": 10.2779,
+    "confidence": 0.9998
+  },
+  {
+    "word": "some",
+    "start": 10.3781,
+    "end": 10.5383,
+    "confidence": 0.9688
+  },
+  {
+    "word": "thoughts,",
+    "start": 10.6185,
+    "end": 10.939,
+    "confidence": 0.9976
+  },
+  {
+    "word": "some",
+    "start": 11.3397,
+    "end": 11.5,
+    "confidence": 0.9988
+  },
+  {
+    "word": "of",
+    "start": 11.5601,
+    "end": 11.6002,
+    "confidence": 0.9988
+  },
+  {
+    "word": "which",
+    "start": 11.6403,
+    "end": 11.8005,
+    "confidence": 0.9814
+  },
+  {
+    "word": "I've",
+    "start": 11.8606,
+    "end": 12.0209,
+    "confidence": 0.7934
+  },
+  {
+    "word": "been",
+    "start": 12.061,
+    "end": 12.1812,
+    "confidence": 0.9999
+  },
+  {
+    "word": "saving",
+    "start": 12.2413,
+    "end": 12.5619,
+    "confidence": 0.9924
+  },
+  {
+    "word": "for",
+    "start": 12.622,
+    "end": 12.7021,
+    "confidence": 0.9997
+  },
+  {
+    "word": "a",
+    "start": 12.7622,
+    "end": 12.8023,
+    "confidence": 0.794
+  },
+  {
+    "word": "long",
+    "start": 12.8424,
+    "end": 13.0427,
+    "confidence": 0.994
+  },
+  {
+    "word": "time.",
+    "start": 13.1429,
+    "end": 13.3833,
+    "confidence": 0.9799
+  }
+]

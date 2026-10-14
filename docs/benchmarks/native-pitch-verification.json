@@ -1,0 +1,6 @@
+{
+  "observed_failure": "Windows native access violation in librosa pYIN _parabolic_interpolation / Numba gufunc from the legacy compiled cache",
+  "fix": "Fresh v2 compiler-cache namespace keyed by Python/Numba/librosa/NumPy versions",
+  "verification": "Two clean-cache process runs and two production-cache process runs; finite voiced pitch arrays match at rtol=1e-6 with NaNs preserved; real browser inference and seven API comparisons pass",
+  "pitch_method_changed": false
+}

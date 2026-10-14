@@ -1,0 +1,48 @@
+{
+  "version": "1.0",
+  "matching_iou_threshold": 0.25,
+  "results": {
+    "training": {
+      "recordings": 28,
+      "true_positives": 21,
+      "false_positives": 3,
+      "labels": 24,
+      "precision": 0.875,
+      "recall": 0.875,
+      "f1": 0.875,
+      "mean_boundary_error_seconds": 0.4295333333333334
+    },
+    "validation": {
+      "recordings": 21,
+      "true_positives": 14,
+      "false_positives": 3,
+      "labels": 18,
+      "precision": 0.8235294117647058,
+      "recall": 0.7777777777777778,
+      "f1": 0.7999999999999999,
+      "mean_boundary_error_seconds": 0.31988571428571433
+    },
+    "testing": {
+      "recordings": 21,
+      "true_positives": 16,
+      "false_positives": 6,
+      "labels": 18,
+      "precision": 0.7272727272727273,
+      "recall": 0.8888888888888888,
+      "f1": 0.7999999999999999,
+      "mean_boundary_error_seconds": 0.2881625
+    },
+    "all": {
+      "recordings": 70,
+      "true_positives": 51,
+      "false_positives": 12,
+      "labels": 60,
+      "precision": 0.8095238095238095,
+      "recall": 0.85,
+      "f1": 0.8292682926829269,
+      "mean_boundary_error_seconds": 0.35508235294117657
+    }
+  },
+  "failed_recordings": [],
+  "limitations": "Controlled same-speaker edits, not human-rated accuracy on natural delivery. Do not tune thresholds on the testing split."
+}

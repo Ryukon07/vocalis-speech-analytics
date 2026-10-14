@@ -1,0 +1,224 @@
+[
+  {
+    "word": "They",
+    "start": 1.4411,
+    "end": 1.5412,
+    "confidence": 0.9625
+  },
+  {
+    "word": "had",
+    "start": 1.5812,
+    "end": 1.6613,
+    "confidence": 0.9967
+  },
+  {
+    "word": "a",
+    "start": 1.7213,
+    "end": 1.7413,
+    "confidence": 0.9188
+  },
+  {
+    "word": "hunger",
+    "start": 1.8014,
+    "end": 2.0616,
+    "confidence": 0.9942
+  },
+  {
+    "word": "to",
+    "start": 2.1016,
+    "end": 2.1617,
+    "confidence": 0.9998
+  },
+  {
+    "word": "explore",
+    "start": 2.2617,
+    "end": 2.622,
+    "confidence": 0.9877
+  },
+  {
+    "word": "the",
+    "start": 2.6821,
+    "end": 2.7421,
+    "confidence": 0.9993
+  },
+  {
+    "word": "universe",
+    "start": 2.8422,
+    "end": 3.2225,
+    "confidence": 0.9938
+  },
+  {
+    "word": "and",
+    "start": 3.3025,
+    "end": 3.3626,
+    "confidence": 0.5087
+  },
+  {
+    "word": "discover",
+    "start": 3.4026,
+    "end": 3.6828,
+    "confidence": 0.442
+  },
+  {
+    "word": "its",
+    "start": 3.7229,
+    "end": 3.8229,
+    "confidence": 0.0439
+  },
+  {
+    "word": "truths.",
+    "start": 3.843,
+    "end": 4.1432,
+    "confidence": 0.9869
+  },
+  {
+    "word": "They",
+    "start": 4.8037,
+    "end": 4.9238,
+    "confidence": 0.326
+  },
+  {
+    "word": "wished",
+    "start": 4.9638,
+    "end": 5.144,
+    "confidence": 0.1221
+  },
+  {
+    "word": "to",
+    "start": 5.164,
+    "end": 5.204,
+    "confidence": 0.0161
+  },
+  {
+    "word": "serve,",
+    "start": 5.224,
+    "end": 5.4642,
+    "confidence": 0.3828
+  },
+  {
+    "word": "and",
+    "start": 5.6844,
+    "end": 5.7444,
+    "confidence": 0.8883
+  },
+  {
+    "word": "they",
+    "start": 5.7845,
+    "end": 5.8845,
+    "confidence": 0.9988
+  },
+  {
+    "word": "did.",
+    "start": 5.9646,
+    "end": 6.1247,
+    "confidence": 0.9997
+  },
+  {
+    "word": "They",
+    "start": 7.0054,
+    "end": 7.1055,
+    "confidence": 0.9985
+  },
+  {
+    "word": "served",
+    "start": 7.1855,
+    "end": 7.4457,
+    "confidence": 0.9992
+  },
+  {
+    "word": "all",
+    "start": 7.5258,
+    "end": 7.6659,
+    "confidence": 0.9595
+  },
+  {
+    "word": "of",
+    "start": 7.726,
+    "end": 7.786,
+    "confidence": 0.9418
+  },
+  {
+    "word": "us.",
+    "start": 7.8661,
+    "end": 7.9261,
+    "confidence": 0.9203
+  },
+  {
+    "word": "We've",
+    "start": 9.107,
+    "end": 9.2872,
+    "confidence": 0.8999
+  },
+  {
+    "word": "grown",
+    "start": 9.3072,
+    "end": 9.4873,
+    "confidence": 0.9183
+  },
+  {
+    "word": "used",
+    "start": 9.6274,
+    "end": 9.7675,
+    "confidence": 0.9811
+  },
+  {
+    "word": "to",
+    "start": 9.8276,
+    "end": 9.8876,
+    "confidence": 0.9993
+  },
+  {
+    "word": "wonders",
+    "start": 9.9877,
+    "end": 10.348,
+    "confidence": 0.9631
+  },
+  {
+    "word": "in",
+    "start": 10.428,
+    "end": 10.4681,
+    "confidence": 0.9922
+  },
+  {
+    "word": "this",
+    "start": 10.5281,
+    "end": 10.6482,
+    "confidence": 0.9035
+  },
+  {
+    "word": "century.",
+    "start": 10.7083,
+    "end": 11.0685,
+    "confidence": 0.7421
+  },
+  {
+    "word": "It's",
+    "start": 11.7691,
+    "end": 11.8692,
+    "confidence": 0.9982
+  },
+  {
+    "word": "hard",
+    "start": 11.9092,
+    "end": 12.1093,
+    "confidence": 0.9515
+  },
+  {
+    "word": "to",
+    "start": 12.1494,
+    "end": 12.2094,
+    "confidence": 0.9992
+  },
+  {
+    "word": "dazzle",
+    "start": 12.2695,
+    "end": 12.6297,
+    "confidence": 0.9737
+  },
+  {
+    "word": "us.",
+    "start": 12.7098,
+    "end": 12.7698,
+    "confidence": 0.9773
+  }
+]

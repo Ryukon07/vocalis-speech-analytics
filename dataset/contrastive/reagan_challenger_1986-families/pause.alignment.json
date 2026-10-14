@@ -1,0 +1,356 @@
+[
+  {
+    "word": "For",
+    "start": 0.2402,
+    "end": 0.3203,
+    "confidence": 0.0131
+  },
+  {
+    "word": "the",
+    "start": 0.3603,
+    "end": 0.4204,
+    "confidence": 0.998
+  },
+  {
+    "word": "families",
+    "start": 0.4804,
+    "end": 0.8608,
+    "confidence": 0.9565
+  },
+  {
+    "word": "of",
+    "start": 0.9208,
+    "end": 0.9608,
+    "confidence": 0.9958
+  },
+  {
+    "word": "the",
+    "start": 1.0009,
+    "end": 1.081,
+    "confidence": 0.9913
+  },
+  {
+    "word": "seven,",
+    "start": 1.141,
+    "end": 1.4413,
+    "confidence": 0.9963
+  },
+  {
+    "word": "we",
+    "start": 2.5222,
+    "end": 2.5823,
+    "confidence": 0.9999
+  },
+  {
+    "word": "cannot",
+    "start": 2.6824,
+    "end": 2.9826,
+    "confidence": 0.999
+  },
+  {
+    "word": "bear,",
+    "start": 3.0627,
+    "end": 3.3229,
+    "confidence": 0.9977
+  },
+  {
+    "word": "as",
+    "start": 3.4631,
+    "end": 3.5031,
+    "confidence": 0.9997
+  },
+  {
+    "word": "you",
+    "start": 3.5632,
+    "end": 3.6833,
+    "confidence": 0.9581
+  },
+  {
+    "word": "do,",
+    "start": 3.7633,
+    "end": 3.8634,
+    "confidence": 0.9999
+  },
+  {
+    "word": "the",
+    "start": 3.9835,
+    "end": 4.0636,
+    "confidence": 0.9767
+  },
+  {
+    "word": "full",
+    "start": 4.1236,
+    "end": 4.3639,
+    "confidence": 0.9391
+  },
+  {
+    "word": "impact",
+    "start": 4.6841,
+    "end": 5.0645,
+    "confidence": 0.9393
+  },
+  {
+    "word": "of",
+    "start": 7.3465,
+    "end": 7.3865,
+    "confidence": 0.9249
+  },
+  {
+    "word": "this",
+    "start": 7.4266,
+    "end": 7.5467,
+    "confidence": 0.9988
+  },
+  {
+    "word": "tragedy.",
+    "start": 7.6267,
+    "end": 8.0471,
+    "confidence": 0.9968
+  },
+  {
+    "word": "But",
+    "start": 9.1681,
+    "end": 9.2882,
+    "confidence": 0.9945
+  },
+  {
+    "word": "we",
+    "start": 9.3483,
+    "end": 9.4083,
+    "confidence": 0.9999
+  },
+  {
+    "word": "feel",
+    "start": 9.5084,
+    "end": 9.7286,
+    "confidence": 0.9591
+  },
+  {
+    "word": "the",
+    "start": 9.7887,
+    "end": 9.8687,
+    "confidence": 0.8992
+  },
+  {
+    "word": "loss,",
+    "start": 9.9088,
+    "end": 10.169,
+    "confidence": 0.9449
+  },
+  {
+    "word": "and",
+    "start": 10.5493,
+    "end": 10.6294,
+    "confidence": 0.9649
+  },
+  {
+    "word": "we're",
+    "start": 10.6694,
+    "end": 10.8096,
+    "confidence": 0.8759
+  },
+  {
+    "word": "thinking",
+    "start": 10.8296,
+    "end": 11.1098,
+    "confidence": 0.9731
+  },
+  {
+    "word": "about",
+    "start": 11.1699,
+    "end": 11.35,
+    "confidence": 0.9853
+  },
+  {
+    "word": "you",
+    "start": 11.4101,
+    "end": 11.5302,
+    "confidence": 0.999
+  },
+  {
+    "word": "so",
+    "start": 11.8705,
+    "end": 11.9706,
+    "confidence": 0.9931
+  },
+  {
+    "word": "very",
+    "start": 12.0707,
+    "end": 12.2708,
+    "confidence": 0.9975
+  },
+  {
+    "word": "much.",
+    "start": 12.3509,
+    "end": 12.5511,
+    "confidence": 0.9697
+  },
+  {
+    "word": "Your",
+    "start": 13.8522,
+    "end": 13.9724,
+    "confidence": 0.9969
+  },
+  {
+    "word": "loved",
+    "start": 14.0324,
+    "end": 14.1925,
+    "confidence": 0.9992
+  },
+  {
+    "word": "ones",
+    "start": 14.2926,
+    "end": 14.4127,
+    "confidence": 0.9936
+  },
+  {
+    "word": "were",
+    "start": 14.4728,
+    "end": 14.6329,
+    "confidence": 0.9643
+  },
+  {
+    "word": "daring",
+    "start": 14.693,
+    "end": 15.0733,
+    "confidence": 0.9368
+  },
+  {
+    "word": "and",
+    "start": 15.1334,
+    "end": 15.2135,
+    "confidence": 0.9652
+  },
+  {
+    "word": "brave,",
+    "start": 15.2735,
+    "end": 15.6138,
+    "confidence": 0.9875
+  },
+  {
+    "word": "and",
+    "start": 16.8349,
+    "end": 16.8949,
+    "confidence": 0.9917
+  },
+  {
+    "word": "they",
+    "start": 16.935,
+    "end": 17.015,
+    "confidence": 0.9993
+  },
+  {
+    "word": "had",
+    "start": 17.0751,
+    "end": 17.1552,
+    "confidence": 0.9971
+  },
+  {
+    "word": "that",
+    "start": 17.2152,
+    "end": 17.3353,
+    "confidence": 0.974
+  },
+  {
+    "word": "special",
+    "start": 17.5155,
+    "end": 17.8958,
+    "confidence": 0.9876
+  },
+  {
+    "word": "grace,",
+    "start": 17.9759,
+    "end": 18.2962,
+    "confidence": 0.9998
+  },
+  {
+    "word": "that",
+    "start": 18.6965,
+    "end": 18.7966,
+    "confidence": 0.6654
+  },
+  {
+    "word": "special",
+    "start": 18.8967,
+    "end": 19.257,
+    "confidence": 0.9726
+  },
+  {
+    "word": "spirit",
+    "start": 19.3571,
+    "end": 19.6974,
+    "confidence": 0.9806
+  },
+  {
+    "word": "that",
+    "start": 19.7375,
+    "end": 19.8375,
+    "confidence": 0.9961
+  },
+  {
+    "word": "says,",
+    "start": 19.8976,
+    "end": 20.1178,
+    "confidence": 0.9361
+  },
+  {
+    "word": "Give",
+    "start": 20.2179,
+    "end": 20.358,
+    "confidence": 0.9991
+  },
+  {
+    "word": "me",
+    "start": 20.4181,
+    "end": 20.4781,
+    "confidence": 0.9999
+  },
+  {
+    "word": "a",
+    "start": 20.5582,
+    "end": 20.5782,
+    "confidence": 0.998
+  },
+  {
+    "word": "challenge,",
+    "start": 20.6382,
+    "end": 21.0186,
+    "confidence": 0.9935
+  },
+  {
+    "word": "and",
+    "start": 21.6792,
+    "end": 21.7592,
+    "confidence": 0.9249
+  },
+  {
+    "word": "I'll",
+    "start": 21.8193,
+    "end": 21.9394,
+    "confidence": 0.8398
+  },
+  {
+    "word": "meet",
+    "start": 21.9794,
+    "end": 22.0995,
+    "confidence": 0.9938
+  },
+  {
+    "word": "it",
+    "start": 22.1596,
+    "end": 22.1996,
+    "confidence": 0.9808
+  },
+  {
+    "word": "with",
+    "start": 22.2597,
+    "end": 22.3798,
+    "confidence": 0.9578
+  },
+  {
+    "word": "joy.",
+    "start": 22.4198,
+    "end": 22.62,
+    "confidence": 0.9158
+  }
+]

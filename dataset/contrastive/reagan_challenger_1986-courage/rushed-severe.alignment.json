@@ -1,0 +1,392 @@
+[
+  {
+    "word": "Nineteen",
+    "start": 1.3807,
+    "end": 1.761,
+    "confidence": 0.9585
+  },
+  {
+    "word": "years",
+    "start": 1.821,
+    "end": 2.0811,
+    "confidence": 0.9725
+  },
+  {
+    "word": "ago,",
+    "start": 2.1612,
+    "end": 2.3213,
+    "confidence": 0.9559
+  },
+  {
+    "word": "almost",
+    "start": 2.7615,
+    "end": 3.1017,
+    "confidence": 0.9798
+  },
+  {
+    "word": "to",
+    "start": 3.1617,
+    "end": 3.2017,
+    "confidence": 0.7019
+  },
+  {
+    "word": "the",
+    "start": 3.2618,
+    "end": 3.3218,
+    "confidence": 0.9624
+  },
+  {
+    "word": "day,",
+    "start": 3.3818,
+    "end": 3.5819,
+    "confidence": 0.9434
+  },
+  {
+    "word": "we",
+    "start": 4.0422,
+    "end": 4.1422,
+    "confidence": 0.9997
+  },
+  {
+    "word": "lost",
+    "start": 4.2423,
+    "end": 4.5224,
+    "confidence": 0.9554
+  },
+  {
+    "word": "three",
+    "start": 4.6225,
+    "end": 4.8026,
+    "confidence": 0.9994
+  },
+  {
+    "word": "astronauts",
+    "start": 4.9227,
+    "end": 5.4029,
+    "confidence": 0.8979
+  },
+  {
+    "word": "in",
+    "start": 5.4629,
+    "end": 5.503,
+    "confidence": 0.9973
+  },
+  {
+    "word": "a",
+    "start": 5.563,
+    "end": 5.583,
+    "confidence": 0.9791
+  },
+  {
+    "word": "terrible",
+    "start": 5.623,
+    "end": 5.9832,
+    "confidence": 0.988
+  },
+  {
+    "word": "accident",
+    "start": 6.0833,
+    "end": 6.4235,
+    "confidence": 0.9963
+  },
+  {
+    "word": "on",
+    "start": 6.4835,
+    "end": 6.5235,
+    "confidence": 0.8485
+  },
+  {
+    "word": "the",
+    "start": 6.5435,
+    "end": 6.6036,
+    "confidence": 0.8309
+  },
+  {
+    "word": "ground.",
+    "start": 6.6436,
+    "end": 6.8237,
+    "confidence": 0.793
+  },
+  {
+    "word": "But",
+    "start": 7.3039,
+    "end": 7.404,
+    "confidence": 0.1464
+  },
+  {
+    "word": "we've",
+    "start": 7.444,
+    "end": 7.5641,
+    "confidence": 0.0559
+  },
+  {
+    "word": "never",
+    "start": 7.6241,
+    "end": 7.7842,
+    "confidence": 0.1858
+  },
+  {
+    "word": "lost",
+    "start": 7.8242,
+    "end": 7.9243,
+    "confidence": 0.1528
+  },
+  {
+    "word": "an",
+    "start": 8.0043,
+    "end": 8.0443,
+    "confidence": 0.0113
+  },
+  {
+    "word": "astronaut",
+    "start": 8.0644,
+    "end": 8.2645,
+    "confidence": 0.0091
+  },
+  {
+    "word": "in",
+    "start": 8.3445,
+    "end": 8.4045,
+    "confidence": 0.8949
+  },
+  {
+    "word": "flight;",
+    "start": 8.4846,
+    "end": 8.7447,
+    "confidence": 0.9995
+  },
+  {
+    "word": "we've",
+    "start": 9.6252,
+    "end": 9.7853,
+    "confidence": 0.5238
+  },
+  {
+    "word": "never",
+    "start": 9.8453,
+    "end": 10.0454,
+    "confidence": 0.9997
+  },
+  {
+    "word": "had",
+    "start": 10.2856,
+    "end": 10.4256,
+    "confidence": 0.9944
+  },
+  {
+    "word": "a",
+    "start": 10.4857,
+    "end": 10.5057,
+    "confidence": 0.9714
+  },
+  {
+    "word": "tragedy",
+    "start": 10.5857,
+    "end": 10.9659,
+    "confidence": 0.9771
+  },
+  {
+    "word": "like",
+    "start": 11.046,
+    "end": 11.186,
+    "confidence": 0.9862
+  },
+  {
+    "word": "this.",
+    "start": 11.2461,
+    "end": 11.4262,
+    "confidence": 0.9958
+  },
+  {
+    "word": "And",
+    "start": 12.4867,
+    "end": 12.5468,
+    "confidence": 0.9944
+  },
+  {
+    "word": "perhaps",
+    "start": 12.6068,
+    "end": 12.907,
+    "confidence": 0.954
+  },
+  {
+    "word": "we've",
+    "start": 12.967,
+    "end": 13.1471,
+    "confidence": 0.7751
+  },
+  {
+    "word": "forgotten",
+    "start": 13.1871,
+    "end": 13.5673,
+    "confidence": 0.9774
+  },
+  {
+    "word": "the",
+    "start": 13.6274,
+    "end": 13.6874,
+    "confidence": 0.8653
+  },
+  {
+    "word": "courage",
+    "start": 13.7474,
+    "end": 14.1076,
+    "confidence": 0.9782
+  },
+  {
+    "word": "it",
+    "start": 14.1877,
+    "end": 14.2277,
+    "confidence": 0.9974
+  },
+  {
+    "word": "took",
+    "start": 14.2877,
+    "end": 14.4278,
+    "confidence": 0.9914
+  },
+  {
+    "word": "for",
+    "start": 14.5078,
+    "end": 14.5879,
+    "confidence": 0.9719
+  },
+  {
+    "word": "the",
+    "start": 14.6279,
+    "end": 14.7079,
+    "confidence": 0.9038
+  },
+  {
+    "word": "crew",
+    "start": 15.0281,
+    "end": 15.1882,
+    "confidence": 0.9692
+  },
+  {
+    "word": "of",
+    "start": 15.2482,
+    "end": 15.2883,
+    "confidence": 0.998
+  },
+  {
+    "word": "the",
+    "start": 15.3483,
+    "end": 15.4083,
+    "confidence": 0.9286
+  },
+  {
+    "word": "shuttle.",
+    "start": 15.4483,
+    "end": 15.7285,
+    "confidence": 0.9699
+  },
+  {
+    "word": "But",
+    "start": 16.709,
+    "end": 16.8291,
+    "confidence": 0.997
+  },
+  {
+    "word": "they,",
+    "start": 16.8691,
+    "end": 17.0692,
+    "confidence": 0.998
+  },
+  {
+    "word": "the",
+    "start": 17.2293,
+    "end": 17.3093,
+    "confidence": 0.9984
+  },
+  {
+    "word": "Challenger",
+    "start": 17.5895,
+    "end": 18.0497,
+    "confidence": 0.9583
+  },
+  {
+    "word": "Seven,",
+    "start": 18.1698,
+    "end": 18.43,
+    "confidence": 0.9988
+  },
+  {
+    "word": "were",
+    "start": 18.6701,
+    "end": 18.8302,
+    "confidence": 0.9889
+  },
+  {
+    "word": "aware",
+    "start": 18.8702,
+    "end": 19.1103,
+    "confidence": 0.9997
+  },
+  {
+    "word": "of",
+    "start": 19.1503,
+    "end": 19.1904,
+    "confidence": 0.9984
+  },
+  {
+    "word": "the",
+    "start": 19.2304,
+    "end": 19.2904,
+    "confidence": 0.9737
+  },
+  {
+    "word": "dangers,",
+    "start": 19.3504,
+    "end": 19.7507,
+    "confidence": 0.9884
+  },
+  {
+    "word": "but",
+    "start": 20.451,
+    "end": 20.5311,
+    "confidence": 0.7883
+  },
+  {
+    "word": "overcame",
+    "start": 20.5911,
+    "end": 20.9913,
+    "confidence": 0.9922
+  },
+  {
+    "word": "them",
+    "start": 21.0514,
+    "end": 21.1514,
+    "confidence": 0.8792
+  },
+  {
+    "word": "and",
+    "start": 21.2115,
+    "end": 21.2715,
+    "confidence": 0.9943
+  },
+  {
+    "word": "did",
+    "start": 21.5516,
+    "end": 21.6917,
+    "confidence": 0.9225
+  },
+  {
+    "word": "their",
+    "start": 21.7718,
+    "end": 21.9118,
+    "confidence": 0.9992
+  },
+  {
+    "word": "jobs",
+    "start": 21.9919,
+    "end": 22.292,
+    "confidence": 0.9951
+  },
+  {
+    "word": "brilliantly.",
+    "start": 22.3321,
+    "end": 22.5722,
+    "confidence": 0.2538
+  }
+]

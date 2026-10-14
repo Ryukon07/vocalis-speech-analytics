@@ -1,0 +1,224 @@
+[
+  {
+    "word": "People",
+    "start": 0.2603,
+    "end": 0.5207,
+    "confidence": 0.9881
+  },
+  {
+    "word": "ask",
+    "start": 0.6408,
+    "end": 0.761,
+    "confidence": 0.9999
+  },
+  {
+    "word": "how",
+    "start": 0.8611,
+    "end": 1.0213,
+    "confidence": 1.0
+  },
+  {
+    "word": "I",
+    "start": 1.3217,
+    "end": 1.3417,
+    "confidence": 0.9999
+  },
+  {
+    "word": "feel",
+    "start": 1.4619,
+    "end": 1.6822,
+    "confidence": 0.9665
+  },
+  {
+    "word": "about",
+    "start": 1.7422,
+    "end": 1.9225,
+    "confidence": 0.9387
+  },
+  {
+    "word": "leaving.",
+    "start": 2.0026,
+    "end": 2.343,
+    "confidence": 0.9981
+  },
+  {
+    "word": "And",
+    "start": 2.4031,
+    "end": 2.4832,
+    "confidence": 0.9541
+  },
+  {
+    "word": "the",
+    "start": 2.5232,
+    "end": 2.5833,
+    "confidence": 0.9965
+  },
+  {
+    "word": "fact",
+    "start": 2.6434,
+    "end": 2.8837,
+    "confidence": 0.9945
+  },
+  {
+    "word": "is,",
+    "start": 3.0239,
+    "end": 3.104,
+    "confidence": 0.9886
+  },
+  {
+    "word": "parting",
+    "start": 3.925,
+    "end": 4.2855,
+    "confidence": 0.9657
+  },
+  {
+    "word": "is",
+    "start": 4.4257,
+    "end": 4.4858,
+    "confidence": 0.9994
+  },
+  {
+    "word": "such",
+    "start": 4.686,
+    "end": 4.8662,
+    "confidence": 0.997
+  },
+  {
+    "word": "sweet",
+    "start": 4.9263,
+    "end": 5.1466,
+    "confidence": 0.9682
+  },
+  {
+    "word": "sorrow.",
+    "start": 5.2267,
+    "end": 5.5671,
+    "confidence": 0.9815
+  },
+  {
+    "word": "The",
+    "start": 6.3081,
+    "end": 6.3682,
+    "confidence": 0.3155
+  },
+  {
+    "word": "sweet",
+    "start": 6.4082,
+    "end": 6.6285,
+    "confidence": 0.9993
+  },
+  {
+    "word": "part",
+    "start": 6.7086,
+    "end": 6.9089,
+    "confidence": 0.9979
+  },
+  {
+    "word": "is",
+    "start": 7.0691,
+    "end": 7.1292,
+    "confidence": 0.9998
+  },
+  {
+    "word": "California",
+    "start": 7.3695,
+    "end": 7.9903,
+    "confidence": 0.9921
+  },
+  {
+    "word": "and",
+    "start": 8.5109,
+    "end": 8.591,
+    "confidence": 0.9847
+  },
+  {
+    "word": "the",
+    "start": 8.6311,
+    "end": 8.6912,
+    "confidence": 0.9772
+  },
+  {
+    "word": "ranch",
+    "start": 8.7512,
+    "end": 9.0917,
+    "confidence": 0.9771
+  },
+  {
+    "word": "and",
+    "start": 9.2319,
+    "end": 9.312,
+    "confidence": 0.9994
+  },
+  {
+    "word": "freedom.",
+    "start": 9.3921,
+    "end": 9.6924,
+    "confidence": 0.9593
+  },
+  {
+    "word": "The",
+    "start": 10.4935,
+    "end": 10.5736,
+    "confidence": 0.9922
+  },
+  {
+    "word": "sorrow,",
+    "start": 10.6337,
+    "end": 10.9941,
+    "confidence": 0.9805
+  },
+  {
+    "word": "the",
+    "start": 11.9353,
+    "end": 11.9954,
+    "confidence": 0.9941
+  },
+  {
+    "word": "goodbyes,",
+    "start": 12.0755,
+    "end": 12.6362,
+    "confidence": 0.9063
+  },
+  {
+    "word": "of",
+    "start": 12.7363,
+    "end": 12.7764,
+    "confidence": 0.9999
+  },
+  {
+    "word": "course,",
+    "start": 12.8565,
+    "end": 13.1369,
+    "confidence": 0.9881
+  },
+  {
+    "word": "and",
+    "start": 13.5374,
+    "end": 13.6375,
+    "confidence": 0.9979
+  },
+  {
+    "word": "leaving",
+    "start": 13.7376,
+    "end": 14.058,
+    "confidence": 0.9978
+  },
+  {
+    "word": "this",
+    "start": 14.3384,
+    "end": 14.4986,
+    "confidence": 0.9443
+  },
+  {
+    "word": "beautiful",
+    "start": 14.799,
+    "end": 15.1995,
+    "confidence": 0.9893
+  },
+  {
+    "word": "place.",
+    "start": 15.2996,
+    "end": 15.56,
+    "confidence": 0.9726
+  }
+]

@@ -1,0 +1,79 @@
+TRACK C - 13 REFERENCE SPEECH SOURCES
+
+Status: source pages verified on 14 October 2026. Three genuine originals are now available locally: two existing Reagan MP3s and the official Eisenhower Library recording. Other CDN links returned access errors.
+The source pages each provide an audio player, Download media, and a transcript.
+Selected excerpts have ASR/source transcript checks and model-generated word alignment. They are not human quality-certified. The paired corpus is under dataset/contrastive/.
+
+1. John F. Kennedy - Inaugural Address (1961-01-20)
+https://millercenter.org/the-presidency/presidential-speeches/january-20-1961-inaugural-address
+Formal persuasion and emphasis; inspect crowd interruptions.
+
+2. John F. Kennedy - Address on the Space Effort (Rice University) (1962-09-12)
+https://millercenter.org/the-presidency/presidential-speeches/september-12-1962-address-space-effort
+Persuasive delivery; inspect applause and laughter.
+
+3. John F. Kennedy - American University Commencement (1963-06-10)
+https://millercenter.org/the-presidency/presidential-speeches/june-10-1963-american-university-commencement
+Long-form persuasive delivery; inspect audience interruptions.
+
+4. John F. Kennedy - Address on Civil Rights (1963-06-11)
+https://millercenter.org/the-presidency/presidential-speeches/june-11-1963-address-civil-rights
+Televised address suitable for checking sustained delivery.
+
+5. Ronald Reagan - Address on the Space Shuttle Challenger (1986-01-28)
+https://millercenter.org/the-presidency/presidential-speeches/january-28-1986-address-space-shuttle-challenger
+Short televised address; suggested first reference to inspect.
+
+6. Ronald Reagan - Address from the Brandenburg Gate (1987-06-12)
+https://millercenter.org/the-presidency/presidential-speeches/june-12-1987-address-brandenburg-gate-berlin-wall
+Public address; inspect applause, outdoor noise and German phrases.
+
+7. Ronald Reagan - Farewell Address (1989-01-11)
+https://millercenter.org/the-presidency/presidential-speeches/january-11-1989-farewell-address
+Televised address; suggested early reference to inspect.
+
+8. Franklin D. Roosevelt - First Inaugural Address (1933-03-04)
+https://millercenter.org/the-presidency/presidential-speeches/march-4-1933-first-inaugural-address
+Historical recording; inspect hiss, bandwidth and crowd noise.
+
+9. Franklin D. Roosevelt - Fireside Chat on the Banking Crisis (1933-03-12)
+https://millercenter.org/the-presidency/presidential-speeches/march-12-1933-fireside-chat-1-banking-crisis
+Conversational explanatory delivery; inspect historical recording noise.
+
+10. Franklin D. Roosevelt - Address Requesting a Declaration of War (1941-12-08)
+https://millercenter.org/the-presidency/presidential-speeches/december-8-1941-address-congress-requesting-declaration-war
+Short formal address; inspect historical recording noise and applause.
+
+11. Dwight D. Eisenhower - Farewell Address (1961-01-17)
+https://millercenter.org/the-presidency/presidential-speeches/january-17-1961-farewell-address
+Measured televised delivery; check spoken text against supplied transcript.
+
+12. Barack Obama - Inaugural Address (2009-01-20)
+https://millercenter.org/the-presidency/presidential-speeches/january-20-2009-inaugural-address
+Modern public address; remove oath and other speakers from selected excerpts.
+
+13. Barack Obama - Selma 50th Anniversary Remarks (2015-03-07)
+https://millercenter.org/the-presidency/presidential-speeches/march-7-2015-remarks-50th-anniversary-selma-marches
+Modern public address; inspect applause before selecting excerpts.
+
+DOWNLOAD WHEN ONLINE
+Run: python tools/download_references.py
+Run from this directory, or pass the script's absolute path from any directory.
+The script downloads originals and available page transcripts. If FFmpeg is
+installed, it also writes mono, 16 kHz PCM WAV copies. Otherwise originals remain
+available and can be converted later with --convert-only.
+The downloader has only been checked offline; live archive retrieval remains
+unverified. If a page changes or its media is loaded dynamically, it reports the
+failed item and its source URL for manual download.
+
+BEFORE EVALUATION
+Use 20-40 second passages with complete sentences and no overlapping applause,
+music, translation, introductions or other speakers. Confirm the transcript by
+listening. Do not remove rhetorical pauses. Conversion to WAV does not remove
+historical noise or improve recording fidelity. Keep originals for provenance.
+These are reference candidates, not the paired contrastive dataset by themselves.
+
+ATTRIBUTION
+sources.json retains speaker, date, archive attribution and source URLs. No
+file-specific recording license has been certified. Check the recording's reuse
+terms before including it in a publicly redistributed dataset.

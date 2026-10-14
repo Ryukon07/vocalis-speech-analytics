@@ -1,0 +1,21 @@
+-r backend/requirements.txt
+# Install matching CPU-only torch/torchaudio wheels first (see setup-local.ps1).
+torch==2.8.0
+torchaudio==2.8.0
+faster-whisper==1.2.1
+ctranslate2==4.6.0
+huggingface-hub==0.36.0
+av==16.0.1
+onnxruntime==1.23.2
+tokenizers==0.22.1
+librosa==0.11.0
+soundfile==0.13.1
+numpy==2.2.6
+scipy==1.16.3
+numba==0.61.2
+scikit-learn==1.7.2
+imageio-ffmpeg==0.6.0
+praat-parselmouth==0.4.7
+truststore==0.10.4
+num2words==0.5.14
+matplotlib==3.10.7

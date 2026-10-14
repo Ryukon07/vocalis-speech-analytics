@@ -1,0 +1,272 @@
+[
+  {
+    "word": "It's",
+    "start": 0.3606,
+    "end": 0.4607,
+    "confidence": 0.9956
+  },
+  {
+    "word": "been",
+    "start": 0.4808,
+    "end": 0.621,
+    "confidence": 0.9949
+  },
+  {
+    "word": "the",
+    "start": 0.661,
+    "end": 0.7412,
+    "confidence": 0.9465
+  },
+  {
+    "word": "honor",
+    "start": 0.7812,
+    "end": 1.0416,
+    "confidence": 0.982
+  },
+  {
+    "word": "of",
+    "start": 1.1017,
+    "end": 1.1418,
+    "confidence": 0.9993
+  },
+  {
+    "word": "my",
+    "start": 1.2419,
+    "end": 1.3621,
+    "confidence": 1.0
+  },
+  {
+    "word": "life",
+    "start": 1.4823,
+    "end": 1.7027,
+    "confidence": 1.0
+  },
+  {
+    "word": "to",
+    "start": 1.7828,
+    "end": 1.8629,
+    "confidence": 0.9995
+  },
+  {
+    "word": "be",
+    "start": 1.923,
+    "end": 2.0232,
+    "confidence": 0.9999
+  },
+  {
+    "word": "your",
+    "start": 2.1033,
+    "end": 2.2635,
+    "confidence": 0.9672
+  },
+  {
+    "word": "President.",
+    "start": 2.3437,
+    "end": 2.7844,
+    "confidence": 0.9993
+  },
+  {
+    "word": "So",
+    "start": 3.4053,
+    "end": 3.5455,
+    "confidence": 0.9991
+  },
+  {
+    "word": "many",
+    "start": 3.7258,
+    "end": 3.9261,
+    "confidence": 0.39
+  },
+  {
+    "word": "of",
+    "start": 4.1665,
+    "end": 4.2466,
+    "confidence": 0.0028
+  },
+  {
+    "word": "you",
+    "start": 4.4069,
+    "end": 4.5271,
+    "confidence": 0.9192
+  },
+  {
+    "word": "have",
+    "start": 4.6272,
+    "end": 4.7474,
+    "confidence": 0.1714
+  },
+  {
+    "word": "written",
+    "start": 4.9477,
+    "end": 5.2482,
+    "confidence": 0.6214
+  },
+  {
+    "word": "the",
+    "start": 5.6288,
+    "end": 5.749,
+    "confidence": 0.2779
+  },
+  {
+    "word": "past",
+    "start": 5.769,
+    "end": 5.9693,
+    "confidence": 0.4661
+  },
+  {
+    "word": "few",
+    "start": 6.0895,
+    "end": 6.2297,
+    "confidence": 0.9989
+  },
+  {
+    "word": "weeks",
+    "start": 6.3099,
+    "end": 6.5502,
+    "confidence": 0.9995
+  },
+  {
+    "word": "to",
+    "start": 6.6103,
+    "end": 6.6905,
+    "confidence": 0.9997
+  },
+  {
+    "word": "say",
+    "start": 6.7505,
+    "end": 6.9108,
+    "confidence": 0.982
+  },
+  {
+    "word": "thanks,",
+    "start": 6.9909,
+    "end": 7.3315,
+    "confidence": 0.9982
+  },
+  {
+    "word": "but",
+    "start": 8.0726,
+    "end": 8.1728,
+    "confidence": 0.9986
+  },
+  {
+    "word": "I",
+    "start": 8.2729,
+    "end": 8.293,
+    "confidence": 1.0
+  },
+  {
+    "word": "could",
+    "start": 8.3531,
+    "end": 8.4933,
+    "confidence": 0.9712
+  },
+  {
+    "word": "say",
+    "start": 8.5333,
+    "end": 8.6736,
+    "confidence": 0.9636
+  },
+  {
+    "word": "as",
+    "start": 8.7537,
+    "end": 8.8138,
+    "confidence": 0.9999
+  },
+  {
+    "word": "much",
+    "start": 8.8939,
+    "end": 9.0541,
+    "confidence": 0.9805
+  },
+  {
+    "word": "to",
+    "start": 9.1543,
+    "end": 9.2144,
+    "confidence": 0.9989
+  },
+  {
+    "word": "you.",
+    "start": 9.2945,
+    "end": 9.4347,
+    "confidence": 0.9985
+  },
+  {
+    "word": "Nancy",
+    "start": 10.2761,
+    "end": 10.6166,
+    "confidence": 0.9943
+  },
+  {
+    "word": "and",
+    "start": 10.6967,
+    "end": 10.7568,
+    "confidence": 0.9991
+  },
+  {
+    "word": "I",
+    "start": 10.857,
+    "end": 10.877,
+    "confidence": 0.9998
+  },
+  {
+    "word": "are",
+    "start": 10.9571,
+    "end": 11.0372,
+    "confidence": 0.9968
+  },
+  {
+    "word": "grateful",
+    "start": 11.0973,
+    "end": 11.4579,
+    "confidence": 0.9548
+  },
+  {
+    "word": "for",
+    "start": 11.518,
+    "end": 11.5981,
+    "confidence": 0.9972
+  },
+  {
+    "word": "the",
+    "start": 11.6382,
+    "end": 11.7383,
+    "confidence": 0.9767
+  },
+  {
+    "word": "opportunity",
+    "start": 11.8385,
+    "end": 12.3994,
+    "confidence": 0.9794
+  },
+  {
+    "word": "you",
+    "start": 12.6598,
+    "end": 12.7599,
+    "confidence": 0.9999
+  },
+  {
+    "word": "gave",
+    "start": 12.8801,
+    "end": 13.1005,
+    "confidence": 0.9997
+  },
+  {
+    "word": "us",
+    "start": 13.2407,
+    "end": 13.3208,
+    "confidence": 0.9906
+  },
+  {
+    "word": "to",
+    "start": 13.421,
+    "end": 13.5211,
+    "confidence": 0.9928
+  },
+  {
+    "word": "serve.",
+    "start": 13.6012,
+    "end": 13.8617,
+    "confidence": 0.6344
+  }
+]

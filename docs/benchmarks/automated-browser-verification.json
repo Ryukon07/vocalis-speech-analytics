@@ -1,0 +1,55 @@
+{
+  "app_version": "3.1.3",
+  "checked_at": "2026-10-14T17:17:15.514176+00:00",
+  "browser": "Isolated Playwright Chromium, headless, localhost",
+  "computer_use_skill_used": false,
+  "tests": [
+    {
+      "name": "settings persist; rubric validation, creation, versioning and deletion",
+      "status": "passed",
+      "duration_ms": 1531
+    },
+    {
+      "name": "annotation taxonomy and precise bounds survive create/edit/delete",
+      "status": "passed",
+      "duration_ms": 1674
+    },
+    {
+      "name": "real completed larger-model draft resumes into the editable wizard",
+      "status": "passed",
+      "duration_ms": 731
+    },
+    {
+      "name": "uploaded speech transcribes, validates, runs a real comparison and shows clarity",
+      "status": "passed",
+      "duration_ms": 23916
+    },
+    {
+      "name": "browser microphone worklet captures public speech, previews and saves PCM WAV",
+      "status": "passed",
+      "duration_ms": 7515
+    },
+    {
+      "name": "report playback, seeking, all charts, evidence, voice handling, exports and print",
+      "status": "passed",
+      "duration_ms": 4073
+    },
+    {
+      "name": "all website pages render on mobile, navigation and upload error remain usable",
+      "status": "passed",
+      "duration_ms": 2204
+    }
+  ],
+  "microphone": {
+    "protocol": "Chromium file-backed simulated microphone through real AudioWorklet, preview and upload; physical microphone was separately human verified in Brave",
+    "duration": 5.8213333333333335,
+    "rms": 0.061644314945114284,
+    "bytes": 558892
+  },
+  "boundaries": [
+    "Automated microphone uses a public file-backed media device; physical Realtek capture and clear speaker feedback were previously confirmed by the user in Brave.",
+    "Browser exports completed via Chromium download events and verified file bytes; native Brave Save-dialog interaction is outside this automated suite.",
+    "Print button invocation, print CSS and headless PDF rendering are checked; native Brave print preview was previously inspected."
+  ],
+  "no_remaining_local_implementation_checks": true
+}
