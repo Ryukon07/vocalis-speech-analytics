@@ -1,0 +1,2 @@
+analysis_id,execution_mode,type,start_seconds,end_seconds,severity,confidence,baseline_value,participant_value,difference_percent,units,evidence_source,explanation,recommendation
+fa2eb5cb-bba5-4990-ae2a-c7ef26a8757f,real,slow_pacing,5.822,9.483,3,,368.9186,244.8605,,words/min,measured,"Matched articulation rate is 244.9 words/min versus reference 368.9 words/min, a -33.6% difference. Long pauses are evaluated separately.",Build momentum through this phrase.

@@ -1,0 +1,2 @@
+analysis_id,execution_mode,type,start_seconds,end_seconds,severity,confidence,baseline_value,participant_value,difference_percent,units,evidence_source,explanation,recommendation
+0cdadddd-fe4a-483b-ac8e-d20b4039ea91,real,rushed_pacing,5.982,6.622,4,,278.8428,428.4184,,words/min,measured,"In the corresponding passage, participant phrase articulation rate is 428.42 words/min; reference is 278.84 words/min. Difference: +149.58 words/min. Detection threshold: 362.50 words/min.",Leave room for emphasis and slow this phrase.

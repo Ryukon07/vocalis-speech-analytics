@@ -1,0 +1,2 @@
+analysis_id,execution_mode,type,start_seconds,end_seconds,severity,confidence,baseline_value,participant_value,difference_percent,units,evidence_source,explanation,recommendation
+0e7e5833-01f6-4beb-8d12-c1838af4965c,real,monotone_delivery,5.38,7.38,4,,3.15,0.1,,semitones,measured,"In the corresponding passage, participant pitch interquartile range is 0.10 semitones; reference is 3.15 semitones. Difference: -3.05 semitones. Detection threshold: 1.26 semitones.",Vary pitch on the important words in this passage.

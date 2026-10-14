@@ -1,0 +1,2 @@
+analysis_id,execution_mode,type,start_seconds,end_seconds,severity,confidence,baseline_value,participant_value,difference_percent,units,evidence_source,explanation,recommendation
+3405a7ae-a974-4d1b-a885-7fb5f76727c8,real,low_energy,5.38,7.38,4,,2.1571,-18.7573,,dB,measured,"In the corresponding passage, participant speech energy db is -18.76 dB; reference is 2.16 dB. Difference: -20.91 dB. Detection threshold: -9.84 dB.",Sustain projection and breath support across these words.

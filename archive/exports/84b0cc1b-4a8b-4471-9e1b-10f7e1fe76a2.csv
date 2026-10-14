@@ -1,0 +1,2 @@
+analysis_id,execution_mode,type,start_seconds,end_seconds,severity,confidence,baseline_value,participant_value,difference_percent,units,evidence_source,explanation,recommendation
+84b0cc1b-4a8b-4471-9e1b-10f7e1fe76a2,real,awkward_pause,5.924,8.126,2,,0.02,2.2017,,seconds,measured,"In the corresponding passage, participant pause duration is 2.20 seconds; reference is 0.02 seconds. Difference: +2.18 seconds. Detection threshold: 1.50 seconds.",Connect these words smoothly while retaining intentional sentence pauses.
