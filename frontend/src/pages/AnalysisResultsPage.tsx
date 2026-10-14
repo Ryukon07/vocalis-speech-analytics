@@ -89,16 +89,18 @@ export default function AnalysisResultsPage() {
               <a
                 className="btn btn-secondary"
                 href={exportUrl(analysisId, "json")}
+                download={`vocalis-${analysisId}.json`}
               >
                 <Download size={16} /> JSON
               </a>
               <a
                 className="btn btn-secondary"
                 href={exportUrl(analysisId, "csv")}
+                download={`vocalis-${analysisId}.csv`}
               >
                 CSV
               </a>
-              <a className="btn btn-secondary" href={exportUrl(analysisId, "pdf")}><Download size={16} /> PDF</a>
+              <a className="btn btn-secondary" href={exportUrl(analysisId, "pdf")} download={`vocalis-${analysisId}.pdf`}><Download size={16} /> PDF</a>
               <Button variant="secondary" onClick={() => window.print()}>
                 <Printer size={16} /> Print report
               </Button>

@@ -16,6 +16,10 @@ Custom dataset: https://github.com/Ryukon07/vocalis-speech-analytics/tree/main/d
 
 Temporary live preview: https://jackson-nutten-high-taken.trycloudflare.com
 
+Hosted report dashboard: https://ryukon07.github.io/vocalis-speech-analytics/
+
+The hosted dashboard remains accessible while the laptop is offline. It displays saved real inference reports, charts, replay, spoken feedback and downloads; new analysis and editing need the full workspace.
+
 The preview is served from a laptop through HTTPS and requires it to remain online. The repository includes reproducible local setup instructions and the six-page technical document.
 
 Results describe a small controlled corpus, not all accents or natural delivery styles. Dataset attribution and recording-source reuse notes are in dataset/LICENSE_NOTES.md. Uploaded private microphone recordings are excluded from publication.

@@ -1,5 +1,17 @@
 # Deployment and submission preview
 
+## Free hosted report dashboard
+
+https://ryukon07.github.io/vocalis-speech-analytics/ is a GitHub Pages deployment independent of the serving laptop. It uses the real React dashboard with hash routes and a separately configured read-only archive adapter. Ten completed real model reports, 91 allowlisted public recordings, aligned transcripts, evidence curves and JSON/CSV/PDF exports are published. No private microphone data, database, credential or model weight is published.
+
+The viewer supports playback, word/flaw seeking, charts, browser speech synthesis and report downloads. New upload/microphone inference and editing are explicitly unavailable; the interface links to the separate full workspace. The dashboard does not claim a live model connection. A static host cannot run the current Python background workers. Vercel's serverless model also requires substantial backend/storage/job changes for this application; it is not a drop-in full deployment.
+
+Rebuild with `scripts/build_report_archive.py` while the isolated API runs, then from frontend set `VITE_ARCHIVE_MODE=true`, `VITE_PUBLIC_DEMO=false` and run `npm run build -- --base=/vocalis-speech-analytics/ --outDir ../tmp/permanent-demo/site`. Publish with `scripts/publish_report_pages.py` using the existing GitHub credential. Run `node scripts/verify_report_pages.mjs`; it blocks all localhost/tunnel requests while checking the hosted site. Hosting payload is on `gh-pages`; source code remains on `main`.
+
+GitHub Pages is free for public repositories and serves static files: https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages. Hosting terms were checked on 14 October 2026: new Docker/Gradio Spaces generally require paid Hugging Face plans, with a limited ZeroGPU Gradio exception for verified personal accounts older than 30 days. No eligible cloud account was available here. Sources: https://huggingface.co/docs/hub/en/spaces-overview and https://huggingface.co/docs/hub/en/spaces-zerogpu.
+
+## Temporary full inference workspace
+
 The current temporary HTTPS preview is https://jackson-nutten-high-taken.trycloudflare.com. It runs the actual speech backend and a separately built frontend through a same-origin proxy; inference stays on the serving laptop CPU. Cloudflare Quick Tunnels have no uptime guarantee and stop when the tunnel stops. Keep the laptop connected to power and the internet for judging.
 
 The source code, dataset and final video are independently available in the public GitHub repository. They remain downloadable if the preview is offline. A durable deployment requires a host/account and persistent storage/model cache; a frontend-only host cannot run the Python/PyTorch speech backend.

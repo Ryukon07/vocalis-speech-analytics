@@ -16,6 +16,7 @@ import {
 } from "lucide-react";
 import { api } from "../../api/client";
 import { brand } from "../../config/brand";
+import { archiveMode } from "../../config/hosting";
 const links = [
   { to: "/dashboard", name: "Overview", icon: LayoutDashboard },
   { to: "/analyze", name: "Analyze speech", icon: ScanLine },
@@ -56,7 +57,7 @@ export default function AppLayout() {
                 fill={provider.data?.ready ? "#7bcfa4" : "#e7b26a"}
               />
               <strong>
-                {provider.data?.ready
+                {archiveMode ? "Saved real results" : provider.data?.ready
                   ? "Provider ready"
                   : "Provider unavailable"}
               </strong>
@@ -93,7 +94,7 @@ export default function AppLayout() {
           </span>
           <div className="row">
             <span className="badge">
-              {provider.data?.execution_mode === "mock"
+              {archiveMode ? "REPORT VIEWER" : provider.data?.execution_mode === "mock"
                 ? "DEMO MODE"
                 : provider.data?.ready
                   ? "MODEL CONNECTED"
@@ -103,6 +104,7 @@ export default function AppLayout() {
           </div>
         </header>
         <main className="content">
+          {archiveMode && <div className="notice">Hosted report viewer · saved real model results. Playback, charts, spoken feedback and downloads work without the project laptop. New analysis and editing require the full workspace.</div>}
           {import.meta.env.VITE_PUBLIC_DEMO === "true" && <div className="notice">Temporary public demo · use public/test audio only. Baselines and example reports are protected; new items belong to this browser session. CPU processing may take a minute.</div>}
           <Outlet />
         </main>

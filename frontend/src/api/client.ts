@@ -14,6 +14,7 @@ import type {
   Dashboard,
   Transcription,
 } from "../types";
+import { archiveMode, archiveRoot } from "../config/hosting";
 export const base = (
   import.meta.env.VITE_API_BASE_URL || "http://127.0.0.1:8000/api/v1"
 ).replace(/\/$/, "");
@@ -30,6 +31,13 @@ export async function request<T>(
   path: string,
   options: RequestInit = {},
 ): Promise<T> {
+  if (archiveMode) {
+    if (options.method && options.method !== "GET") {
+      throw new ApiError("READ_ONLY_ARCHIVE", "This hosted version displays saved real results. New analysis and editing require the full workspace.", 403);
+    }
+    const { archiveRequest } = await import("./archive");
+    return await archiveRequest(path) as T;
+  }
   let response: Response;
   try {
     response = await fetch(base + path, {
@@ -69,9 +77,9 @@ const json = (method: string, value: unknown) => ({
   body: JSON.stringify(value),
 });
 export const audioUrl = (id: string) =>
-  `${base}/recordings/${encodeURIComponent(id)}/audio`;
+  archiveMode ? `${archiveRoot}/audio/${encodeURIComponent(id)}.wav` : `${base}/recordings/${encodeURIComponent(id)}/audio`;
 export const exportUrl = (id: string, format: "json" | "csv" | "pdf") =>
-  `${base}/analyses/${encodeURIComponent(id)}/export/${format}`;
+  archiveMode ? `${archiveRoot}/exports/${encodeURIComponent(id)}.${format}` : `${base}/analyses/${encodeURIComponent(id)}/export/${format}`;
 export const api = {
   provider: () => request<Provider>("/providers"),
   capabilities: () => request<Capabilities>("/providers/capabilities"),

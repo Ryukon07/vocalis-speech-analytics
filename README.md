@@ -5,6 +5,7 @@ Vocalis is a local CPU application for Track C. Record or upload English speech,
 ## Submission links - Ryucoders
 
 - [Public repository](https://github.com/Ryukon07/vocalis-speech-analytics)
+- [Hosted report dashboard](https://ryukon07.github.io/vocalis-speech-analytics/) - free GitHub Pages viewer of 10 real model reports and 91 public recordings. Charts, word/flaw seeking, playback, spoken feedback and JSON/CSV/PDF downloads work without the serving laptop. New analysis and editing require the full Python workspace.
 - [Custom paired dataset](https://github.com/Ryukon07/vocalis-speech-analytics/tree/main/dataset/contrastive) - 10 references, 70 variants, transcripts, alignments and exact labels
 - [Temporary HTTPS demo](https://jackson-nutten-high-taken.trycloudflare.com) - real CPU inference, isolated public dataset and protected example reports. This development preview requires the serving laptop and tunnel to stay online; it has no permanent-hosting uptime guarantee.
 - [Final real-dashboard video](docs/submission/vocalis-final-demo.mp4) - 6:33, actual browser footage and English narration; upload public/unlisted to YouTube for submission

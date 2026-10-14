@@ -1,0 +1,15 @@
+{
+  "url": "https://ryukon07.github.io/vocalis-speech-analytics/",
+  "passed": true,
+  "real_reports": 10,
+  "laptop_backend_blocked": true,
+  "backend_requests": [],
+  "audio_playback": true,
+  "feedback_controls": true,
+  "pdf_csv_json_downloads": true,
+  "public_sources_only": true,
+  "mutations_disabled": true,
+  "honest_new_analysis_unavailable": true,
+  "mobile_layout": true,
+  "page_errors": []
+}

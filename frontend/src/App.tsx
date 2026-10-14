@@ -9,13 +9,15 @@ import DatasetManagerPage from "./pages/DatasetManagerPage";
 import AnalysisHistoryPage from "./pages/AnalysisHistoryPage";
 import SettingsPage from "./pages/SettingsPage";
 import { Empty } from "./components/ui";
+import { archiveMode } from "./config/hosting";
+import HostedAnalysisPage from "./pages/HostedAnalysisPage";
 export default function App() {
   return (
     <Routes>
       <Route path="/" element={<LandingPage />} />
       <Route element={<AppLayout />}>
         <Route path="/dashboard" element={<DashboardPage />} />
-        <Route path="/analyze" element={<AnalyzeSpeechPage />} />
+        <Route path="/analyze" element={archiveMode ? <HostedAnalysisPage /> : <AnalyzeSpeechPage />} />
         <Route path="/analyses/:analysisId" element={<AnalysisResultsPage />} />
         <Route path="/references" element={<ReferenceLibraryPage />} />
         <Route path="/datasets" element={<DatasetManagerPage />} />

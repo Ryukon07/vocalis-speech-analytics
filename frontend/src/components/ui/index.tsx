@@ -1,5 +1,7 @@
 import {
   createContext,
+  Children,
+  isValidElement,
   useContext,
   useState,
   type ReactNode,
@@ -7,6 +9,15 @@ import {
 } from "react";
 import * as Dialog from "@radix-ui/react-dialog";
 import { Check, X, AlertCircle, Inbox, Loader2 } from "lucide-react";
+import { archiveMode } from "../../config/hosting";
+
+function buttonText(children: ReactNode): string {
+  return Children.toArray(children).map(child => {
+    if (typeof child === "string" || typeof child === "number") return String(child);
+    if (isValidElement<{ children?: ReactNode }>(child)) return buttonText(child.props.children);
+    return "";
+  }).join(" ").trim();
+}
 
 export function Button({
   children,
@@ -17,11 +28,14 @@ export function Button({
 }: ButtonHTMLAttributes<HTMLButtonElement> & {
   variant?: "primary" | "secondary" | "ghost" | "danger";
 }) {
+  const mutation = archiveMode && (type === "submit" || /^(add|new|create|edit|delete|unlink|remove|save|update|retry)\b/i.test(props["aria-label"] || buttonText(children)));
   return (
     <button
       type={type}
       className={`btn btn-${variant} ${className}`}
       {...props}
+      disabled={props.disabled || mutation}
+      title={mutation ? "Editing is unavailable in the hosted report viewer." : props.title}
     >
       {children}
     </button>

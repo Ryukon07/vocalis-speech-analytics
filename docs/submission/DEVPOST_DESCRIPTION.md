@@ -50,6 +50,7 @@ Python 3.12, FastAPI, Pydantic, SQLAlchemy, SQLite, Faster-Whisper, CTranslate2,
 - Custom dataset: https://github.com/Ryukon07/vocalis-speech-analytics/tree/main/dataset/contrastive
 - Dataset license and attribution: https://github.com/Ryukon07/vocalis-speech-analytics/blob/main/dataset/LICENSE_NOTES.md
 - Temporary HTTPS demo: https://jackson-nutten-high-taken.trycloudflare.com
+- Laptop-independent report dashboard: https://ryukon07.github.io/vocalis-speech-analytics/ (real saved results, replay, charts, spoken feedback and exports; new analysis/editing require the full workspace).
 - Six-page technical document: https://github.com/Ryukon07/vocalis-speech-analytics/blob/main/docs/submission/technical-documentation.pdf
 - Final narrated video file: `docs/submission/vocalis-final-demo.mp4` (6:33). Upload to YouTube and paste its final Public/Unlisted URL into the video field.
 
@@ -59,6 +60,6 @@ Python 3.12, FastAPI, Pydantic, SQLAlchemy, SQLite, Faster-Whisper, CTranslate2,
 - Use the repository and dataset links above.
 - Add the final 3-10 minute YouTube video, public or unlisted, with English narration.
 - Attach/link the six-page technical document.
-- Add the live demo URL, if available; a temporary demo requires the serving laptop to stay online.
+- Use the hosted report dashboard for judging access when the laptop is offline. The separate full inference demo requires the serving laptop to stay online.
 
 The accompanying final video uses real recorded dashboard interactions and actual local API inference, with offline synthesized English narration. It does not use mocked API responses.

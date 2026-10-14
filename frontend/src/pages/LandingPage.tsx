@@ -9,6 +9,7 @@ import {
   ArrowUpRight,
 } from "lucide-react";
 import { brand } from "../config/brand";
+import { archiveMode } from "../config/hosting";
 export default function LandingPage() {
   return (
     <div className="landing">
@@ -20,7 +21,7 @@ export default function LandingPage() {
           {brand.name}
         </Link>
         <div className="row">
-          <a href="#workflow">How it works</a>
+          {archiveMode ? <Link to="/history">Real reports</Link> : <a href="#workflow">How it works</a>}
           <Link to="/dashboard">
             Workspace <ArrowUpRight size={15} />
           </Link>
@@ -43,15 +44,16 @@ export default function LandingPage() {
               feedback to its evidence.
             </p>
             <div className="row wrap">
-              <Link className="btn btn-primary" to="/analyze">
-                Analyze a Speech <ArrowRight size={18} />
+              <Link className="btn btn-primary" to={archiveMode ? "/history" : "/analyze"}>
+                {archiveMode ? "Browse Real Reports" : "Analyze a Speech"} <ArrowRight size={18} />
               </Link>
               <Link className="btn btn-secondary" to="/dashboard">
                 Explore Dashboard
               </Link>
+              {archiveMode && <a className="btn btn-secondary" href={`${import.meta.env.BASE_URL}downloads/vocalis-final-demo.mp4`} target="_blank" rel="noreferrer">Watch demo video</a>}
             </div>
             <p className="muted tiny hero-note">
-              Local speech models · Measured acoustic feedback · Saved reports
+              {archiveMode ? "Laptop-independent report viewer · Real saved results · New analysis requires the full workspace" : "Local speech models · Measured acoustic feedback · Saved reports"}
             </p>
           </div>
           <div className="hero-visual">
