@@ -8,6 +8,7 @@
   "private_microphone_excluded": true,
   "seed_mutation_protected": true,
   "cross_session_items_hidden": true,
+  "session_pagination": true,
   "audio_ranges": true,
   "pdf_export": true
 }

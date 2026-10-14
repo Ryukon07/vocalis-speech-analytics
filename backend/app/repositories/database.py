@@ -1,7 +1,14 @@
 from pathlib import Path
+from contextvars import ContextVar
 from sqlalchemy import create_engine, event, select, func
 from sqlalchemy.orm import sessionmaker
 from app.core.exceptions import AppError
+
+# Unset for the local application. The temporary demo scopes lists before
+# counting/pagination so another session cannot displace visible page entries.
+visible_record_ids: ContextVar[frozenset[str] | None] = ContextVar(
+    "visible_record_ids", default=None
+)
 
 
 def database(url: str):
@@ -35,6 +42,9 @@ def get(session, model, identifier):
 
 
 def page(session, model, offset=0, limit=20, filters=()):
+    visible = visible_record_ids.get()
+    if visible is not None:
+        filters = (*filters, model.id.in_(visible))
     count = session.scalar(select(func.count()).select_from(model).where(*filters))
     items = session.scalars(
         select(model)

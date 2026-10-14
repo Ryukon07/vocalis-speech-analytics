@@ -54,6 +54,12 @@ def main():
             "docs/benchmarks/automated-browser-verification.json",
             "dataset/asr_checks/manifest.json",
             "frontend/e2e/local-project.spec.ts",
+            "docs/submission/vocalis-final-demo.mp4",
+            "docs/submission/DEVPOST_DESCRIPTION.md",
+            "docs/submission/SUBMIT_NOW.md",
+            "docs/submission/deployment-verification.json",
+            "docs/submission/public-browser-verification.json",
+            "dataset/LICENSE_NOTES.md",
         ]:
             assert expected in archive.namelist()
         count = len(archive.namelist())

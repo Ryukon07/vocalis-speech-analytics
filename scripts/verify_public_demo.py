@@ -23,6 +23,16 @@ def main():
         with path.open('rb') as file:recording=a.post('/api/v1/recordings',files={'file':(path.name,file,'audio/wav')}).raise_for_status().json()
         identifier=recording['id'];assert b.get('/api/v1/recordings/'+identifier).status_code==404
         assert not any(r['id']==identifier for r in b.get('/api/v1/recordings?limit=100').raise_for_status().json()['items'])
+        # A guest's new row sorts first, but must not displace another guest's
+        # baseline page entries or change its total after filtering.
+        first=b.get('/api/v1/recordings?limit=2').raise_for_status().json()
+        second=b.get('/api/v1/recordings?offset=2&limit=2').raise_for_status().json()
+        all_visible=b.get('/api/v1/recordings?limit=100').raise_for_status().json()
+        assert first['total']==second['total']==all_visible['total']==len(all_visible['items'])
+        assert len(first['items'])==len(second['items'])==2
+        assert not {item['id'] for item in first['items']} & {item['id'] for item in second['items']}
+        last=b.get(f"/api/v1/recordings?offset={all_visible['total']-1}&limit=2").raise_for_status().json()
+        assert last['total']==all_visible['total'] and len(last['items'])==1
         job=a.post('/api/v1/recordings/'+identifier+'/transcriptions').raise_for_status().json()
         start=time.monotonic()
         while job['status'] in ('queued','processing') and time.monotonic()-start<240:
@@ -35,7 +45,7 @@ def main():
         analyses=a.get('/api/v1/analyses?limit=100').raise_for_status().json()['items']
         report=next(v for v in analyses if v['status']=='completed' and v['execution_mode']=='real')
         assert a.get('/api/v1/analyses/'+report['id']+'/export/pdf').raise_for_status().content.startswith(b'%PDF-')
-    result=dict(url=url,temporary=True,requires_laptop_online=True,healthy=True,real_transcription=True,actual_model=job['model_name'],private_microphone_excluded=True,seed_mutation_protected=True,cross_session_items_hidden=True,audio_ranges=True,pdf_export=True)
+    result=dict(url=url,temporary=True,requires_laptop_online=True,healthy=True,real_transcription=True,actual_model=job['model_name'],private_microphone_excluded=True,seed_mutation_protected=True,cross_session_items_hidden=True,session_pagination=True,audio_ranges=True,pdf_export=True)
     (ROOT/'docs/submission/deployment-verification.json').write_text(json.dumps(result,indent=2)+'\n')
     print('Verified actual HTTPS demo:',url,'model',job['model_name'],'private isolation and downloads passed',flush=True)
 

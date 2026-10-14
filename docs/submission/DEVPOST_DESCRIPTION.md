@@ -29,7 +29,7 @@ Different speaking speeds make independent recording clocks misleading, so we co
 - All 70 controlled variants completed real inference.
 - Speaker-held-out testing: precision 0.727, recall 0.889, F1 0.800; mean matched-boundary error 0.288 seconds at interval IoU >= 0.25.
 - Four preselected public transcription clips, three actual API runs each: draft WER improved from 4.82% to 3.61%, with identical repeats.
-- 64 backend tests, 24 frontend tests and seven complete browser workflows passed, including real transcription/scoring, microphone worklet capture, rubric/annotation editing, exports and mobile pages.
+- 65 backend tests, 24 frontend tests and seven complete browser workflows passed, including real transcription/scoring, microphone worklet capture, rubric/annotation editing, exports and mobile pages. Additional external HTTPS browser checks passed for the published preview.
 - Physical microphone playback and spoken feedback were confirmed separately; automated microphone checks used public speech through a simulated media device.
 
 ## What we learned
@@ -44,10 +44,19 @@ Expand the corpus with human-reviewed natural performances and more speakers, ca
 
 Python 3.12, FastAPI, Pydantic, SQLAlchemy, SQLite, Faster-Whisper, CTranslate2, PyTorch, TorchAudio, wav2vec2, librosa, NumPy, SciPy, Praat/Parselmouth, React, TypeScript, Vite, WaveSurfer, Recharts, Playwright.
 
+## Submission links
+
+- Project repository: https://github.com/Ryukon07/vocalis-speech-analytics
+- Custom dataset: https://github.com/Ryukon07/vocalis-speech-analytics/tree/main/dataset/contrastive
+- Dataset license and attribution: https://github.com/Ryukon07/vocalis-speech-analytics/blob/main/dataset/LICENSE_NOTES.md
+- Temporary HTTPS demo: https://jackson-nutten-high-taken.trycloudflare.com
+- Six-page technical document: https://github.com/Ryukon07/vocalis-speech-analytics/blob/main/docs/submission/technical-documentation.pdf
+- Final narrated video file: `docs/submission/vocalis-final-demo.mp4` (6:33). Upload to YouTube and paste its final Public/Unlisted URL into the video field.
+
 ## Submission fields to fill on Devpost
 
 - Add each teammate's real full name and Devpost account (team name: Ryucoders).
-- Add the public GitHub repository and dataset link from README.
+- Use the repository and dataset links above.
 - Add the final 3-10 minute YouTube video, public or unlisted, with English narration.
 - Attach/link the six-page technical document.
 - Add the live demo URL, if available; a temporary demo requires the serving laptop to stay online.

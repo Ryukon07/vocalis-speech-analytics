@@ -1,10 +1,10 @@
 # Verification
 
-The completed local target is Vocalis 3.1.3 on Windows, Python 3.12, Node.js 24.15 and CPU-only PyTorch 2.8, using a 16 GB Intel i5-10200H laptop. GitHub and YouTube publication are deferred by the user.
+The completed local target is Vocalis 3.1.3 on Windows, Python 3.12, Node.js 24.15 and CPU-only PyTorch 2.8, using a 16 GB Intel i5-10200H laptop. The public repository is https://github.com/Ryukon07/vocalis-speech-analytics. The user handles final YouTube upload and Devpost/Unstop submission.
 
 ## Final regression and browser checks
 
-64 backend tests and 24 frontend tests passed; TypeScript/Vite production build, pip dependency check and npm audit passed (zero reported vulnerabilities). Vitest was upgraded to 5.0.4 to remove critical/moderate transitive advisories. An AnyIO deprecation warning remains informational.
+65 backend tests and 24 frontend tests passed; TypeScript/Vite production build, pip dependency check and npm audit passed (zero reported vulnerabilities). The final backend regression includes a new check for session filtering before pagination, stable totals and restoration of unrestricted local queries. Vitest was upgraded to 5.0.4 to remove critical/moderate transitive advisories. An AnyIO deprecation warning remains informational.
 
 All seven isolated Chromium browser checks passed against the real localhost services, without computer use:
 
@@ -47,7 +47,9 @@ Seven five-category website comparisons passed, along with a separate noisy repo
 
 ## Documents and local scope
 
-The six-page technical document and two-page real report are regenerated and rendered for visual verification before packaging. The project archive excludes .env credentials, user recordings/databases, model weights, browser profiles and test traces. The local walkthrough video and transcript remain available; publication is deferred.
+The six-page technical document and two-page real report were rendered for visual verification before packaging. The project archive excludes .env credentials, user recordings/databases, model weights, browser profiles and test traces. The final 6:33 video contains recorded real dashboard footage, actual upload/transcription/scoring, stress tests, clarity evidence, replay and PDF export, with English narration. Full video/audio decoding and chapter-frame inspection passed; details are in submission/final-demo-verification.json.
+
+The temporary HTTPS demo uses a separate, public-audio-only database. Actual external HTTPS API checks passed for medium transcription, private recording exclusion, anonymous ownership, protected seed data, audio ranges and PDF export. External Chromium checks passed for real UI transcription, simulated microphone worklet capture, saved reports, PDF download and mobile layout, with no page exceptions or error-level console messages. Evidence is in submission/deployment-verification.json and submission/public-browser-verification.json. Keep the serving laptop and tunnel online; this preview does not provide durable uptime.
 
 Windows/local SQLite is the verified execution target. Docker files are supplied, but Docker is not installed on this laptop; PostgreSQL and public multi-user hosting are outside this local completion. Native Brave print/playback/chart/word/flaw/voice checks from earlier turns remain historical evidence in browser-verification.json. The previously unfinished editor/settings/draft/export software checks are now covered by the completed Chromium suite; native Brave Save-dialog automation is not claimed.
 

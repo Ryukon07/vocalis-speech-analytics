@@ -1,0 +1,30 @@
+import { resolve } from 'node:path';
+import { readFileSync, writeFileSync } from 'node:fs';
+process.env.PLAYWRIGHT_BROWSERS_PATH ||= resolve(import.meta.dirname,'../model-artifacts/playwright');
+const { chromium }=await import('../frontend/node_modules/playwright/index.mjs');
+const { expect }=await import('../frontend/node_modules/@playwright/test/index.mjs');
+const root=resolve(import.meta.dirname,'..');
+const deployment=JSON.parse(readFileSync(resolve(root,'docs/submission/deployment-verification.json'),'utf8'));
+const url=deployment.url;
+const reports=JSON.parse(readFileSync(resolve(root,'docs/benchmarks/website-verification.json'),'utf8'));
+const identifier=reports.jobs.find(j=>j.variant==='monotone').id;
+const browser=await chromium.launch({headless:true,channel:'chromium',args:['--use-fake-device-for-media-stream','--use-file-for-fake-audio-capture='+resolve(root,'dataset/asr_checks/1272-128104-0000.wav')]});
+const context=await browser.newContext({viewport:{width:1440,height:900},permissions:['microphone']});
+const page=await context.newPage();const errors=[];
+page.on('pageerror',e=>errors.push(e.message));page.on('console',m=>{if(m.type()==='error')errors.push(m.text());});
+try{
+ await page.goto(url+'/settings');await expect(page.getByText('Ready',{exact:true})).toBeVisible({timeout:30000});await expect(page.getByText(/Temporary public demo ·/)).toBeVisible();
+ await page.goto(url+'/analyses/'+identifier);await expect(page.getByRole('heading',{name:'Clarity evidence'})).toBeVisible({timeout:30000});await expect(page.getByRole('button',{name:'Play audio'}).first()).toBeEnabled({timeout:30000});
+ await page.locator('.flaw-row').first().click();await expect(page.getByText('EVIDENCE & INTERPRETATION')).toBeVisible();
+ const download=page.waitForEvent('download');await page.getByRole('link',{name:'PDF',exact:true}).click();await (await download).saveAs(resolve(root,'tmp/public-demo/browser-report.pdf'));
+ await page.screenshot({path:resolve(root,'tmp/public-demo/https-report.png'),fullPage:true});
+ await page.goto(url+'/analyze');await page.getByRole('button',{name:'Start recording'}).click();await expect(page.getByRole('button',{name:/Stop ·/})).toBeVisible({timeout:30000});await page.waitForTimeout(2000);await page.getByRole('button',{name:/Stop ·/}).click();await expect(page.getByLabel('Preview microphone recording')).toBeVisible();
+ await page.getByRole('button',{name:'Record again'}).click();
+ await page.getByLabel('Upload audio').setInputFiles(resolve(root,'dataset/asr_checks/1272-128104-0000.wav'));await expect(page.locator('.uploaded-file')).toBeVisible({timeout:30000});await page.getByRole('button',{name:'Continue',exact:true}).click();await page.getByRole('button',{name:'Generate transcript'}).click();await expect(page.getByLabel('Confirmed transcript')).not.toHaveValue('',{timeout:180000});
+ expect(await page.getByLabel('Confirmed transcript').inputValue()).toMatch(/Quilter/i);
+ await page.setViewportSize({width:390,height:844});await page.goto(url+'/settings');await expect(page.locator('h1')).toBeVisible();expect(await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth)).toBeLessThanOrEqual(2);
+ await page.screenshot({path:resolve(root,'tmp/public-demo/https-mobile.png'),fullPage:true});
+ expect(errors).toEqual([]);
+ const result={url,passed:true,real_ui_transcription:true,https_microphone_worklet:true,microphone_test:'Simulated public audio in real Chromium getUserMedia/AudioWorklet; physical microphone separately verified',real_saved_report:true,pdf_browser_download:true,mobile_layout:true,page_errors:errors};
+ writeFileSync(resolve(root,'docs/submission/public-browser-verification.json'),JSON.stringify(result,null,2)+'\n');console.log('Public HTTPS browser checks passed:',url);
+}finally{await context.close();await browser.close();}

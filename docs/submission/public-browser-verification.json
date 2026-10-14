@@ -1,0 +1,11 @@
+{
+  "url": "https://jackson-nutten-high-taken.trycloudflare.com",
+  "passed": true,
+  "real_ui_transcription": true,
+  "https_microphone_worklet": true,
+  "microphone_test": "Simulated public audio in real Chromium getUserMedia/AudioWorklet; physical microphone separately verified",
+  "real_saved_report": true,
+  "pdf_browser_download": true,
+  "mobile_layout": true,
+  "page_errors": []
+}

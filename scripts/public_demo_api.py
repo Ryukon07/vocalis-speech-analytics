@@ -10,6 +10,7 @@ from sqlalchemy import select,func
 from app.main import create_app
 from app.core.config import Settings
 from app.models import Analysis,Transcription
+from app.repositories.database import visible_record_ids
 ROOT=Path(__file__).resolve().parents[1]
 STATE=ROOT/'tmp/public-demo'
 protected=set(json.loads((STATE/'seed-manifest.json').read_text())['protected_ids'])
@@ -47,7 +48,11 @@ async def demo_guard(request,call_next):
                 value=body.get(key)
                 if value in owners and owners[value]!=session:return denied('Choose an input owned by this session or a public baseline.',404)
         counts[session].append(time.monotonic())
-    response=await call_next(request)
+    token=visible_record_ids.set(frozenset(protected | {identifier for identifier,owner in owners.items() if owner==session}))
+    try:
+        response=await call_next(request)
+    finally:
+        visible_record_ids.reset(token)
     is_json='application/json' in response.headers.get('content-type','')
     if is_json and (request.method=='GET' or (request.method=='POST' and response.status_code in (201,202))):
         payload=b''.join([chunk async for chunk in response.body_iterator])
@@ -57,9 +62,6 @@ async def demo_guard(request,call_next):
             if previous and previous!=session:return denied('A job for this shared baseline is already active in another session. Try again after it finishes.',429)
             owners[value['id']]=session
             temporary=owners_path.with_suffix('.tmp');temporary.write_text(json.dumps(owners));temporary.replace(owners_path)
-        if request.method=='GET' and isinstance(value,dict) and isinstance(value.get('items'),list):
-            value['items']=[item for item in value['items'] if item['id'] in protected or owners.get(item['id'])==session]
-            value['total']=len(value['items']) if len(value['items'])<value.get('limit',20) else value['total']
         headers=dict(response.headers);headers.pop('content-length',None)
         response=Response(json.dumps(value),status_code=response.status_code,headers=headers,media_type='application/json')
     if not request.cookies.get('vocalis-demo-session'):
