@@ -1,6 +1,6 @@
 from sqlalchemy import select
 from app.models import Recording, ContrastiveGroup, Variant, Annotation
-from app.repositories.database import get
+from app.repositories.database import get, visibility_filters
 from app.core.exceptions import AppError
 from app.schemas.contracts import GroupOut, VariantOut
 
@@ -9,7 +9,7 @@ def group_out(session, row):
     value = GroupOut.model_validate(row)
     value.variants = [
         VariantOut.model_validate(v)
-        for v in session.scalars(select(Variant).where(Variant.group_id == row.id))
+        for v in session.scalars(select(Variant).where(Variant.group_id == row.id, *visibility_filters(Variant)))
     ]
     return value
 

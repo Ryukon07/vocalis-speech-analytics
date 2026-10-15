@@ -43,7 +43,7 @@ from app.schemas.contracts import (
     TranscriptionOut,
 )
 from app.ml.registry import get_provider
-from app.repositories.database import get, page
+from app.repositories.database import get, page, visibility_filters
 from app.services import (
     recording_service as recordings,
     analysis_service as analyses,
@@ -526,24 +526,25 @@ def dashboard(db: DB):
     from sqlalchemy import func
     from app.models import DetectedFlaw
 
-    total = db.scalar(select(func.count()).select_from(Analysis))
+    scope = visibility_filters(Analysis)
+    total = db.scalar(select(func.count()).select_from(Analysis).where(*scope))
     completed = db.scalar(
-        select(func.count()).select_from(Analysis).where(Analysis.status == "completed")
+        select(func.count()).select_from(Analysis).where(*scope, Analysis.status == "completed")
     )
     real = db.scalar(
         select(func.count())
         .select_from(Analysis)
-        .where(Analysis.status == "completed", Analysis.execution_mode == "real")
+        .where(*scope, Analysis.status == "completed", Analysis.execution_mode == "real")
     )
     average = db.scalar(
         select(func.avg(Analysis.overall_score)).where(
-            Analysis.status == "completed", Analysis.execution_mode == "real"
+            *scope, Analysis.status == "completed", Analysis.execution_mode == "real"
         )
     )
     flaws = db.execute(
         select(DetectedFlaw.type, func.count())
         .join(Analysis)
-        .where(Analysis.execution_mode == "real", Analysis.status == "completed")
+        .where(*scope, Analysis.execution_mode == "real", Analysis.status == "completed")
         .group_by(DetectedFlaw.type)
     ).all()
     return {
@@ -552,12 +553,12 @@ def dashboard(db: DB):
         "real_completed": real,
         "average_score": average,
         "frequent_flaws": [{"type": name, "count": count} for name, count in flaws],
-        "references": db.scalar(select(func.count()).select_from(Reference)),
-        "groups": db.scalar(select(func.count()).select_from(ContrastiveGroup)),
+        "references": db.scalar(select(func.count()).select_from(Reference).where(*visibility_filters(Reference))),
+        "groups": db.scalar(select(func.count()).select_from(ContrastiveGroup).where(*visibility_filters(ContrastiveGroup))),
         "recent": [
             analyses.analysis_out(db, a)
             for a in db.scalars(
-                select(Analysis).order_by(Analysis.created_at.desc()).limit(5)
+                select(Analysis).where(*scope).order_by(Analysis.created_at.desc()).limit(5)
             )
         ],
     }

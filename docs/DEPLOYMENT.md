@@ -34,4 +34,6 @@ Starting a new Quick Tunnel produces a new URL; update the README/submission lin
 
 ## Durable hosting preparation
 
+The prepared Azure for Students VM deployment, signup instructions and current limitations are in [AZURE_DEPLOYMENT.md](AZURE_DEPLOYMENT.md). It serves the full frontend and inference API from one HTTPS origin with persistent state/model disks. No Azure server is claimed deployed before signup, authentication, quota checks and actual cloud inference verification.
+
 Dockerfiles and compose configuration are provided for local container execution. Set the public API origin or serve frontend/API behind one HTTPS reverse proxy; configure allowed origins, persistent database/audio/model storage and enough RAM/disk for CPU inference. Import the paired dataset and warm the models before accepting judging requests. Docker execution is not claimed as verified on this laptop, which has no Docker engine.

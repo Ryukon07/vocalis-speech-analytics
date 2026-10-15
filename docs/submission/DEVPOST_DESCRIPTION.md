@@ -29,7 +29,7 @@ Different speaking speeds make independent recording clocks misleading, so we co
 - All 70 controlled variants completed real inference.
 - Speaker-held-out testing: precision 0.727, recall 0.889, F1 0.800; mean matched-boundary error 0.288 seconds at interval IoU >= 0.25.
 - Four preselected public transcription clips, three actual API runs each: draft WER improved from 4.82% to 3.61%, with identical repeats.
-- 65 backend tests, 24 frontend tests and seven complete browser workflows passed, including real transcription/scoring, microphone worklet capture, rubric/annotation editing, exports and mobile pages. Additional external HTTPS browser checks passed for the published preview.
+- 66 backend tests, 24 frontend tests and seven complete browser workflows passed, including real transcription/scoring, microphone worklet capture, rubric/annotation editing, exports and mobile pages. Additional external HTTPS browser checks passed for the published preview.
 - Physical microphone playback and spoken feedback were confirmed separately; automated microphone checks used public speech through a simulated media device.
 
 ## What we learned

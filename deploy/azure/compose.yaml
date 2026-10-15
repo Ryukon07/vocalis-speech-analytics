@@ -1,0 +1,44 @@
+services:
+  app:
+    build:
+      context: ../..
+      dockerfile: deploy/azure/Dockerfile
+    restart: unless-stopped
+    environment:
+      CORS_ORIGINS: '["https://${VOCALIS_HOST}"]'
+      JOB_TIMEOUT_SECONDS: "1800"
+      CPU_THREADS: "2"
+    volumes:
+      - /srv/vocalis/state:/state
+      - /srv/vocalis/models:/models
+    expose: ["8000"]
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/api/v1/health', timeout=10)"]
+      interval: 30s
+      timeout: 15s
+      start_period: 60s
+      retries: 5
+    logging:
+      driver: json-file
+      options:
+        max-size: 10m
+        max-file: "3"
+  https:
+    image: caddy:2-alpine
+    restart: unless-stopped
+    ports: ["80:80", "443:443"]
+    environment:
+      VOCALIS_HOST: ${VOCALIS_HOST:?Set VOCALIS_HOST to the Azure public DNS name}
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy-data:/data
+      - caddy-config:/config
+    depends_on: [app]
+    logging:
+      driver: json-file
+      options:
+        max-size: 10m
+        max-file: "3"
+volumes:
+  caddy-data:
+  caddy-config:

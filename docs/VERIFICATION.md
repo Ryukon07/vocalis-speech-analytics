@@ -4,7 +4,7 @@ The completed local target is Vocalis 3.1.3 on Windows, Python 3.12, Node.js 24.
 
 ## Final regression and browser checks
 
-65 backend tests and 24 frontend tests passed; TypeScript/Vite production build, pip dependency check and npm audit passed (zero reported vulnerabilities). The final backend regression includes a new check for session filtering before pagination, stable totals and restoration of unrestricted local queries. Vitest was upgraded to 5.0.4 to remove critical/moderate transitive advisories. An AnyIO deprecation warning remains informational.
+66 backend tests and 24 frontend tests passed; TypeScript/Vite production build, pip dependency check and npm audit passed (zero reported vulnerabilities). The final backend regression includes a new check for session filtering before pagination, stable totals and restoration of unrestricted local queries. Vitest was upgraded to 5.0.4 to remove critical/moderate transitive advisories. An AnyIO deprecation warning remains informational.
 
 All seven isolated Chromium browser checks passed against the real localhost services, without computer use:
 

@@ -17,6 +17,8 @@ The public preview uses a separate allowlisted database; private microphone reco
 
 ## Start locally
 
+For full upload/inference hosting on student credit, see [Azure deployment preparation](docs/AZURE_DEPLOYMENT.md). Signup and authenticated cloud validation are required; the current GitHub Pages site remains a saved-report viewer.
+
 This workspace already contains the installed speech runtime, cached models, built frontend and imported dataset.
 
 ```powershell
@@ -138,4 +140,4 @@ Setup warms both recognition models and the alignment model. The medium weights 
 
 Four fixed, newly downloaded LibriSpeech validation clips were each transcribed three times through the actual API (12 jobs per model). Draft WER fell from 4.82% with base.en to 3.61% with medium. Repeats were identical for every clip. The conservative comparison counts Mr. versus MISTER as substitutions; one proper-name spelling remains wrong. No gold transcript was supplied to recognition. This is a clean, one-reader sample check, not universal accuracy or an assurance of absence from upstream training.
 
-All seven Chromium end-to-end checks passed, including the real wizard/inference, microphone worklet, settings/rubrics, annotation editing, completed report downloads, responsive pages and voice handling. Final checks: 65 backend tests, 24 frontend tests, production build, pip check and zero npm audit vulnerabilities. Additional external HTTPS browser checks passed for the temporary preview. See docs/VERIFICATION.md for precise physical-device and automated-test boundaries. Run scripts/install-browser-checks.ps1 once, then npm run test:e2e from frontend to reproduce.
+All seven Chromium end-to-end checks passed, including the real wizard/inference, microphone worklet, settings/rubrics, annotation editing, completed report downloads, responsive pages and voice handling. Final checks: 66 backend tests, 24 frontend tests, production build, pip check and zero npm audit vulnerabilities. Additional external HTTPS browser checks passed for the temporary preview. See docs/VERIFICATION.md for precise physical-device and automated-test boundaries. Run scripts/install-browser-checks.ps1 once, then npm run test:e2e from frontend to reproduce.

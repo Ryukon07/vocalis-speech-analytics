@@ -105,7 +105,7 @@ export default function AppLayout() {
         </header>
         <main className="content">
           {archiveMode && <div className="notice">Hosted report viewer · saved real model results. Playback, charts, spoken feedback and downloads work without the project laptop. New analysis and editing require the full workspace.</div>}
-          {import.meta.env.VITE_PUBLIC_DEMO === "true" && <div className="notice">Temporary public demo · use public/test audio only. Baselines and example reports are protected; new items belong to this browser session. CPU processing may take a minute.</div>}
+          {import.meta.env.VITE_PUBLIC_DEMO === "true" && <div className="notice">{import.meta.env.VITE_CLOUD_DEMO === "true" ? "Hosted speech workspace" : "Temporary public demo"} · use public/test audio only. Baselines and example reports are protected; new items belong to this browser session. CPU processing may take a minute.</div>}
           <Outlet />
         </main>
         <footer className="app-footer">

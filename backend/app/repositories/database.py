@@ -42,9 +42,7 @@ def get(session, model, identifier):
 
 
 def page(session, model, offset=0, limit=20, filters=()):
-    visible = visible_record_ids.get()
-    if visible is not None:
-        filters = (*filters, model.id.in_(visible))
+    filters = (*filters, *visibility_filters(model))
     count = session.scalar(select(func.count()).select_from(model).where(*filters))
     items = session.scalars(
         select(model)
@@ -54,3 +52,8 @@ def page(session, model, offset=0, limit=20, filters=()):
         .limit(limit)
     ).all()
     return {"items": items, "total": count, "offset": offset, "limit": limit}
+
+
+def visibility_filters(model):
+    visible = visible_record_ids.get()
+    return () if visible is None else (model.id.in_(visible),)
